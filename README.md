@@ -1,20 +1,14 @@
 # Commerce_Intelligence_search
-AI-native e-commerce search and research platform combining LLM-based intent understanding, semantic retrieval, ML ranking, product comparison, recommendation, and adaptive shopping experiences.
-# AI Commerce Research & Search Engine
 
-An AI-native e-commerce search system that helps shoppers
-research, compare, and discover products without leaving
-the e-commerce platform.
+AI-native e-commerce search and research platform combining LLM-based intent understanding, semantic retrieval, ML ranking, product comparison, recommendation, and adaptive shopping experiences.
+
+An AI-native e-commerce search system that helps shoppers research, compare, and discover products without leaving the e-commerce platform.
 
 ## Problem
 
-Online shoppers often switch between e-commerce platforms
-and general-purpose AI assistants when researching products.
+Online shoppers often switch between e-commerce platforms and general-purpose AI assistants when researching products. This project aims to integrate AI-powered product research directly into the e-commerce search experience.
 
-This project aims to integrate AI-powered product research
-directly into the e-commerce search experience.
-
-## Core Capabilities
+## Core capabilities
 
 - Natural-language shopping search
 - LLM-based query understanding
@@ -26,7 +20,7 @@ directly into the e-commerce search experience.
 - Dynamic shopping experience
 - E-commerce analytics
 
-## Technical Focus
+## Technical focus
 
 - Data Engineering
 - Data Science
@@ -35,3 +29,27 @@ directly into the e-commerce search experience.
 - Information Retrieval
 - Recommendation Systems
 - MLOps
+
+## Repository status
+
+This repository currently contains a research and engineering scaffold. Retrieval and ranking modules mark the intended implementation points; no product dataset or trained model is included yet.
+
+## Repository layout
+
+- `data/` — raw, intermediate, processed, synthetic, and labeled datasets.
+- `notebooks/` — numbered exploration, preprocessing, query analysis, and evaluation notebooks.
+- `src/` — reusable code for data, features, query understanding, retrieval, ranking, evaluation, pipelines, and monitoring.
+- `warehouse/` — SQL transformations and dbt assets.
+- `api/` and `frontend/` — planned search service and interface.
+- `configs/`, `experiments/`, and `tests/` — configuration, experiment outputs, and tests.
+- `docs/` — problem definition, architecture, retrieval, ranking, and evaluation plans.
+
+## Quick start
+
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Add source catalog data under `data/raw/`. Keep derived data under `data/interim/` and `data/processed/`, and record relevance judgments under `data/labels/`.
