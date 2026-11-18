@@ -292,23 +292,53 @@ These hypotheses are proposed from the manual observations. They have not yet be
 
 ---
 
-## 8. Proposed Query Understanding Requirements
+## 8. Agreed V1 Query Intent Schema
 
-Based on the problems observed, the project's Query Understanding component should aim to extract the following fields.
+The project will use the following JSON object as its initial query-intent contract. It preserves the original query, records its normalized form, and separates product attributes, hard constraints, soft preferences, and ambiguities.
 
-| Field | Example | Meaning |
-|---|---|---|
-| `product_category` | `shampoo` | The product the user wants |
-| `attributes` | `sensitive_scalp` | Product attributes or suitability requirements |
-| `intended_use` | `hair_fall` | The user's intended use or desired outcome |
-| `price_min` | `null` | Optional minimum price |
-| `price_max` | `200` | Explicit maximum price |
-| `currency` | `THB` | Currency identified from the query or user context |
-| `hard_constraints` | `price_max <= 200` | Requirements that eligible products must satisfy |
-| `soft_preferences` | `affordable` | Preferences that may guide ranking but are not precise limits |
-| `original_query` | `Affordable shampoo under 200 baht` | The original user input |
+```json
+{
+  "original_query": "shampoo for dry hair under 200 baht",
+  "normalized_query": "shampoo for dry hair under 200 baht",
+  "language": "en",
+  "query_type": "natural_language",
+  "product_category": "shampoo",
+  "attributes": [
+    {
+      "name": "hair_type",
+      "value": "dry"
+    }
+  ],
+  "constraints": [
+    {
+      "field": "price",
+      "operator": "lte",
+      "value": 200,
+      "unit": "THB",
+      "priority": "hard",
+      "source_text": "under 200 baht"
+    }
+  ],
+  "soft_preferences": [],
+  "ambiguities": [],
+  "needs_clarification": false
+}
+```
 
-The example above is illustrative. The actual schema should be validated and refined during implementation.
+| Field | Purpose |
+|---|---|
+| `original_query` | Preserve the user's input for traceability. |
+| `normalized_query` | Store the normalized query text used by downstream search components. |
+| `language` | Record the identified language; the example uses `en`. |
+| `query_type` | Classify the query form; the example uses `natural_language`. |
+| `product_category` | Identify the requested product category. |
+| `attributes` | Store product attributes as `name` and `value` pairs. |
+| `constraints` | Store requirements with a field, operator, value, unit, priority, and source text. A `hard` constraint such as `price <= 200 THB` determines product eligibility. |
+| `soft_preferences` | Store non-binding preferences that can influence ranking. |
+| `ambiguities` | Record unresolved interpretations in the query. |
+| `needs_clarification` | Indicate whether the user should clarify the query before search proceeds. |
+
+The example maps `dry hair` to the `hair_type: dry` attribute and `under 200 baht` to a hard upper-price constraint. Retrieval should enforce hard constraints; ranking may use soft preferences to order eligible products. The example establishes the top-level fields and the shown attribute and constraint objects. The item formats for non-empty `soft_preferences` and `ambiguities`, along with allowed values for fields such as `query_type`, `operator`, and `priority`, should be formalized with the implementation's validation rules.
 
 ### Important design principles
 
@@ -368,11 +398,11 @@ Before implementing the Query Understanding component:
 2. Record product title, displayed price, result position, visible sponsored/promotional labels, and whether each explicit requirement is satisfied.
 3. Repeat the price-query test with the same query, location, currency, sorting, and login state wherever possible.
 4. For TikTok Shop, compare web and app while matching login state and other available conditions.
-5. Expand testing beyond shampoo after the initial query schema is defined.
-6. Create a small set of manually reviewed queries and expected structured intents.
+5. Create a small set of manually reviewed queries and expected structured intents using the agreed V1 schema.
+6. Expand testing beyond shampoo while preserving the same intent contract.
 7. Use this set to test whether the Query Understanding component extracts category, attributes, intended use, price constraints, and preferences correctly.
 
-After the query schema is stable, the structured intent can be passed to the retrieval and ranking components.
+Validate the agreed V1 schema against the reviewed query set, then pass the structured intent to the retrieval and ranking components.
 
 ---
 
@@ -382,6 +412,6 @@ The initial platform audit suggests that current e-commerce search experiences c
 
 The most useful observations for this project concern explicit price constraints, the distinction between similar product concepts, repeated top products across more specific queries, and possible differences between web and app search experiences.
 
-These observations motivate a Query Understanding component that converts user input into structured intent, distinguishes hard constraints from soft preferences, and provides clear requirements to downstream retrieval and ranking components.
+These observations motivate a Query Understanding component that converts user input into structured intent, distinguishes hard constraints from soft preferences, and provides clear requirements to downstream retrieval and ranking components. The project adopts the JSON object in Section 8 as its initial intent contract.
 
-**The next development focus is therefore to define and evaluate a structured query-intent representation before implementing the full search and ranking pipeline.**
+**The next development focus is to validate this intent contract with manually reviewed queries and connect it to the retrieval and ranking components.**
