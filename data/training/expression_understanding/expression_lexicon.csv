@@ -1,0 +1,165 @@
+﻿expression,expression_family,typical_role,target_attribute,contextual_interpretation,annotation_notes
+under,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+below,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+less than,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+less than or equal to,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+no more than,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+at most,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+up to,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+maximum,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+max,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+not exceeding,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+no higher than,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+not above,hard_constraint,maximum,numeric_attribute,"Upper bound; identify target, value and unit from context.",
+over,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+above,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+more than,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+at least,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+not less than,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+minimum,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+min,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+greater than or equal to,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+no lower than,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+not below,hard_constraint,minimum,numeric_attribute,"Lower bound; identify target, value and unit from context.",
+between,hard_constraint,range_or_bound,numeric_attribute,Range or budget boundary; inspect full context to identify endpoints and inclusivity.,
+from ... to ...,hard_constraint,range_or_bound,numeric_attribute,Range or budget boundary; inspect full context to identify endpoints and inclusivity.,
+... to ...,hard_constraint,range_or_bound,numeric_attribute,Range or budget boundary; inspect full context to identify endpoints and inclusivity.,
+range of,hard_constraint,range_or_bound,numeric_attribute,Range or budget boundary; inspect full context to identify endpoints and inclusivity.,
+within,hard_constraint,range_or_bound,numeric_attribute,Range or budget boundary; inspect full context to identify endpoints and inclusivity.,
+exactly,hard_constraint,exact_value,numeric_attribute,Exact numeric or categorical specification.,
+equal to,hard_constraint,exact_value,numeric_attribute,Exact numeric or categorical specification.,
+affordable,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+cheap,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+inexpensive,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+budget-friendly,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+low-cost,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+reasonably priced,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+reasonable price,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+decent price,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+not too expensive,soft_preference,low_price_preference,price,Preference for lower or acceptable price; no numeric threshold is implied.,
+good value,ambiguous_expression,value_tradeoff,value,Trade-off between price and perceived quality; operational definition is needed.,
+best value,ambiguous_expression,value_tradeoff,value,Trade-off between price and perceived quality; operational definition is needed.,
+value for money,ambiguous_expression,value_tradeoff,value,Trade-off between price and perceived quality; operational definition is needed.,
+worth the price,ambiguous_expression,value_tradeoff,value,Trade-off between price and perceived quality; operational definition is needed.,
+highly rated,soft_preference,rating_or_popularity_preference,rating_or_popularity,"Preference for positive ratings, reviews or popularity; no threshold unless stated.",
+top-rated,soft_preference,rating_or_popularity_preference,rating_or_popularity,"Preference for positive ratings, reviews or popularity; no threshold unless stated.",
+well-reviewed,soft_preference,rating_or_popularity_preference,rating_or_popularity,"Preference for positive ratings, reviews or popularity; no threshold unless stated.",
+good reviews,soft_preference,rating_or_popularity_preference,rating_or_popularity,"Preference for positive ratings, reviews or popularity; no threshold unless stated.",
+popular,soft_preference,rating_or_popularity_preference,rating_or_popularity,"Preference for positive ratings, reviews or popularity; no threshold unless stated.",
+best-selling,soft_preference,rating_or_popularity_preference,rating_or_popularity,"Preference for positive ratings, reviews or popularity; no threshold unless stated.",
+high-quality,soft_preference,quality_preference,quality_or_durability,Quality or durability preference; often subjective and may need measurable proxies.,
+good quality,soft_preference,quality_preference,quality_or_durability,Quality or durability preference; often subjective and may need measurable proxies.,
+premium,soft_preference,quality_preference,quality_or_durability,Quality or durability preference; often subjective and may need measurable proxies.,
+reliable,soft_preference,quality_preference,quality_or_durability,Quality or durability preference; often subjective and may need measurable proxies.,
+durable,soft_preference,quality_preference,quality_or_durability,Quality or durability preference; often subjective and may need measurable proxies.,
+long-lasting,soft_preference,quality_preference,quality_or_durability,Quality or durability preference; often subjective and may need measurable proxies.,
+professional-grade,soft_preference,quality_preference,quality_or_durability,Quality or durability preference; often subjective and may need measurable proxies.,
+comfortable,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+easy to use,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+user-friendly,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+beginner-friendly,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+quiet,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+energy-efficient,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+eco-friendly,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+sustainable,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+stylish,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+modern,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+elegant,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+versatile,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+easy to clean,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+low maintenance,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+child-friendly,soft_preference,qualitative_preference,various,Qualitative preference; determine target attribute from context.,
+lightweight,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+compact,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+portable,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+fast,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+powerful,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+large,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+small,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+light,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+strong,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+natural,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+safe,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+healthy,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+heavy duty,ambiguous_expression,context_dependent_attribute,various,Meaning and hard/soft status depend on context and product domain.,Do not classify from the token alone.
+waterproof,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+water-resistant,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+scratch-resistant,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+shockproof,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+sulfate-free,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+silicone-free,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+paraben-free,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+fragrance-free,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+unscented,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+hypoallergenic,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+non-comedogenic,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+organic,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+recycled,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+stainless steel,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+leather,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+cotton,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+wireless,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+Bluetooth,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+noise-cancelling,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+noise canceling,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+rechargeable,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+cordless,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+foldable,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+adjustable,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+ergonomic,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+lumbar support,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+memory foam,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+breathable,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+4K,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+16 GB RAM,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+long battery life,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+fast charging,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+dual SIM,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+large capacity,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+extra wide,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+left-handed,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+vegan,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+cruelty-free,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+refillable,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+dishwasher-safe,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+machine-washable,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+UV protection,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+SPF 50,product_attribute,catalog_attribute,product_property,"Product property, material, feature or specification. Whether mandatory depends on query wording.",
+without,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+no,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+not,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+free from,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+free of,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+excluding,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+except,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+avoid,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+do not include,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+no fragrance,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+no added sugar,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+leather-free,negation,exclusion,various,"Excludes an attribute, material, ingredient, condition or brand.",Annotate the scope of negation.
+non-stick,product_attribute,claimed_attribute,product_property,A positive product claim/attribute formed with a negative prefix; not automatically a query-level exclusion.,
+non-toxic,product_attribute,claimed_attribute,product_property,A positive product claim/attribute formed with a negative prefix; not automatically a query-level exclusion.,
+cheaper than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+less expensive than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+more expensive than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+better rated than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+higher rated than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+lower priced than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+faster than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+lighter than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+bigger than,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+similar to,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+like,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+alternative to,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+instead of,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+same as,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+compared with,comparison,relative_or_substitute_intent,various,"Relative comparison, similarity or substitute intent.",Identify comparison target; some phrases are ambiguous.
+best,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
+good,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
+good battery,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
+long battery,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
+reasonable,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
+near me,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
+for everyday use,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
+for beginners,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
+travel-friendly,ambiguous_expression,underspecified_or_contextual,various,"Requires context, clarification or a domain-specific operational definition.",
