@@ -1,0 +1,99 @@
+query_id,split,template_id,query
+Q001,train,0b2b6d9c4938,shampoo under 200 baht
+Q002,train,0b87724861fe,affordable shampoo for dry hair
+Q003,train,9a129b35e212,highly rated shampoo without fragrance
+Q004,train,9322473e1fdc,sulfate-free shampoo under 300 baht
+Q006,train,e730c3a34d2f,shampoo at least 4.5 stars
+Q008,train,8f489bf4af1c,shampoo for sensitive scalp with no added fragrance
+Q009,train,83f7927bb4e9,best value shampoo between 100 and 250 baht
+Q010,train,d6e702a8d181,not more than 500 baht for conditioner
+Q012,train,737f3339f9e7,lightweight laptop for travel
+Q013,train,9d9bee0f3e6e,I prefer a lightweight laptop
+Q014,train,40335f9836ec,the laptop must be lightweight
+Q016,train,8573de6e31f9,"laptop no more than $1,000 and at least 16 GB RAM"
+Q018,train,0b2b6d9c4938,laptop cheaper than $700
+Q023,train,5c80cb2e005c,comfortable ergonomic chair for long hours
+Q025,train,09642273dd41,chair at least 4 stars with breathable fabric
+Q026,train,fced7efa9189,"sofa between $500 and $1,200"
+Q027,train,a4de50b29eb3,compact sofa for small apartment
+Q028,train,6a48a01856e7,waterproof outdoor chair
+Q029,train,bc930a859a16,modern sofa not leather
+Q030,train,2c942399aedb,heavy duty office chair for 300 lb user
+Q031,train,e101d9ed3aff,noise-cancelling headphones under $150
+Q032,train,edac04b76faa,wireless headphones with long battery life
+Q033,train,775d6140c8f4,highly rated Bluetooth speaker below $100
+Q035,train,e1c0a5667218,portable monitor lighter than 900 grams
+Q037,train,02fce4242624,cheap but reliable printer
+Q038,train,2120c66fb0be,"printer under $200, not refurbished"
+Q039,train,957920e9890b,refrigerator with at least 400 liter capacity
+Q040,train,f24ed7bf3164,energy-efficient washing machine under $700
+Q041,train,239b89d7b835,quiet dishwasher with low maintenance
+Q042,train,e101d9ed3aff,dishwasher-safe water bottle under $25
+Q043,train,0442efff514a,stainless steel bottle without plastic parts
+Q045,train,d53a730b10aa,recycled material backpack for travel
+Q046,train,9627dfed36c9,vegan leather bag under $100
+Q047,train,e101d9ed3aff,machine-washable jacket below $80
+Q049,train,fbe6b754ff40,lightweight waterproof hiking backpack
+Q050,train,16441feef48d,stylish watch cheaper than $200
+Q051,train,f22e4e686afe,sunglasses with UV protection and polarized lenses
+Q055,train,5a4210e4f3df,camera with at least 10x optical zoom
+Q056,train,d084a1a6a184,fast laptop for video editing
+Q057,train,1d548ff918a6,powerful laptop with dedicated GPU
+Q060,train,161720d1248a,good quality affordable office chair
+Q061,train,e265f3c8d04d,reasonably priced modern desk
+Q063,train,34f49d01d67b,vacuum with strong suction and low noise
+Q067,train,545e3d6d71e2,natural shampoo free of parabens
+Q068,train,3445798a620c,phone with no less than 8 hours battery life
+Q069,train,8cb4a12dbfd0,phone with battery life over 10 hours
+Q071,train,0b2b6d9c4938,desk within a $250 budget
+Q072,train,4aa85a0f5e21,desk at a reasonable price under $250
+Q074,train,775d6140c8f4,"top-rated sofa below $1,000"
+Q075,train,65a462f4e6d8,"popular headphones with at least 1,000 reviews"
+Q076,train,900fc914257a,well-reviewed laptop with more than 500 reviews
+Q078,train,f743a9f0f618,alternative to AirPods under $100
+Q080,train,f4d64a61ece3,not too expensive laptop with good battery
+Q081,train,a8c9f7f1622a,only black office chair under $150
+Q082,train,1fae22cdf5a7,all colors except black backpack
+Q086,train,62447a2d944f,"best laptop for machine learning under $1,500"
+Q087,train,dbcf4af86407,waterproof hiking shoes that are not heavy
+Q088,train,a2a8ca6252c6,must have Bluetooth and cost no more than $80
+Q089,train,377d75614f24,"prefer a quiet refrigerator, maximum $900"
+Q090,train,8f7ae6e5471c,"I need a compact camera, ideally under $400"
+Q092,train,cb513497ac91,"at least 4 stars, ideally 4.5 or higher"
+Q093,train,741995274d0d,"between $100 and $300, preferably near $150"
+Q094,train,5587c0e6c525,non-stick pan
+Q095,train,f04da85c3d43,non-toxic cleaning spray
+Q096,train,b08ac25ae94a,light-colored sofa
+Q097,train,9a27b0f9ccc5,light laptop
+Q098,train,4e635fae1408,near me furniture store
+Q007,validation,c33f6462d4fd,shampoo below 200 baht but highly rated
+Q015,validation,04e5917221e0,affordable laptop with long battery life
+Q019,validation,dafbe2616f2a,laptop lighter than 1.5 kg
+Q020,validation,941ba0164f30,best laptop for beginners under $600
+Q021,validation,f41d4229285a,refurbished laptop excluding Lenovo
+Q024,validation,f61897c9e073,budget-friendly desk with adjustable height
+Q034,validation,dafbe2616f2a,speaker no more than 1 kg
+Q044,validation,b355108c797a,organic cotton sheets at least queen size
+Q048,validation,a5856cf5b9ee,comfortable running shoes with wide fit
+Q053,validation,8d3e533fb0df,beginner-friendly camera under $500
+Q054,validation,9906d5be0a19,camera with exactly 4K video recording
+Q059,validation,f756c5c682a8,monitor bigger than 27 inches but under $400
+Q064,validation,691ac615c681,safe non-toxic cleaning spray
+Q065,validation,b9643beee550,healthy snacks with no added sugar
+Q079,validation,60e5f56bff5b,sofa similar to the IKEA KIVIK but smaller
+Q084,validation,379d7aed0150,office chair with no assembly required
+Q005,test,0844b8a3121c,cheap shampoo with good reviews
+Q011,test,f56f5aeb8277,laptop under $800 with 16 GB RAM
+Q017,test,e2f19f7c082f,cheap gaming laptop with high performance
+Q022,test,d9409c7766ce,office chair under $300 with lumbar support
+Q036,test,f28665157efc,water-resistant smartwatch with GPS
+Q052,test,ab4399d6c63e,child-friendly tablet with parental controls
+Q058,test,5781fde86ecb,laptop not above $900 with no less than 512 GB storage
+Q062,test,1c0889d82e64,best value cordless vacuum
+Q066,test,8acd6e3cf88b,eco-friendly detergent free from dyes
+Q070,test,f08a1b843d43,tablet up to $350 for students
+Q073,test,7e8c37930faa,chair at least 4.5 stars and under $250
+Q077,test,96ee55d0f545,cheaper than Brand A but with similar features
+Q083,test,3b8abddc7211,avoid leather office chairs
+Q085,test,5cbd579329f1,delivery within 2 days
+Q091,test,5a95454b4fba,"no more than $100, preferably less"

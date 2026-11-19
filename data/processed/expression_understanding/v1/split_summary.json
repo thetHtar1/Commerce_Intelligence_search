@@ -1,0 +1,42 @@
+{
+  "seed": 17,
+  "ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "total_rows": 98,
+  "unique_template_groups": 92,
+  "split_counts": {
+    "train": 67,
+    "validation": 16,
+    "test": 15
+  },
+  "label_counts": {
+    "train": {
+      "ambiguous_expression": 17,
+      "comparison": 1,
+      "hard_constraint": 39,
+      "negation": 7,
+      "product_attribute": 29,
+      "soft_preference": 25
+    },
+    "validation": {
+      "ambiguous_expression": 4,
+      "comparison": 2,
+      "hard_constraint": 9,
+      "negation": 2,
+      "product_attribute": 6,
+      "soft_preference": 6
+    },
+    "test": {
+      "ambiguous_expression": 3,
+      "comparison": 2,
+      "hard_constraint": 9,
+      "negation": 2,
+      "product_attribute": 6,
+      "soft_preference": 6
+    }
+  },
+  "template_leakage": 0
+}

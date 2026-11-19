@@ -338,7 +338,7 @@ The project will use the following JSON object as its initial query-intent contr
 | `ambiguities` | Record unresolved interpretations in the query. |
 | `needs_clarification` | Indicate whether the user should clarify the query before search proceeds. |
 
-The example maps `dry hair` to the `hair_type: dry` attribute and `under 200 baht` to a hard upper-price constraint. Retrieval should enforce hard constraints; ranking may use soft preferences to order eligible products. The example establishes the top-level fields and the shown attribute and constraint objects. The item formats for non-empty `soft_preferences` and `ambiguities`, along with allowed values for fields such as `query_type`, `operator`, and `priority`, should be formalized with the implementation's validation rules.
+The example maps `dry hair` to the `hair_type: dry` attribute and `under 200 baht` to a hard upper-price constraint. Retrieval should enforce hard constraints; ranking may use soft preferences to order eligible products. The annotation labels, operator mapping, and item formats for preferences, comparisons, and ambiguities are defined in [`label_guide.md`](label_guide.md).
 
 ### Important design principles
 

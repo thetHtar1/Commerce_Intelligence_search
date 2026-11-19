@@ -3,14 +3,20 @@
 ## Files
 - `expression_lexicon.csv`: candidate expression vocabulary and typical contextual meanings.
 - `contextual_query_examples.csv`: constructed queries with span-level JSON annotations.
-- `contextual_query_examples.jsonl`: same query examples in JSON Lines format.
-- `label_guide.md`: annotation definitions and guidance.
+- `contextual_query_examples.jsonl`: the same examples in JSON Lines format; `expression_annotations` is a native JSON array.
+- [`../../../docs/label_guide.md`](../../../docs/label_guide.md): finalized V1 annotation labels and their projection to the query-intent object.
 
 ## Intended use
 This is a starter dataset for contextual query expression classification and extraction in e-commerce search. It complements Amazon ESCI and Wayfair WANDS; it does not replace their query-product relevance judgments.
 
 ## Data provenance
 All query examples are constructed seed examples, not real customer search logs. The vocabulary is a curated starting list, not exhaustive. All annotations require human review before being treated as gold-standard labels.
+
+## Validation and splits
+
+Run `python src/query_understanding/validate_dataset.py` from the repository root to check duplicate expressions and queries, annotation fields and spans, label/operator values, and CSV/JSONL consistency.
+
+Run `python src/query_understanding/split_dataset.py` to create deterministic 70/15/15 train, validation, and test files under `data/processed/expression_understanding/v1/`. Rows are grouped by delexicalized query template so one template group stays in one split. The resulting partitions are provisional until the seed annotations have been reviewed.
 
 ## Labels
 - `hard_constraint`: mandatory condition or explicit bound.
