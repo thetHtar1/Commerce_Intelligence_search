@@ -1,0 +1,307 @@
+currency_code,en_display_name,en_singular_name,en_plural_name,en_symbol,en_narrow_symbol,my_display_name,th_display_name,currency_status,active_tender_regions,first_tender_from,minor_unit_digits,cash_digits,cldr_version
+ADP,Andorran Peseta,Andorran peseta,Andorran pesetas,,,,เปเซตาอันดอร์รา,historical_or_non_tender,,,0,0,49
+AED,United Arab Emirates Dirham,UAE dirham,UAE dirhams,AED,,အာရပ်စော်ဘွားများ ပြည်ထောင်စု ဒါဟမ်း,เดอร์แฮมสหรัฐอาหรับเอมิเรตส์,current_tender,AE,1973-05-19,2,2,49
+AFA,Afghan Afghani (1927–2002),Afghan afghani (1927–2002),Afghan afghanis (1927–2002),,,,อัฟกานีอัฟกานิสถาน (1927–2002),historical_or_non_tender,,,2,2,49
+AFN,Afghan Afghani,Afghan Afghani,Afghan Afghanis,AFN,؋,အာဖဂန် အာဖဂါနီ,อัฟกานิอัฟกานิสถาน,current_tender,AF,2002-10-07,0,0,49
+ALK,Albanian Lek (1946–1965),Albanian lek (1946–1965),Albanian lekë (1946–1965),,,,,historical_or_non_tender,,,2,2,49
+ALL,Albanian Lek,Albanian lek,Albanian lekë,ALL,,အယ်ဘေးနီးယား လီခ်,เลกแอลเบเนีย,current_tender,AL,1965-08-16,0,0,49
+AMD,Armenian Dram,Armenian dram,Armenian drams,AMD,֏,အာမေးနီးယား ဒရမ်,แดรมอาร์เมเนีย,current_tender,AM,1993-11-22,2,0,49
+ANG,Netherlands Antillean Guilder,Netherlands Antillean guilder,Netherlands Antillean guilders,ANG,,နယ်သာလန် အန်တီလန် ဂင်းဒါး,กิลเดอร์เนเธอร์แลนด์แอนทิลลิส,historical_or_non_tender,,,2,2,49
+AOA,Angolan Kwanza,Angolan kwanza,Angolan kwanzas,AOA,Kz,အန်ဂိုလာ ကွမ်ဇာ,กวานซาแองโกลา,current_tender,AO,1999-12-13,2,2,49
+AOK,Angolan Kwanza (1977–1991),Angolan kwanza (1977–1991),Angolan kwanzas (1977–1991),,,,กวานซาแองโกลา (1977–1990),historical_or_non_tender,,,2,2,49
+AON,Angolan New Kwanza (1990–2000),Angolan new kwanza (1990–2000),Angolan new kwanzas (1990–2000),,,,นิวกวานซาแองโกลา (1990–2000),historical_or_non_tender,,,2,2,49
+AOR,Angolan Readjusted Kwanza (1995–1999),Angolan readjusted kwanza (1995–1999),Angolan readjusted kwanzas (1995–1999),,,,กวานซารีจัสทาโดแองโกลา (1995–1999),historical_or_non_tender,,,2,2,49
+ARA,Argentine Austral,Argentine austral,Argentine australs,,,,ออสตรัลอาร์เจนตินา,historical_or_non_tender,,,2,2,49
+ARL,Argentine Peso Ley (1970–1983),Argentine peso ley (1970–1983),Argentine pesos ley (1970–1983),,,,เปโซเลย์อาร์เจนตินา (1970–1983),historical_or_non_tender,,,2,2,49
+ARM,Argentine Peso (1881–1970),Argentine peso (1881–1970),Argentine pesos (1881–1970),,,,เปโซอาร์เจนตินา (1881–1970),historical_or_non_tender,,,2,2,49
+ARP,Argentine Peso (1983–1985),Argentine peso (1983–1985),Argentine pesos (1983–1985),,,အာဂျင်တီးနား ပီဆို (၁၉၈၃–၁၉၈၅),เปโซอาร์เจนตินา (1983–1985),historical_or_non_tender,,,2,2,49
+ARS,Argentine Peso,Argentine peso,Argentine pesos,ARS,$,အာဂျင်တီးနား ပီဆို,เปโซอาร์เจนตินา,current_tender,AR,1992-01-01,2,2,49
+ATS,Austrian Schilling,Austrian schilling,Austrian schillings,,,,ชิลลิงออสเตรีย,historical_or_non_tender,,,2,2,49
+AUD,Australian Dollar,Australian dollar,Australian dollars,A$,$,ဩစတြေးလျ ဒေါ်လာ,ดอลลาร์ออสเตรเลีย,current_tender,AU|CC|CX|HM|KI|NF|NR|TV,1966-02-14,2,2,49
+AWG,Aruban Florin,Aruban florin,Aruban florin,AWG,,အရူးဗာ ဖလိုရင်း,ฟลอรินอารูบา,current_tender,AW,1986-01-01,2,2,49
+AZM,Azerbaijani Manat (1993–2006),Azerbaijani manat (1993–2006),Azerbaijani manats (1993–2006),,,,มานัตอาเซอร์ไบจาน (1993–2006),historical_or_non_tender,,,2,2,49
+AZN,Azerbaijani Manat,Azerbaijani manat,Azerbaijani manats,AZN,₼,အဇာဘိုင်ဂျန် မာနတ်,มานัตอาเซอร์ไบจาน,current_tender,AZ,2006-01-01,2,2,49
+BAD,Bosnia-Herzegovina Dinar (1992–1994),Bosnia-Herzegovina dinar (1992–1994),Bosnia-Herzegovina dinars (1992–1994),,,,ดีนาร์บอสเนีย-เฮอร์เซโกวีนา,historical_or_non_tender,,,2,2,49
+BAM,Bosnia-Herzegovina Convertible Mark,Bosnia-Herzegovina convertible mark,Bosnia-Herzegovina convertible marks,BAM,KM,ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနား ငွေလဲနိုင်သော မတ်က်,มาร์กบอสเนีย-เฮอร์เซโกวีนา,current_tender,BA,1995-01-01,2,2,49
+BAN,Bosnia-Herzegovina New Dinar (1994–1997),Bosnia-Herzegovina new dinar (1994–1997),Bosnia-Herzegovina new dinars (1994–1997),,,,ดีนาร์ใหม่บอสเนีย-เฮอร์เซโกวีนา (1994–1997),historical_or_non_tender,,,2,2,49
+BBD,Barbadian Dollar,Barbadian dollar,Barbadian dollars,BBD,$,ဘာဘေးဒိုးစ် ဒေါ်လာ,ดอลลาร์บาร์เบโดส,current_tender,BB,1973-12-03,2,2,49
+BDT,Bangladeshi Taka,Bangladeshi taka,Bangladeshi takas,BDT,৳,ဘင်္ဂလားဒေ့ရှ် တာကာ,ตากาบังกลาเทศ,current_tender,BD,1972-01-01,2,2,49
+BEC,Belgian Franc (convertible),Belgian franc (convertible),Belgian francs (convertible),,,,ฟรังก์เบลเยียม (เปลี่ยนแปลงได้),historical_or_non_tender,,,2,2,49
+BEF,Belgian Franc,Belgian franc,Belgian francs,,,ဘယ်လ်ဂျီယမ် ဖရန့်,ฟรังก์เบลเยียม,historical_or_non_tender,,,2,2,49
+BEL,Belgian Franc (financial),Belgian franc (financial),Belgian francs (financial),,,,ฟรังก์เบลเยียม (การเงิน),historical_or_non_tender,,,2,2,49
+BGL,Bulgarian Hard Lev,Bulgarian hard lev,Bulgarian hard leva,,,,ฮาร์ดเลฟบัลแกเรีย,historical_or_non_tender,,,2,2,49
+BGM,Bulgarian Socialist Lev,Bulgarian socialist lev,Bulgarian socialist leva,,,,โซเชียลลิสต์เลฟบัลแกเรีย,historical_or_non_tender,,,2,2,49
+BGN,Bulgarian Lev,Bulgarian lev,Bulgarian leva,BGN,,ဘူလ်ဂေးရီးယား လက်ဖ်,เลฟบัลแกเรีย,historical_or_non_tender,,,2,2,49
+BGO,Bulgarian Lev (1879–1952),Bulgarian lev (1879–1952),Bulgarian leva (1879–1952),,,,เลฟบัลเกเรีย (1879–1952),historical_or_non_tender,,,2,2,49
+BHD,Bahraini Dinar,Bahraini dinar,Bahraini dinars,BHD,,ဘာရိန်း ဒီနား,ดีนาร์บาห์เรน,current_tender,BH,1965-10-16,3,3,49
+BIF,Burundian Franc,Burundian franc,Burundian francs,BIF,,ဘူရွန်ဒီ ဖရန့်,ฟรังก์บุรุนดี,current_tender,BI,1964-05-19,0,0,49
+BMD,Bermudan Dollar,Bermudan dollar,Bermudan dollars,BMD,$,ဘာမြူဒါ ဒေါ်လာ,ดอลลาร์เบอร์มิวดา,current_tender,BM,1970-02-06,2,2,49
+BND,Brunei Dollar,Brunei dollar,Brunei dollars,BND,$,ဘရူနိုင်း ဒေါ်လာ,ดอลลาร์บรูไน,current_tender,BN,1967-06-12,2,2,49
+BOB,Bolivian Boliviano,Bolivian boliviano,Bolivian bolivianos,BOB,Bs,ဘိုလီးဗီးယား ဘိုလီးဗီယားနို,โบลิเวียโนโบลิเวีย,current_tender,BO,1987-01-01,2,2,49
+BOL,Bolivian Boliviano (1863–1963),Bolivian boliviano (1863–1963),Bolivian bolivianos (1863–1963),,,,โบลิเวียโนโบลิเวีย (1863–1963),historical_or_non_tender,,,2,2,49
+BOP,Bolivian Peso,Bolivian peso,Bolivian pesos,,,ဘိုလီးဘီးယား ပီဆို,เปโซโบลิเวีย,historical_or_non_tender,,,2,2,49
+BOV,Bolivian Mvdol,Bolivian mvdol,Bolivian mvdols,,,,มฟดอลโบลิเวีย,historical_or_non_tender,,,2,2,49
+BRB,Brazilian New Cruzeiro (1967–1986),Brazilian new cruzeiro (1967–1986),Brazilian new cruzeiros (1967–1986),,,,ครูเซโรโนโวบราซิล (1967–1986),historical_or_non_tender,,,2,2,49
+BRC,Brazilian Cruzado (1986–1989),Brazilian cruzado (1986–1989),Brazilian cruzados (1986–1989),,,,ครูซาโดบราซิล,historical_or_non_tender,,,2,2,49
+BRE,Brazilian Cruzeiro (1990–1993),Brazilian cruzeiro (1990–1993),Brazilian cruzeiros (1990–1993),,,,ครูเซโรบราซิล (1990–1993),historical_or_non_tender,,,2,2,49
+BRL,Brazilian Real,Brazilian real,Brazilian reals,R$,R$,ဘရာဇီး ရီးယဲ,เรียลบราซิล,current_tender,BR,1994-07-01,2,2,49
+BRN,Brazilian New Cruzado (1989–1990),Brazilian new cruzado (1989–1990),Brazilian new cruzados (1989–1990),,,,ครูซาโดโนโวบราซิล,historical_or_non_tender,,,2,2,49
+BRR,Brazilian Cruzeiro (1993–1994),Brazilian cruzeiro (1993–1994),Brazilian cruzeiros (1993–1994),,,,ครูเซโรบราซิล,historical_or_non_tender,,,2,2,49
+BRZ,Brazilian Cruzeiro (1942–1967),Brazilian cruzeiro (1942–1967),Brazilian cruzeiros (1942–1967),,,,ครูเซโรบราซิล (1942–1967),historical_or_non_tender,,,2,2,49
+BSD,Bahamian Dollar,Bahamian dollar,Bahamian dollars,BSD,$,ဘဟားမား ဒေါ်လာ,ดอลลาร์บาฮามาส,current_tender,BS,1966-05-25,2,2,49
+BTN,Bhutanese Ngultrum,Bhutanese ngultrum,Bhutanese ngultrums,BTN,,ဘူတန် အံဂါလ်ထရန်,เอ็งกุลตรัมภูฏาน,current_tender,BT,1974-04-16,2,2,49
+BUK,Burmese Kyat,Burmese kyat,Burmese kyats,,,ဗမာ ကျပ်,จ๊าดพม่า,historical_or_non_tender,,,2,2,49
+BWP,Botswanan Pula,Botswanan pula,Botswanan pulas,BWP,P,ဘော့ဆွာနာ ပုလ,ปูลาบอตสวานา,current_tender,BW,1976-08-23,2,2,49
+BYB,Belarusian Ruble (1994–1999),Belarusian ruble (1994–1999),Belarusian rubles (1994–1999),,,ဘီလာရုစ် ရူဘယ်အသစ် (၁၉၉၄–၁၉၉၉),นิวรูเบิลเบลารุส (1994–1999),historical_or_non_tender,,,2,2,49
+BYN,Belarusian Ruble,Belarusian ruble,Belarusian rubles,BYN,,ဘီလာရုစ် ရူဘယ်,รูเบิลเบลารุส,current_tender,BY,2016-07-01,2,2,49
+BYR,Belarusian Ruble (2000–2016),Belarusian ruble (2000–2016),Belarusian rubles (2000–2016),,,ဘီလာရုဇ် ရူဘယ် (၂၀၀၀–၂၀၁၆),รูเบิลเบลารุส (2000–2016),historical_or_non_tender,,,0,0,49
+BZD,Belize Dollar,Belize dollar,Belize dollars,BZD,$,ဘလိဇ် ဒေါ်လာ,ดอลลาร์เบลีซ,current_tender,BZ,1974-01-01,2,2,49
+CAD,Canadian Dollar,Canadian dollar,Canadian dollars,CA$,$,ကနေဒါ ဒေါ်လာ,ดอลลาร์แคนาดา,current_tender,CA,1858-01-01,2,2,49
+CDF,Congolese Franc,Congolese franc,Congolese francs,CDF,,ကွန်ဂို ဖရန့်,ฟรังก์คองโก,current_tender,CD,1998-07-01,2,2,49
+CHE,WIR Euro,WIR euro,WIR euros,,,,ยูโรดับเบิลยูไออาร์,historical_or_non_tender,,,2,2,49
+CHF,Swiss Franc,Swiss franc,Swiss francs,CHF,Fr.,ဆွစ် ဖရန့်,ฟรังก์สวิส,current_tender,CH|LI,1799-03-17,2,2,49
+CHW,WIR Franc,WIR franc,WIR francs,,,,ฟรังก์ดับเบิลยูไออาร์,historical_or_non_tender,,,2,2,49
+CLE,Chilean Escudo,Chilean escudo,Chilean escudos,,,,เอสคูโดชิลี,historical_or_non_tender,,,2,2,49
+CLF,Chilean Unit of Account (UF),Chilean unit of account (UF),Chilean units of account (UF),,,,ฟูเมนโตชิลี,historical_or_non_tender,,,4,4,49
+CLP,Chilean Peso,Chilean peso,Chilean pesos,CLP,$,ချီလီ ပီဆို,เปโซชิลี,current_tender,CL,1975-09-29,0,0,49
+CNH,Chinese Yuan (offshore),Chinese yuan (offshore),Chinese yuan (offshore),CNH,,တရုတ် ယွမ် (ဟောင်ကောင်),หยวน,historical_or_non_tender,,,2,2,49
+CNY,Chinese Yuan,Chinese yuan,Chinese yuan,CN¥,¥,တရုတ် ယွမ်,หยวนจีน,current_tender,CN,1953-03-01,2,2,49
+COP,Colombian Peso,Colombian peso,Colombian pesos,COP,$,ကိုလံဘီယာ ပီဆို,เปโซโคลอมเบีย,current_tender,CO,1905-01-01,0,0,49
+COU,Colombian Real Value Unit,Colombian real value unit,Colombian real value units,,,,วาเลอร์เรียลโคลอมเบีย,historical_or_non_tender,,,2,2,49
+CRC,Costa Rican Colón,Costa Rican colón,Costa Rican colóns,CRC,₡,ကို့စတာရီကာ ကိုလွန်,โกลองคอสตาริกา,current_tender,CR,1896-10-26,2,0,49
+CSD,Serbian Dinar (2002–2006),Serbian dinar (2002–2006),Serbian dinars (2002–2006),,,,ดีนาร์เซอร์เบียเก่า,historical_or_non_tender,,,2,2,49
+CSK,Czechoslovak Hard Koruna,Czechoslovak hard koruna,Czechoslovak hard korunas,,,,ฮาร์ดโครูนาเช็กโกสโลวัก,historical_or_non_tender,,,2,2,49
+CUC,Cuban Convertible Peso,Cuban convertible peso,Cuban convertible pesos,CUC,$,နိုင်ငံခြားငွေလဲလှယ်နိုင်သော ကျူးဘားပီဆို,เปโซคิวบา (แปลงสภาพ),historical_or_non_tender,,,2,2,49
+CUP,Cuban Peso,Cuban peso,Cuban pesos,CUP,$,ကျူးဘား ပီဆို,เปโซคิวบา,current_tender,CU,1859-01-01,2,2,49
+CVE,Cape Verdean Escudo,Cape Verdean escudo,Cape Verdean escudos,CVE,,ကိတ်ပ်ဗာဒီ အက်စ်ခူဒို,เอสคูโดเคปเวิร์ด,current_tender,CV,1914-01-01,2,2,49
+CYP,Cypriot Pound,Cypriot pound,Cypriot pounds,,,ဆိုက်ပရက်စ် ပေါင်,ปอนด์ไซปรัส,historical_or_non_tender,,,2,2,49
+CZK,Czech Koruna,Czech koruna,Czech korunas,CZK,Kč,ချက် ခိုရိုနာ,โครูนาสาธารณรัฐเช็ก,current_tender,CZ,1993-01-01,2,0,49
+DDM,East German Mark,East German mark,East German marks,,,,มาร์กเยอรมันตะวันออก,historical_or_non_tender,,,2,2,49
+DEM,German Mark,German mark,German marks,,,ဂျာမဏီ မတ်,มาร์กเยอรมัน,historical_or_non_tender,,,2,2,49
+DJF,Djiboutian Franc,Djiboutian franc,Djiboutian francs,DJF,,ဂျီဘူတီ ဖရန့်,ฟรังก์จิบูตี,current_tender,DJ,1977-06-27,0,0,49
+DKK,Danish Krone,Danish krone,Danish kroner,DKK,kr,ဒိန်းမတ် ခရိုဏာ,โครนเดนมาร์ก,current_tender,DK|FO|GL,1873-05-27,2,2,49
+DOP,Dominican Peso,Dominican peso,Dominican pesos,DOP,$,ဒိုမီနီကန် ပီဆို,เปโซโดมินิกัน,current_tender,DO,1947-10-01,2,2,49
+DZD,Algerian Dinar,Algerian dinar,Algerian dinars,DZD,,အယ်လ်ဂျီးရီးယား ဒီနာ,ดีนาร์แอลจีเรีย,current_tender,DZ,1964-04-01,2,2,49
+ECS,Ecuadorian Sucre,Ecuadorian sucre,Ecuadorian sucres,,,,ซูเกรเอกวาดอร์,historical_or_non_tender,,,2,2,49
+ECV,Ecuadorian Unit of Constant Value,Ecuadorian unit of constant value,Ecuadorian units of constant value,,,,วาเลอร์คอนสแตนต์เอกวาดอร์,historical_or_non_tender,,,2,2,49
+EEK,Estonian Kroon,Estonian kroon,Estonian kroons,,,,ครูนเอสโตเนีย,historical_or_non_tender,,,2,2,49
+EGP,Egyptian Pound,Egyptian pound,Egyptian pounds,EGP,E£,အီဂျစ် ပေါင်,ปอนด์อียิปต์,current_tender,EG,1885-11-14,2,2,49
+ERN,Eritrean Nakfa,Eritrean nakfa,Eritrean nakfas,ERN,,အီရီထရီးယား နာ့ခ်ဖာ,แนกฟาเอริเทรีย,current_tender,ER,1997-11-08,2,2,49
+ESA,Spanish Peseta (A account),Spanish peseta (A account),Spanish pesetas (A account),,,,เปเซตาสเปน (บัญชีเอ),historical_or_non_tender,,,2,2,49
+ESB,Spanish Peseta (convertible account),Spanish peseta (convertible account),Spanish pesetas (convertible account),,,,เปเซตาสเปน (บัญชีที่เปลี่ยนแปลงได้),historical_or_non_tender,,,2,2,49
+ESP,Spanish Peseta,Spanish peseta,Spanish pesetas,,₧,စပိန် ပယ်စေးတာ,เปเซตาสเปน,historical_or_non_tender,,,0,0,49
+ETB,Ethiopian Birr,Ethiopian birr,Ethiopian birrs,ETB,,အီသီယိုးပီးယား ဘီးယာ,เบอรร์เอธิโอเปีย,current_tender,ET,1976-09-15,2,2,49
+EUR,Euro,euro,euros,€,€,ယူရို,ยูโร,current_tender,AD|AT|AX|BE|BG|BL|CY|DE|EA|EE|ES|EU|FI|FR|GF|GP|GR|HR|IC|IE|IT|LT|LU|LV|MC|ME|MF|MQ|MT|NL|PM|PT|RE|SI|SK|SM|TF|VA|XK|YT,1999-01-01,2,2,49
+FIM,Finnish Markka,Finnish markka,Finnish markkas,,,,มาร์กกาฟินแลนด์,historical_or_non_tender,,,2,2,49
+FJD,Fijian Dollar,Fijian dollar,Fijian dollars,FJD,$,ဖီဂျီ ဒေါ်လာ,ดอลลาร์ฟิจิ,current_tender,FJ,1969-01-13,2,2,49
+FKP,Falkland Islands Pound,Falkland Islands pound,Falkland Islands pounds,FKP,£,ဖော့ကလန်ကျွန်းစု ပေါင်,ปอนด์หมู่เกาะฟอล์กแลนด์,current_tender,FK,1901-01-01,2,2,49
+FRF,French Franc,French franc,French francs,,,ပြင်သစ် ဖရန့်,ฟรังก์ฝรั่งเศส,historical_or_non_tender,,,2,2,49
+GBP,British Pound,British pound,British pounds,£,£,ဗြိတိသျှ ပေါင်,ปอนด์สเตอร์ลิง (สหราชอาณาจักร),current_tender,GB|GG|GS|IM|JE|TA,1694-07-27,2,2,49
+GEK,Georgian Kupon Larit,Georgian kupon larit,Georgian kupon larits,,,,คูปอนลาริตจอร์เจีย,historical_or_non_tender,,,2,2,49
+GEL,Georgian Lari,Georgian lari,Georgian laris,GEL,₾,ဂျော်ဂျီယာ လားရီ,ลารีจอร์เจีย,current_tender,GE,1995-09-23,2,2,49
+GHC,Ghanaian Cedi (1979–2007),Ghanaian cedi (1979–2007),Ghanaian cedis (1979–2007),,,,เซดีกานา (1979–2007),historical_or_non_tender,,,2,2,49
+GHS,Ghanaian Cedi,Ghanaian cedi,Ghanaian cedis,GHS,GH₵,ဂါနာ ဆဲဒီ,เซดีกานา,current_tender,GH,2007-07-03,2,2,49
+GIP,Gibraltar Pound,Gibraltar pound,Gibraltar pounds,GIP,£,ဂျီဘရော်လ်တာ ပေါင်,ปอนด์ยิบรอลตาร์,current_tender,GI,1713-01-01,2,2,49
+GMD,Gambian Dalasi,Gambian dalasi,Gambian dalasis,GMD,,ဂမ်ဘီယာ ဒါလာစီ,ดาลาซีแกมเบีย,current_tender,GM,1971-07-01,2,2,49
+GNF,Guinean Franc,Guinean franc,Guinean francs,GNF,FG,ဂီနီရာ ဖရန့်,ฟรังก์กินี,current_tender,GN,1986-01-06,0,0,49
+GNS,Guinean Syli,Guinean syli,Guinean sylis,,,,ไซลีกินี,historical_or_non_tender,,,2,2,49
+GQE,Equatorial Guinean Ekwele,Equatorial Guinean ekwele,Equatorial Guinean ekwele,,,,เอ็กเวเลอิเควทอเรียลกินี,historical_or_non_tender,,,2,2,49
+GRD,Greek Drachma,Greek drachma,Greek drachmas,,,,ดรัชมากรีก,historical_or_non_tender,,,2,2,49
+GTQ,Guatemalan Quetzal,Guatemalan quetzal,Guatemalan quetzals,GTQ,Q,ဂွါတီမာလာ ခက်ဇော်လ်,เควตซัลกัวเตมาลา,current_tender,GT,1925-05-27,2,2,49
+GWE,Portuguese Guinea Escudo,Portuguese Guinea escudo,Portuguese Guinea escudos,,,,เอสคูโดกินีโปรตุเกส,historical_or_non_tender,,,2,2,49
+GWP,Guinea-Bissau Peso,Guinea-Bissau peso,Guinea-Bissau pesos,,,,เปโซกินี-บิสเซา,historical_or_non_tender,,,2,2,49
+GYD,Guyanaese Dollar,Guyanaese dollar,Guyanaese dollars,GYD,$,ဂိုင်ယာနာ ဒေါ်လာ,ดอลลาร์กายอานา,current_tender,GY,1966-05-26,2,0,49
+HKD,Hong Kong Dollar,Hong Kong dollar,Hong Kong dollars,HK$,$,ဟောင်ကောင် ဒေါ်လာ,ดอลลาร์ฮ่องกง,current_tender,HK,1895-02-02,2,2,49
+HNL,Honduran Lempira,Honduran lempira,Honduran lempiras,HNL,L,ဟွန်ဒူးရပ်စ် လမ်းပီရာ,เลมปิราฮอนดูรัส,current_tender,HN,1926-04-03,2,2,49
+HRD,Croatian Dinar,Croatian dinar,Croatian dinars,,,,ดีนาร์โครเอเชีย,historical_or_non_tender,,,2,2,49
+HRK,Croatian Kuna,Croatian kuna,Croatian kunas,HRK,kn,ခရိုအေးရှား ခူးနာ,คูนาโครเอเชีย,historical_or_non_tender,,,2,2,49
+HTG,Haitian Gourde,Haitian gourde,Haitian gourdes,HTG,,ဟေတီဂူးအော်ဒ်,กูร์ดเฮติ,current_tender,HT,1872-08-26,2,2,49
+HUF,Hungarian Forint,Hungarian forint,Hungarian forints,HUF,Ft,ဟန်ဂေရီယံ ဖော်ရင့်တ်,ฟอรินต์ฮังการี,current_tender,HU,1946-07-23,0,0,49
+IDR,Indonesian Rupiah,Indonesian rupiah,Indonesian rupiahs,IDR,Rp,အင်ဒိုနီးရှား ရူပီးယား,รูเปียห์อินโดนีเซีย,current_tender,ID,1965-12-13,0,0,49
+IEP,Irish Pound,Irish pound,Irish pounds,,,,ปอนด์ไอริช,historical_or_non_tender,,,2,2,49
+ILP,Israeli Pound,Israeli pound,Israeli pounds,,,အစ္စရေး ပေါင်,ปอนด์อิสราเอล,historical_or_non_tender,,,2,2,49
+ILR,Israeli Shekel (1980–1985),Israeli shekel (1980–1985),Israeli shekels (1980–1985),,,,,historical_or_non_tender,,,2,2,49
+ILS,Israeli New Shekel,Israeli new shekel,Israeli new shekels,₪,₪,အစ္စရေး ရှဲကလ်အသစ်,นิวเชเกลอิสราเอล,current_tender,IL|PS,1985-09-04,2,2,49
+INR,Indian Rupee,Indian rupee,Indian rupees,₹,₹,အိန္ဒိယ ရူပီး,รูปีอินเดีย,current_tender,BT|IN,1835-08-17,2,2,49
+IQD,Iraqi Dinar,Iraqi dinar,Iraqi dinars,IQD,,အီရတ် ဒီနာ,ดีนาร์อิรัก,current_tender,IQ,1931-04-19,0,0,49
+IRR,Iranian Rial,Iranian rial,Iranian rials,IRR,,အီရန် ရီအော်လ်,เรียลอิหร่าน,current_tender,IR,1932-05-13,0,0,49
+ISJ,Icelandic Króna (1918–1981),Icelandic króna (1918–1981),Icelandic krónur (1918–1981),,,,,historical_or_non_tender,,,2,2,49
+ISK,Icelandic Króna,Icelandic króna,Icelandic krónur,ISK,kr,အိုက်စလန် ခရိုဏာ,โครนาไอซ์แลนด์,current_tender,IS,1981-01-01,0,0,49
+ITL,Italian Lira,Italian lira,Italian liras,,,,ลีราอิตาลี,historical_or_non_tender,,,0,0,49
+JMD,Jamaican Dollar,Jamaican dollar,Jamaican dollars,JMD,$,ဂျမေကာ ဒေါ်လာ,ดอลลาร์จาเมกา,current_tender,JM,1969-09-08,2,2,49
+JOD,Jordanian Dinar,Jordanian dinar,Jordanian dinars,JOD,,ဂျော်ဒန် ဒီနာ,ดีนาร์จอร์แดน,current_tender,JO|PS,1950-07-01,3,3,49
+JPY,Japanese Yen,Japanese yen,Japanese yen,¥,¥,ဂျပန် ယန်း,เยนญี่ปุ่น,current_tender,JP,1871-06-01,0,0,49
+KES,Kenyan Shilling,Kenyan shilling,Kenyan shillings,KES,,ကင်ညာ သျှီလင်,ชิลลิงเคนยา,current_tender,KE,1966-09-14,2,2,49
+KGS,Kyrgyz Som,Kyrgyz som,Kyrgyz soms,KGS,⃀,ကာဂျစ္စတန် ဆော်မ်,ซอมคีร์กีซสถาน,current_tender,KG,1993-05-10,2,2,49
+KHR,Cambodian Riel,Cambodian riel,Cambodian riels,KHR,៛,ကမ္ဘောဒီးယား ရီးယဲ,เรียลกัมพูชา,current_tender,KH,1980-03-20,2,2,49
+KMF,Comorian Franc,Comorian franc,Comorian francs,KMF,CF,ကိုမိုရိုစ် ဖရန့်,ฟรังก์คอโมโรส,current_tender,KM,1975-07-06,0,0,49
+KPW,North Korean Won,North Korean won,North Korean won,KPW,₩,မြောက်ကိုရီးယား ဝမ်,วอนเกาหลีเหนือ,current_tender,KP,1959-04-17,0,0,49
+KRH,South Korean Hwan (1953–1962),South Korean hwan (1953–1962),South Korean hwan (1953–1962),,,,ฮวานเกาหลีใต้ (1953–1962),historical_or_non_tender,,,2,2,49
+KRO,South Korean Won (1945–1953),South Korean won (1945–1953),South Korean won (1945–1953),,,,วอนเกาหลีใต้ (1945–1953),historical_or_non_tender,,,2,2,49
+KRW,South Korean Won,South Korean won,South Korean won,₩,₩,တောင်ကိုရီးယား ဝမ်,วอนเกาหลีใต้,current_tender,KR,1962-06-10,0,0,49
+KWD,Kuwaiti Dinar,Kuwaiti dinar,Kuwaiti dinars,KWD,,ကူဝိတ် ဒီနာ,ดีนาร์คูเวต,current_tender,KW,1961-04-01,3,3,49
+KYD,Cayman Islands Dollar,Cayman Islands dollar,Cayman Islands dollars,KYD,$,ကေမန် ကျွန်းစု ဒေါ်လာ,ดอลลาร์หมู่เกาะเคย์แมน,current_tender,KY,1971-01-01,2,2,49
+KZT,Kazakhstani Tenge,Kazakhstani tenge,Kazakhstani tenges,KZT,₸,ကာဇက်စတန် ထိန်ဂျီ,เทงเจคาซัคสถาน,current_tender,KZ,1993-11-05,2,2,49
+LAK,Laotian Kip,Laotian kip,Laotian kips,LAK,₭,လာအို ကစ်,กีบลาว,current_tender,LA,1979-12-10,0,0,49
+LBP,Lebanese Pound,Lebanese pound,Lebanese pounds,LBP,L£,လက်ဘနွန် ပေါင်,ปอนด์เลบานอน,current_tender,LB,1948-02-02,0,0,49
+LKR,Sri Lankan Rupee,Sri Lankan rupee,Sri Lankan rupees,LKR,Rs,သီရိလင်္ကာ ရူပီး,รูปีศรีลังกา,current_tender,LK,1978-05-22,2,2,49
+LRD,Liberian Dollar,Liberian dollar,Liberian dollars,LRD,$,လိုက်ဘေးရီးယား ဒေါ်လာ,ดอลลาร์ไลบีเรีย,current_tender,LR,1944-01-01,2,2,49
+LSL,Lesotho Loti,Lesotho loti,Lesotho lotis,LSL,,လီဆိုသို လိုတီ,โลตีเลโซโท,current_tender,LS,1980-01-22,2,2,49
+LTL,Lithuanian Litas,Lithuanian litas,Lithuanian litai,,Lt,လစ်သူယေးနီးယားလီတားစ်,ลีตัสลิทัวเนีย,historical_or_non_tender,,,2,2,49
+LTT,Lithuanian Talonas,Lithuanian talonas,Lithuanian talonases,,,,ทาโลนัสลิทัวเนีย,historical_or_non_tender,,,2,2,49
+LUC,Luxembourgian Convertible Franc,Luxembourgian convertible franc,Luxembourgian convertible francs,,,,คอนเวอร์ทิเบิลฟรังก์ลักเซมเบิร์ก,historical_or_non_tender,,,2,2,49
+LUF,Luxembourgian Franc,Luxembourgian franc,Luxembourgian francs,,,,ฟรังก์ลักเซมเบิร์ก,historical_or_non_tender,,,0,0,49
+LUL,Luxembourg Financial Franc,Luxembourg financial franc,Luxembourg financial francs,,,,ไฟแนลเชียลฟรังก์ลักเซมเบิร์ก,historical_or_non_tender,,,2,2,49
+LVL,Latvian Lats,Latvian lats,Latvian lati,,Ls,လတ်ဗီးယားလတ်,ลัตส์ลัตเวีย,historical_or_non_tender,,,2,2,49
+LVR,Latvian Ruble,Latvian ruble,Latvian rubles,,,,รูเบิลลัตเวีย,historical_or_non_tender,,,2,2,49
+LYD,Libyan Dinar,Libyan dinar,Libyan dinars,LYD,,လစ်ဗျား ဒိုင်နာ,ดีนาร์ลิเบีย,current_tender,LY,1971-09-01,3,3,49
+MAD,Moroccan Dirham,Moroccan dirham,Moroccan dirhams,MAD,,မိုရိုကို ဒရမ်,ดีแรห์มโมร็อกโก,current_tender,EH|MA,1959-10-17,2,2,49
+MAF,Moroccan Franc,Moroccan franc,Moroccan francs,,,,ฟรังก์โมร็อกโก,historical_or_non_tender,,,2,2,49
+MCF,Monegasque Franc,Monegasque franc,Monegasque francs,,,,ฟรังก์โมนาโก,historical_or_non_tender,,,2,2,49
+MDC,Moldovan Cupon,Moldovan cupon,Moldovan cupon,,,,บัตรปันส่วนมอลโดวา,historical_or_non_tender,,,2,2,49
+MDL,Moldovan Leu,Moldovan leu,Moldovan lei,MDL,,မောလ်ဒိုဗာ လယ်အို,ลิวมอลโดวา,current_tender,MD,1993-11-29,2,2,49
+MGA,Malagasy Ariary,Malagasy ariary,Malagasy ariaries,MGA,Ar,မာလာဂါစီ အရီရရီ,อาเรียรีมาลากาซี,current_tender,MG,1983-11-01,0,0,49
+MGF,Malagasy Franc,Malagasy franc,Malagasy francs,,,,ฟรังก์มาดากัสการ์,historical_or_non_tender,,,0,0,49
+MKD,Macedonian Denar,Macedonian denar,Macedonian denari,MKD,,မက်ဆီဒိုးနီးယား ဒီနာ,ดีนาร์มาซิโดเนีย,current_tender,MK,1993-05-20,2,2,49
+MKN,Macedonian Denar (1992–1993),Macedonian denar (1992–1993),Macedonian denari (1992–1993),,,,ดีนาร์มาซิโดเนีย (1992–1993),historical_or_non_tender,,,2,2,49
+MLF,Malian Franc,Malian franc,Malian francs,,,,ฟรังก์มาลี,historical_or_non_tender,,,2,2,49
+MMK,Myanmar Kyat,Myanmar kyat,Myanmar kyats,MMK,K,မြန်မာ ကျပ်,จ๊าตพม่า,current_tender,MM,1989-06-18,0,0,49
+MNT,Mongolian Tugrik,Mongolian tugrik,Mongolian tugriks,MNT,₮,မွန်ဂိုးလီးယား ထူးဂရခ်,ทูกริกมองโกเลีย,current_tender,MN,1915-03-01,2,0,49
+MOP,Macanese Pataca,Macanese pataca,Macanese patacas,MOP,,မကာအို ပါတားကား,ปาตากามาเก๊า,current_tender,MO,1901-01-01,2,2,49
+MRO,Mauritanian Ouguiya (1973–2017),Mauritanian ouguiya (1973–2017),Mauritanian ouguiyas (1973–2017),,,မော်ရီတေးနီးယား အူဂီးယာ (၁၉၇၃–၂၀၁၇),อูกียามอริเตเนีย (1973–2017),historical_or_non_tender,,,0,0,49
+MRU,Mauritanian Ouguiya,Mauritanian ouguiya,Mauritanian ouguiyas,MRU,,မော်ရီတေးနီးယန်း အူဂီးယာ,อูกียามอริเตเนีย,current_tender,MR,2018-01-01,2,2,49
+MTL,Maltese Lira,Maltese lira,Maltese lira,,,,ลีรามอลตา,historical_or_non_tender,,,2,2,49
+MTP,Maltese Pound,Maltese pound,Maltese pounds,,,,ปอนด์มอลตา,historical_or_non_tender,,,2,2,49
+MUR,Mauritian Rupee,Mauritian rupee,Mauritian rupees,MUR,Rs,မောရစ်ရှ ရူပီး,รูปีมอริเชียส,current_tender,MU,1934-04-01,2,0,49
+MVP,Maldivian Rupee (1947–1981),Maldivian rupee (1947–1981),Maldivian rupees (1947–1981),,,,,historical_or_non_tender,,,2,2,49
+MVR,Maldivian Rufiyaa,Maldivian rufiyaa,Maldivian rufiyaas,MVR,,မော်လ်ဒိုက် ရူးဖီရာ,รูฟิยามัลดีฟส์,current_tender,MV,1981-07-01,2,2,49
+MWK,Malawian Kwacha,Malawian kwacha,Malawian kwachas,MWK,,မာလာဝီ ခွါးချာ,ควาชามาลาวี,current_tender,MW,1971-02-15,2,2,49
+MXN,Mexican Peso,Mexican peso,Mexican pesos,MX$,$,မက္ကဆီကို ပီဆို,เปโซเม็กซิโก,current_tender,MX,1993-01-01,2,2,49
+MXP,Mexican Silver Peso (1861–1992),Mexican silver peso (1861–1992),Mexican silver pesos (1861–1992),,,,เงินเปโซเม็กซิโก (1861–1992),historical_or_non_tender,,,2,2,49
+MXV,Mexican Investment Unit,Mexican investment unit,Mexican investment units,,,,ยูนิแดด ดี อินเวอร์ชั่น เม็กซิโก,historical_or_non_tender,,,2,2,49
+MYR,Malaysian Ringgit,Malaysian ringgit,Malaysian ringgits,MYR,RM,မလေးရှား ရင်းဂစ်,ริงกิตมาเลเซีย,current_tender,MY,1963-09-16,2,2,49
+MZE,Mozambican Escudo,Mozambican escudo,Mozambican escudos,,,,เอสคูโดโมซัมบิก,historical_or_non_tender,,,2,2,49
+MZM,Mozambican Metical (1980–2006),Mozambican metical (1980–2006),Mozambican meticals (1980–2006),,,,เมติคัลโมซัมบิกเก่า,historical_or_non_tender,,,2,2,49
+MZN,Mozambican Metical,Mozambican metical,Mozambican meticals,MZN,,မိုဇမ်ဘစ် မက်တီခယ်လ်,เมติคัลโมซัมบิก,current_tender,MZ,2006-07-01,2,2,49
+NAD,Namibian Dollar,Namibian dollar,Namibian dollars,NAD,$,နမီးဘီးယား ဒေါ်လာ,ดอลลาร์นามิเบีย,current_tender,NA,1993-01-01,2,2,49
+NGN,Nigerian Naira,Nigerian naira,Nigerian nairas,NGN,₦,နိုင်ဂျီးရီးယား နိုင်းရာ,ไนราไนจีเรีย,current_tender,NG,1973-01-01,2,2,49
+NIC,Nicaraguan Córdoba (1988–1991),Nicaraguan córdoba (1988–1991),Nicaraguan córdobas (1988–1991),,,,คอร์โดบานิการากัว,historical_or_non_tender,,,2,2,49
+NIO,Nicaraguan Córdoba,Nicaraguan córdoba,Nicaraguan córdobas,NIO,C$,နီကာရာဂွါ ခိုးဒိုဘာ,กอร์โดบานิการากัว,current_tender,NI,1991-04-30,2,2,49
+NLG,Dutch Guilder,Dutch guilder,Dutch guilders,,,,กิลเดอร์เนเธอร์แลนด์,historical_or_non_tender,,,2,2,49
+NOK,Norwegian Krone,Norwegian krone,Norwegian kroner,NOK,kr,နော်ဝေ ခရိုဏာ,โครนนอร์เวย์,current_tender,BV|NO|SJ,1905-06-07,2,0,49
+NPR,Nepalese Rupee,Nepalese rupee,Nepalese rupees,NPR,Rs,နီပေါ ရူပီး,รูปีเนปาล,current_tender,NP,1933-01-01,2,2,49
+NZD,New Zealand Dollar,New Zealand dollar,New Zealand dollars,NZ$,$,နယူးဇီလန် ဒေါ်လာ,ดอลลาร์นิวซีแลนด์,current_tender,CK|NU|NZ|PN|TK,1967-07-10,2,2,49
+OMR,Omani Rial,Omani rial,Omani rials,OMR,,အိုမန်နီ ရီရယ်,เรียลโอมาน,current_tender,OM,1972-11-11,3,3,49
+PAB,Panamanian Balboa,Panamanian balboa,Panamanian balboas,PAB,,ပနားမား ဘလျဘိုးအာ,บัลบัวปานามา,current_tender,PA,1903-11-04,2,2,49
+PEI,Peruvian Inti,Peruvian inti,Peruvian intis,,,,อินตีเปรู,historical_or_non_tender,,,2,2,49
+PEN,Peruvian Sol,Peruvian sol,Peruvian soles,PEN,,ပီရူး ဆိုးလ်,ซอลเปรู,current_tender,PE,1991-07-01,2,2,49
+PES,Peruvian Sol (1863–1965),Peruvian sol (1863–1965),Peruvian soles (1863–1965),,,,ซอลเปรู (1863–1965),historical_or_non_tender,,,2,2,49
+PGK,Papua New Guinean Kina,Papua New Guinean kina,Papua New Guinean kina,PGK,,ပါပူအာ နယူးဂီနီ ခီးနာ,กีนาปาปัวนิวกินี,current_tender,PG,1975-09-16,2,2,49
+PHP,Philippine Peso,Philippine peso,Philippine pesos,₱,₱,ဖိလစ်ပိုင် ပီဆို,เปโซฟิลิปปินส์,current_tender,PH,1946-07-04,2,2,49
+PKR,Pakistani Rupee,Pakistani rupee,Pakistani rupees,PKR,Rs,ပါကစ္စတန် ရူပီး,รูปีปากีสถาน,current_tender,PK,1948-04-01,2,0,49
+PLN,Polish Zloty,Polish zloty,Polish zlotys,PLN,zł,ပိုလန် ဇလော့တီ,ซลอตีโปแลนด์,current_tender,PL,1995-01-01,2,2,49
+PLZ,Polish Zloty (1950–1995),Polish zloty (PLZ),Polish zlotys (PLZ),,,,ซลอตีโปแลนด์ (1950–1995),historical_or_non_tender,,,2,2,49
+PTE,Portuguese Escudo,Portuguese escudo,Portuguese escudos,,,,เอสคูโดโปรตุเกส,historical_or_non_tender,,,2,2,49
+PYG,Paraguayan Guarani,Paraguayan guarani,Paraguayan guaranis,PYG,₲,ပါရာဂွေး ဂွါးအ်နီး,กวารานีปารากวัย,current_tender,PY,1943-11-01,0,0,49
+QAR,Qatari Riyal,Qatari riyal,Qatari riyals,QAR,,ကာတာရီ ရီရယ်,เรียลกาตาร์,current_tender,QA,1973-05-19,2,2,49
+RHD,Rhodesian Dollar,Rhodesian dollar,Rhodesian dollars,,,,ดอลลาร์โรดีเซีย,historical_or_non_tender,,,2,2,49
+ROL,Romanian Leu (1952–2006),Romanian leu (1952–2006),Romanian Lei (1952–2006),,,,ลิวโรมาเนียเก่า,historical_or_non_tender,,,2,2,49
+RON,Romanian Leu,Romanian leu,Romanian lei,RON,lei,ရိုမေးနီးယား လယ်အို,ลิวโรมาเนีย,current_tender,RO,2005-07-01,2,2,49
+RSD,Serbian Dinar,Serbian dinar,Serbian dinars,RSD,,ဆားဘီးယား ဒယ်နား,ดีนาร์เซอร์เบีย,current_tender,RS,2006-10-25,2,0,49
+RUB,Russian Ruble,Russian ruble,Russian rubles,RUB,₽,ရုရှ ရူဘယ်,รูเบิลรัสเซีย,current_tender,RU,1999-01-01,2,2,49
+RUR,Russian Ruble (1991–1998),Russian ruble (1991–1998),Russian rubles (1991–1998),,,ရုရှ ရူဘယ် (၁၉၉၁–၁၉၉၈),รูเบิลรัสเซีย (1991–1998),historical_or_non_tender,,,2,2,49
+RWF,Rwandan Franc,Rwandan franc,Rwandan francs,RWF,RF,ရဝန်ဒါ ဖရန့်,ฟรังก์รวันดา,current_tender,RW,1964-05-19,0,0,49
+SAR,Saudi Riyal,Saudi riyal,Saudi riyals,SAR,,ဆော်ဒီအာရေးဗီးယား ရီယော်လ်,ริยัลซาอุดีอาระเบีย,current_tender,SA,1952-10-22,2,2,49
+SBD,Solomon Islands Dollar,Solomon Islands dollar,Solomon Islands dollars,SBD,$,ဆော်လမွန်ကျွန်းစု ဒေါ်လာ,ดอลลาร์หมู่เกาะโซโลมอน,current_tender,SB,1977-10-24,2,2,49
+SCR,Seychellois Rupee,Seychellois rupee,Seychellois rupees,SCR,,ဆေးရှဲ ရူပီး,รูปีเซเชลส์,current_tender,SC,1903-11-01,2,2,49
+SDD,Sudanese Dinar (1992–2007),Sudanese dinar (1992–2007),Sudanese dinars (1992–2007),,,,ดีนาร์ซูดานเก่า,historical_or_non_tender,,,2,2,49
+SDG,Sudanese Pound,Sudanese pound,Sudanese pounds,SDG,,ဆူဒန် ပေါင်,ปอนด์ซูดาน,current_tender,SD,2007-01-10,2,2,49
+SDP,Sudanese Pound (1957–1998),Sudanese pound (1957–1998),Sudanese pounds (1957–1998),,,ဆူဒန် ပေါင်အဟောင်း,ปอนด์ซูดานเก่า,historical_or_non_tender,,,2,2,49
+SEK,Swedish Krona,Swedish krona,Swedish kronor,SEK,kr,ဆွီဒင် ခရိုဏာ,โครนาสวีเดน,current_tender,SE,1873-05-27,2,0,49
+SGD,Singapore Dollar,Singapore dollar,Singapore dollars,SGD,$,စင်္ကာပူ ဒေါ်လာ,ดอลลาร์สิงคโปร์,current_tender,SG,1967-06-12,2,2,49
+SHP,St. Helena Pound,St. Helena pound,St. Helena pounds,SHP,£,စိန့်ဟယ်လယ်နာ ပေါင်,ปอนด์เซนต์เฮเลนา,current_tender,AC|SH,1917-02-15,2,2,49
+SIT,Slovenian Tolar,Slovenian tolar,Slovenian tolars,,,,ทอลาร์สโลวีเนีย,historical_or_non_tender,,,2,2,49
+SKK,Slovak Koruna,Slovak koruna,Slovak korunas,,,,โครูนาสโลวัก,historical_or_non_tender,,,2,2,49
+SLE,Sierra Leonean Leone,Sierra Leonean leone,Sierra Leonean leones,SLE,,ဆီယာရာလီယွန်း လီအိုနီ,ลีโอนเซียร์ราลีโอน,current_tender,SL,2022-07-01,2,2,49
+SLL,Sierra Leonean Leone (1964—2022),Sierra Leonean leone (1964—2022),Sierra Leonean leones (1964—2022),SLL,,ဆီယာရာလီယွန်း လီအိုနီ (၁၉၆၄—၂၀၂၂),ลีโอนเซียร์ราลีโอน (1964—2022),historical_or_non_tender,,,0,0,49
+SOS,Somali Shilling,Somali shilling,Somali shillings,SOS,,ဆိုမာလီ သျှီလင်,ชิลลิงโซมาเลีย,current_tender,SO,1960-07-01,0,0,49
+SRD,Surinamese Dollar,Surinamese dollar,Surinamese dollars,SRD,$,ဆူရီနမ်း ဒေါ်လာ,ดอลลาร์ซูรินาเม,current_tender,SR,2004-01-01,2,2,49
+SRG,Surinamese Guilder,Surinamese guilder,Surinamese guilders,,,,กิลเดอร์ซูรินาเม,historical_or_non_tender,,,2,2,49
+SSP,South Sudanese Pound,South Sudanese pound,South Sudanese pounds,SSP,£,တောင်ဆူဒန် ပေါင်,ปอนด์ซูดานใต้,current_tender,SS,2011-07-18,2,2,49
+STD,São Tomé & Príncipe Dobra (1977–2017),São Tomé & Príncipe dobra (1977–2017),São Tomé & Príncipe dobras (1977–2017),,,ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ,ดอบราเซาตูเมและปรินซิปี (1977–2017),historical_or_non_tender,,,0,0,49
+STN,São Tomé & Príncipe Dobra,São Tomé & Príncipe dobra,São Tomé & Príncipe dobras,STN,Db,ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ (၂၀၁၈),ดอบราเซาตูเมและปรินซิปี,current_tender,ST,2018-01-01,2,2,49
+SUR,Soviet Rouble,Soviet rouble,Soviet roubles,,,ဆိုဗီယက် ရူဗယ်,รูเบิลโซเวียต,historical_or_non_tender,,,2,2,49
+SVC,Salvadoran Colón,Salvadoran colón,Salvadoran colones,,,,โคลอนเอลซัลวาดอร์,historical_or_non_tender,,,2,2,49
+SYP,Syrian Pound,Syrian pound,Syrian pounds,SYP,£,ဆီးရီးယား ပေါင်,ปอนด์ซีเรีย,current_tender,SY,1948-01-01,0,0,49
+SZL,Swazi Lilangeni,Swazi lilangeni,Swazi emalangeni,SZL,,ဆွာဇီလန် လီလန်းဂီနီ,ลิลันเจนีสวาซิ,current_tender,SZ,1974-09-06,2,2,49
+THB,Thai Baht,Thai baht,Thai baht,THB,฿,ထိုင်း ဘတ်,บาท,current_tender,TH,1928-04-15,2,2,49
+TJR,Tajikistani Ruble,Tajikistani ruble,Tajikistani rubles,,,,รูเบิลทาจิกิสถาน,historical_or_non_tender,,,2,2,49
+TJS,Tajikistani Somoni,Tajikistani somoni,Tajikistani somonis,TJS,,တာဂျစ်ကစ္စတန် ဆိုမိုနီ,โซโมนิทาจิกิสถาน,current_tender,TJ,2000-10-26,2,2,49
+TMM,Turkmenistani Manat (1993–2009),Turkmenistani manat (1993–2009),Turkmenistani manat (1993–2009),,,,มานัตเติร์กเมนิสถาน (1993–2009),historical_or_non_tender,,,0,0,49
+TMT,Turkmenistani Manat,Turkmenistani manat,Turkmenistani manat,TMT,,တာ့ခ်မင်နစ္စတန် မာနတ်,มานัตเติร์กเมนิสถาน,current_tender,TM,2009-01-01,2,2,49
+TND,Tunisian Dinar,Tunisian dinar,Tunisian dinars,TND,,တူနီးရှား ဒိုင်နာ,ดีนาร์ตูนิเซีย,current_tender,TN,1958-11-01,3,3,49
+TOP,Tongan Paʻanga,Tongan paʻanga,Tongan paʻanga,TOP,T$,တွန်ဂါ ဗန်ဂါ,พาแองกาตองกา,current_tender,TO,1966-02-14,2,2,49
+TPE,Timorese Escudo,Timorese escudo,Timorese escudos,,,,เอสคูโดติมอร์,historical_or_non_tender,,,2,2,49
+TRL,Turkish Lira (1922–2005),Turkish lira (1922–2005),Turkish Lira (1922–2005),,,ရှေးဟောင်းတူရကီ လိုင်ရာ,ลีราตุรกีเก่า,historical_or_non_tender,,,0,0,49
+TRY,Turkish Lira,Turkish lira,Turkish Lira,TRY,₺,တူရကီ လိုင်ရာ,ลีราตุรกี,current_tender,TR,2005-01-01,2,2,49
+TTD,Trinidad & Tobago Dollar,Trinidad & Tobago dollar,Trinidad & Tobago dollars,TTD,$,ထရီနီဒတ်နှင့် တိုဘက်ဂို ဒေါ်လာ,ดอลลาร์ตรินิแดดและโตเบโก,current_tender,TT,1964-01-01,2,2,49
+TWD,New Taiwan Dollar,New Taiwan dollar,New Taiwan dollars,NT$,$,ထိုင်ဝမ် ဒေါ်လာအသစ်,ดอลลาร์ไต้หวันใหม่,current_tender,TW,1949-06-15,2,0,49
+TZS,Tanzanian Shilling,Tanzanian shilling,Tanzanian shillings,TZS,,တန်ဇန်းနီးယား သျှီလင်,ชิลลิงแทนซาเนีย,current_tender,TZ,1966-06-14,2,0,49
+UAH,Ukrainian Hryvnia,Ukrainian hryvnia,Ukrainian hryvnias,UAH,₴,ယူကရိန်း ဟီရီဗင်းညား,ฮรีฟเนียยูเครน,current_tender,UA,1996-09-02,2,2,49
+UAK,Ukrainian Karbovanets,Ukrainian karbovanets,Ukrainian karbovantsiv,,,,คาร์โบวาเนตซ์ยูเครน,historical_or_non_tender,,,2,2,49
+UGS,Ugandan Shilling (1966–1987),Ugandan shilling (1966–1987),Ugandan shillings (1966–1987),,,,ชิลลิงยูกันดา (1966–1987),historical_or_non_tender,,,2,2,49
+UGX,Ugandan Shilling,Ugandan shilling,Ugandan shillings,UGX,,ယူဂန္ဒာ သျှီလင်,ชิลลิงยูกันดา,current_tender,UG,1987-05-15,0,0,49
+USD,US Dollar,US dollar,US dollars,$,$,အမေရိကန် ဒေါ်လာ,ดอลลาร์สหรัฐ,current_tender,AS|BQ|DG|EC|FM|GU|HT|IO|MH|MP|PA|PR|PW|SV|TC|TL|UM|US|VG|VI|ZW,1792-01-01,2,2,49
+USN,US Dollar (Next day),US dollar (next day),US dollars (next day),,,အမေရိကန် ဒေါ်လာ (နောက်နေ့),ดอลลาร์สหรัฐ (วันถัดไป),historical_or_non_tender,,,2,2,49
+USS,US Dollar (Same day),US dollar (same day),US dollars (same day),,,အမေရိကန် ဒေါ်လာ (တနေ့တည်း),ดอลลาร์สหรัฐ (วันเดียวกัน),historical_or_non_tender,,,2,2,49
+UYI,Uruguayan Peso (Indexed Units),Uruguayan peso (indexed units),Uruguayan pesos (indexed units),,,,เปโซเอนยูนิแดดเซสอินเด็กซาแดสอุรุกวัย,historical_or_non_tender,,,0,0,49
+UYP,Uruguayan Peso (1975–1993),Uruguayan peso (1975–1993),Uruguayan pesos (1975–1993),,,,เปโซอุรุกวัย (1975–1993),historical_or_non_tender,,,2,2,49
+UYU,Uruguayan Peso,Uruguayan peso,Uruguayan pesos,UYU,$,ဥရုဂွေး ပီဆို,เปโซอุรุกวัย,current_tender,UY,1993-03-01,2,2,49
+UYW,Uruguayan Nominal Wage Index Unit,Uruguayan nominal wage index unit,Uruguayan nominal wage index units,,,,,historical_or_non_tender,,,4,4,49
+UZS,Uzbekistani Som,Uzbekistani som,Uzbekistani som,UZS,,ဥဇဘက်ကစ္စတန် ဆော်မ်,ซอมอุซเบกิสถาน,current_tender,UZ,1994-07-01,2,0,49
+VEB,Venezuelan Bolívar (1871–2008),Venezuelan bolívar (1871–2008),Venezuelan bolívars (1871–2008),,,,โบลิวาร์เวเนซุเอลา (1871–2008),historical_or_non_tender,,,2,2,49
+VED,Bolívar Soberano,Bolívar Soberano,Bolívar Soberanos,,,,,historical_or_non_tender,,,2,2,49
+VEF,Venezuelan Bolívar (2008–2018),Venezuelan bolívar (2008–2018),Venezuelan bolívars (2008–2018),,Bs,ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈),โบลิวาร์เวเนซุเอลา,historical_or_non_tender,,,2,0,49
+VES,Venezuelan Bolívar,Venezuelan bolívar,Venezuelan bolívars,VES,,ဗင်နီဇွဲလန်း ဘိုလီဗာ,โบลีวาร์เวเนซุเอลา,current_tender,VE,2018-08-20,2,2,49
+VND,Vietnamese Dong,Vietnamese dong,Vietnamese dong,₫,₫,ဗီယက်နမ် ဒေါင်,ดองเวียดนาม,current_tender,VN,1985-09-14,0,0,49
+VNN,Vietnamese Dong (1978–1985),Vietnamese dong (1978–1985),Vietnamese dong (1978–1985),,,,ดองเวียดนาม (1978–1985),historical_or_non_tender,,,2,2,49
+VUV,Vanuatu Vatu,Vanuatu vatu,Vanuatu vatus,VUV,,ဗနွားတူ ဗားထူ,วาตูวานูอาตู,current_tender,VU,1981-01-01,0,0,49
+WST,Samoan Tala,Samoan tala,Samoan tala,WST,,ဆမိုအား ထားလာ,ทาลาซามัว,current_tender,WS,1967-07-10,2,2,49
+XAF,Central African CFA Franc,Central African CFA franc,Central African CFA francs,FCFA,,ကင်မရွန်း ဖရန့်,ฟรังก์ซีเอฟเอแอฟริกาตะวันตก,current_tender,CF|CG|CM|GA|GQ|TD,1973-04-01,0,0,49
+XAG,Silver,troy ounce of silver,troy ounces of silver,,,ငွေ,เงิน,historical_or_non_tender,,,2,2,49
+XAU,Gold,troy ounce of gold,troy ounces of gold,,,ရွှေ,ทอง,historical_or_non_tender,,,2,2,49
+XBA,European Composite Unit,European composite unit,European composite units,,,,หน่วยคอมโพสิตยุโรป,historical_or_non_tender,,,2,2,49
+XBB,European Monetary Unit,European monetary unit,European monetary units,,,ဥရောပငွေကြေးစံနစ်,หน่วยโมเนทารียุโรป,historical_or_non_tender,,,2,2,49
+XBC,European Unit of Account (XBC),European unit of account (XBC),European units of account (XBC),,,,หน่วยบัญชียุโรป [XBC],historical_or_non_tender,,,2,2,49
+XBD,European Unit of Account (XBD),European unit of account (XBD),European units of account (XBD),,,,หน่วยบัญชียุโรป [XBD],historical_or_non_tender,,,2,2,49
+XCD,East Caribbean Dollar,East Caribbean dollar,East Caribbean dollars,EC$,$,အရှေ့ကာရစ်ဘီယံ ဒေါ်လာ,ดอลลาร์แคริบเบียนตะวันออก,current_tender,AG|AI|DM|GD|KN|LC|MS|VC,1965-10-06,2,2,49
+XCG,Caribbean guilder,Caribbean guilder,Caribbean guilders,Cg.,,ကာရစ်ဘီယံ ဂင်းဒါး,กิลเดอร์แคริบเบียน,current_tender,CW|SX,2025-03-31,2,2,49
+XDR,Special Drawing Rights,special drawing rights,special drawing rights,,,အထူးထုတ်ယူခွင့်,สิทธิถอนเงินพิเศษ,historical_or_non_tender,,,2,2,49
+XEU,European Currency Unit,European currency unit,European currency units,,,,หน่วยสกุลเงินยุโรป,historical_or_non_tender,,,2,2,49
+XFO,French Gold Franc,French gold franc,French gold francs,,,,ฟรังก์ทองฝรั่งเศส,historical_or_non_tender,,,2,2,49
+XFU,French UIC-Franc,French UIC-franc,French UIC-francs,,,,ฟรังก์ยูไอซีฝรั่งเศส,historical_or_non_tender,,,2,2,49
+XOF,West African CFA Franc,West African CFA franc,West African CFA francs,F CFA,,အနောက် အာဖရိက [CFA ]ဖရန့်,ฟรังก์เซฟาธนาคารกลางรัฐแอฟริกาตะวันตก,current_tender,BF|BJ|CI|GW|ML|NE|SN|TG,1958-11-28,0,0,49
+XPD,Palladium,troy ounce of palladium,troy ounces of palladium,,,,พัลเลเดียม,historical_or_non_tender,,,2,2,49
+XPF,CFP Franc,CFP franc,CFP francs,CFPF,,[CFP] ဖရန့်,ฟรังก์ซีเอฟพี,current_tender,NC|PF|WF,1945-12-26,0,0,49
+XPT,Platinum,troy ounce of platinum,troy ounces of platinum,,,ပလက်တီနမ်,แพลตินัม,historical_or_non_tender,,,2,2,49
+XRE,RINET Funds,RINET Funds unit,RINET Funds units,,,,กองทุนไรเน็ต,historical_or_non_tender,,,2,2,49
+XSU,Sucre,Sucre,Sucres,,,,ซูเกร,historical_or_non_tender,,,2,2,49
+XTS,Testing Currency Code,Testing Currency unit,Testing Currency units,,,စမ်းသပ် ငွေကြေး ကုဒ်,รหัสทดสอบสกุลเงิน,historical_or_non_tender,,,2,2,49
+XUA,ADB Unit of Account,ADB unit of account,ADB units of account,,,,หน่วยบัญชี เอดีบี,historical_or_non_tender,,,2,2,49
+XXX,Unknown Currency,(unknown unit of currency),(unknown currency),¤,,မသိသို့မဟုတ်မရှိသောငွေကြေး,ไม่ทราบชื่อสกุลเงิน,historical_or_non_tender,,,2,2,49
+YDD,Yemeni Dinar,Yemeni dinar,Yemeni dinars,,,,ดีนาร์เยเมน,historical_or_non_tender,,,2,2,49
+YER,Yemeni Rial,Yemeni rial,Yemeni rials,YER,,ယီမင်နီ ရီရယ်,เรียลเยเมน,current_tender,YE,1990-05-22,0,0,49
+YUD,Yugoslavian Hard Dinar (1966–1990),Yugoslavian hard dinar (1966–1990),Yugoslavian hard dinars (1966–1990),,,,ฮาร์ดดีนาร์ยูโกสลาเวีย,historical_or_non_tender,,,2,2,49
+YUM,Yugoslavian New Dinar (1994–2002),Yugoslavian new dinar (1994–2002),Yugoslavian new dinars (1994–2002),,,,โนวิย์ดีนาร์ยูโกสลาเวีย,historical_or_non_tender,,,2,2,49
+YUN,Yugoslavian Convertible Dinar (1990–1992),Yugoslavian convertible dinar (1990–1992),Yugoslavian convertible dinars (1990–1992),,,,คอนเวอร์ทิเบิลดีนาร์ยูโกสลาเวีย,historical_or_non_tender,,,2,2,49
+YUR,Yugoslavian Reformed Dinar (1992–1993),Yugoslavian reformed dinar (1992–1993),Yugoslavian reformed dinars (1992–1993),,,,ดีนาร์ปฏิรูปยูโกสลาเวีย (1992–1993),historical_or_non_tender,,,2,2,49
+ZAL,South African Rand (financial),South African rand (financial),South African rands (financial),,,,แรนด์แอฟริกาใต้ (การเงิน),historical_or_non_tender,,,2,2,49
+ZAR,South African Rand,South African rand,South African rand,ZAR,R,တောင်အာဖရိက ရန်း,แรนด์แอฟริกาใต้,current_tender,LS|NA|ZA,1961-02-14,2,2,49
+ZMK,Zambian Kwacha (1968–2012),Zambian kwacha (1968–2012),Zambian kwachas (1968–2012),,,,ควาชาแซมเบีย (1968–2012),historical_or_non_tender,,,0,0,49
+ZMW,Zambian Kwacha,Zambian kwacha,Zambian kwachas,ZMW,ZK,ဇင်ဘာဘွေ ခွါးချာ,ควาชาแซมเบีย,current_tender,ZM,2013-01-01,2,2,49
+ZRN,Zairean New Zaire (1993–1998),Zairean new zaire (1993–1998),Zairean new zaires (1993–1998),,,,นิวแซร์คองโก,historical_or_non_tender,,,2,2,49
+ZRZ,Zairean Zaire (1971–1993),Zairean zaire (1971–1993),Zairean zaires (1971–1993),,,,แซร์คองโก,historical_or_non_tender,,,2,2,49
+ZWD,Zimbabwean Dollar (1980–2008),Zimbabwean dollar (1980–2008),Zimbabwean dollars (1980–2008),,,ဇင်ဘာဘွေ ဒေါ်လာ,ดอลลาร์ซิมบับเว,historical_or_non_tender,,,0,0,49
+ZWG,Zimbabwean Gold,Zimbabwean gold,Zimbabwean gold,ZWG,,ဇင်ဘာဘွေ ရွှေ,ทองซิมบับเว,current_tender,ZW,2024-06-25,2,2,49
+ZWL,Zimbabwean Dollar (2009–2024),Zimbabwean dollar (2009–2024),Zimbabwean dollars (2009–2024),,,,ดอลลาร์ซิมบับเว (2009),historical_or_non_tender,,,2,2,49
+ZWR,Zimbabwean Dollar (2008),Zimbabwean dollar (2008),Zimbabwean dollars (2008),,,,ดอลลาร์ซิมบับเว (2008),historical_or_non_tender,,,2,2,49

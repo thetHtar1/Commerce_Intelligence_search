@@ -1,0 +1,35 @@
+{
+  "dataset": "currency_resolution_v1",
+  "cldr_version": "49",
+  "currencies": 306,
+  "current_tender_currencies": 153,
+  "historical_or_non_tender_currencies": 153,
+  "aliases": 1636,
+  "unambiguous_aliases": 1597,
+  "ambiguous_aliases": 39,
+  "query_examples": 28812,
+  "trainable_query_examples": 28152,
+  "locales": [
+    "en",
+    "my",
+    "th"
+  ],
+  "sources": {
+    "currency_data": {
+      "file": "data/raw/currency/cldr_49_currency_data.json",
+      "sha256": "c187138fb1a91508056924caa7e11a63d4d579c2f34176949afa817f7ed63715"
+    },
+    "en": {
+      "file": "data/raw/currency/cldr_49_en_currencies.json",
+      "sha256": "50c29c39b6d54444e2e0e72245c22e75ff567d85060da9a531e3590aa4064f66"
+    },
+    "my": {
+      "file": "data/raw/currency/cldr_49_my_currencies.json",
+      "sha256": "1e74641cf36fb03be0c301fa258ac1e0740c048a6ef2abe979eace260d544002"
+    },
+    "th": {
+      "file": "data/raw/currency/cldr_49_th_currencies.json",
+      "sha256": "c08ccb063d0f9b32bc2f141d9498df851d8bd063cba7865dc43377013f06bd77"
+    }
+  }
+}

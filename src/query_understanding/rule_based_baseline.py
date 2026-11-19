@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import functools
 import re
 from pathlib import Path
 from typing import Any
@@ -11,6 +12,31 @@ try:
     from .validate_dataset import DEFAULT_DATA_DIR
 except ImportError:  # Support direct execution as a script from the repository root.
     from validate_dataset import DEFAULT_DATA_DIR
+
+DEFAULT_CURRENCY_DATA_DIR = DEFAULT_DATA_DIR.parent / "currency_resolution"
+
+
+def _currency_pattern_parts() -> tuple[str, str]:
+    """Load ISO codes and CLDR symbol spellings for numeric query patterns."""
+    alias_path = DEFAULT_CURRENCY_DATA_DIR / "currency_aliases.csv"
+    code_path = DEFAULT_CURRENCY_DATA_DIR / "currency_registry.csv"
+    fallback = (r"[$€£฿¥₹₽₩₺₫₪₱₴₦₲₡₵₸₭₮₨؋֏₼₾]", r"USD|THB")
+    if not alias_path.is_file() or not code_path.is_file():
+        return fallback
+    with code_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        codes = sorted((row["currency_code"] for row in csv.DictReader(handle)), key=len, reverse=True)
+    symbols: set[str] = set()
+    with alias_path.open("r", encoding="utf-8-sig", newline="") as handle:
+        for row in csv.DictReader(handle):
+            kinds = set((row.get("alias_types") or "").split("|"))
+            alias = (row.get("alias") or "").strip()
+            if alias and kinds & {"symbol", "narrow_symbol", "symbol_variant"} and not any(char.isspace() for char in alias):
+                symbols.add(alias)
+    symbol_pattern = "|".join(re.escape(symbol) for symbol in sorted(symbols, key=len, reverse=True))
+    return (symbol_pattern or fallback[0], "|".join(re.escape(code) for code in codes) or fallback[1])
+
+
+CURRENCY_SYMBOL_PATTERN, CURRENCY_CODE_PATTERN = _currency_pattern_parts()
 
 
 PRODUCT_CATEGORIES = [
@@ -56,8 +82,8 @@ PRODUCT_CATEGORIES = [
 ]
 PRODUCT_CATEGORIES.sort(key=len, reverse=True)
 
-NUMBER = r"(?:[$€£฿]\s*)?\d[\d,]*(?:\.\d+)?"
-UNIT = r"(?:\s*(?:baht|THB|USD|stars?|GB|TB|kg|grams?|lb|liters?|liter|hours?|days?|inches?|reviews?|x))?"
+NUMBER = rf"(?:(?:{CURRENCY_SYMBOL_PATTERN})\s*)?\d[\d,]*(?:\.\d+)?"
+UNIT = rf"(?:\s*(?:(?:baht|{CURRENCY_CODE_PATTERN})(?!\w)|stars?|GB|TB|kg|grams?|lb|liters?|liter|hours?|days?|inches?|reviews?|x))?"
 METRIC_SUFFIX = r"(?:\s+(?:RAM|storage|capacity|battery\s+life|optical\s+zoom|video\s+recording))?"
 OPERATOR = (
     r"less\s+than\s+or\s+equal\s+to|greater\s+than\s+or\s+equal\s+to|"
@@ -123,6 +149,100 @@ def load_lexicon(path: Path | None = None) -> list[dict[str, str]]:
     path = path or DEFAULT_DATA_DIR / "expression_lexicon.csv"
     with path.open("r", encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
+
+
+@functools.lru_cache(maxsize=1)
+def load_currency_aliases(path: Path | None = None) -> list[dict[str, str]]:
+    path = path or DEFAULT_CURRENCY_DATA_DIR / "currency_aliases.csv"
+    if not path.is_file():
+        return []
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
+@functools.lru_cache(maxsize=1)
+def _compiled_currency_aliases() -> list[tuple[dict[str, str], re.Pattern[str], bool]]:
+    compiled: list[tuple[dict[str, str], re.Pattern[str], bool]] = []
+    for row in load_currency_aliases():
+        alias = (row.get("alias") or "").strip()
+        if not alias:
+            continue
+        kinds = set((row.get("alias_types") or "").split("|"))
+        is_symbol = bool(kinds & {"symbol", "narrow_symbol", "symbol_variant"}) and not any(
+            char.isalnum() for char in alias
+        )
+        pattern = (
+            re.compile(re.escape(alias))
+            if is_symbol
+            else re.compile(rf"(?<!\w){re.escape(alias)}(?=$|\W|\d)", re.IGNORECASE)
+        )
+        compiled.append((row, pattern, is_symbol))
+    return compiled
+
+
+def resolve_currency(query: str) -> dict[str, Any]:
+    """Resolve currency mentions from the CLDR alias table; preserve ambiguous symbols."""
+    numeric_matches = list(re.finditer(r"\d[\d,]*(?:\.\d+)?", query))
+    if not numeric_matches:
+        return {"currency_code": None, "candidate_codes": [], "matches": [], "ambiguous": False}
+
+    hits: list[dict[str, Any]] = []
+    for row, pattern, is_symbol in _compiled_currency_aliases():
+        alias = (row.get("alias") or "").strip()
+        if not alias:
+            continue
+        candidates = [code for code in (row.get("candidate_codes") or "").split("|") if code]
+        for match in pattern.finditer(query):
+            distance = min(
+                max(number.start() - match.end(), match.start() - number.end(), 0)
+                for number in numeric_matches
+            )
+            if distance > 36:
+                continue
+            if is_symbol and not re.search(r"\d", query[max(0, match.start() - 4):match.end() + 4]):
+                continue
+            hits.append(
+                {
+                    "start": match.start(),
+                    "end": match.end(),
+                    "alias": alias,
+                    "candidate_codes": candidates,
+                    "unique": len(candidates) == 1,
+                    "length": match.end() - match.start(),
+                    "nearest_number_start": min(
+                        numeric_matches,
+                        key=lambda number: max(number.start() - match.end(), match.start() - number.end(), 0),
+                    ).start(),
+                }
+            )
+
+    hits.sort(key=lambda hit: (-hit["length"], not hit["unique"], hit["start"]))
+    selected: list[dict[str, Any]] = []
+    for hit in hits:
+        if any(hit["start"] < chosen["end"] and chosen["start"] < hit["end"] for chosen in selected):
+            continue
+        selected.append(hit)
+
+    unique_hits = [hit for hit in selected if hit["unique"]]
+    unique_codes = {hit["candidate_codes"][0] for hit in unique_hits}
+    all_candidates = sorted({code for hit in selected for code in hit["candidate_codes"]})
+    resolved = next(iter(unique_codes)) if len(unique_codes) == 1 else None
+    ambiguous_hits = [hit for hit in selected if not hit["unique"]]
+    # A clear code/name mention resolves a generic symbol when both refer to the same amount.
+    resolved_same_amount = bool(unique_hits) and all(
+        any(hit["nearest_number_start"] == unique["nearest_number_start"] for unique in unique_hits)
+        for hit in ambiguous_hits
+    )
+    ambiguous = bool(selected) and (len(unique_codes) != 1 or (ambiguous_hits and not resolved_same_amount))
+    if len(unique_codes) == 1 and (not ambiguous_hits or resolved_same_amount):
+        ambiguous = False
+        all_candidates = [resolved]
+    return {
+        "currency_code": resolved if not ambiguous else None,
+        "candidate_codes": all_candidates,
+        "matches": selected,
+        "ambiguous": ambiguous,
+    }
 
 
 def _add(candidates: list[dict[str, Any]], query: str, match: re.Match[str], label: str, priority: int) -> None:
@@ -216,7 +336,7 @@ def predict_spans(query: str, lexicon: list[dict[str, str]] | None = None) -> li
     return sorted(selected, key=lambda item: item["start"])
 
 
-def _field_for(text: str, label: str) -> str:
+def _field_for(text: str, label: str, currency_present: bool = False) -> str:
     value = text.casefold()
     if any(token in value for token in ("$", "baht", "price", "budget", "expensive", "cheap", "affordable")):
         return "price"
@@ -246,10 +366,12 @@ def _field_for(text: str, label: str) -> str:
         return "size"
     if "similar" in value or "alternative" in value or "brand" in value:
         return "product_identity"
+    if currency_present and re.search(r"\d", text):
+        return "price"
     return "product_property" if label == "product_attribute" else "query_preference"
 
 
-def _numeric_slots(text: str) -> tuple[str, Any, str | None] | None:
+def _numeric_slots(text: str, currency_code: str | None = None) -> tuple[str, Any, str | None] | None:
     lowered = text.casefold()
     op_match = re.search(OPERATOR, lowered, flags=re.IGNORECASE)
     number_matches = list(re.finditer(r"\d[\d,]*(?:\.\d+)?", text))
@@ -280,10 +402,11 @@ def _numeric_slots(text: str) -> tuple[str, Any, str | None] | None:
     else:
         operator, value = "eq", values[0]
 
-    if "$" in text or "usd" in lowered or "dollar" in lowered:
-        unit = "USD"
-    elif "baht" in lowered or "฿" in text or "thb" in lowered:
-        unit = "THB"
+    currency_in_text = resolve_currency(text)
+    if currency_in_text["currency_code"]:
+        unit = currency_in_text["currency_code"]
+    elif currency_code:
+        unit = currency_code
     elif "star" in lowered:
         unit = "stars"
     elif "kg" in lowered:
@@ -333,10 +456,34 @@ def predict_intent(query: str, lexicon: list[dict[str, str]] | None = None) -> d
         "ambiguities": [],
         "needs_clarification": False,
     }
+    currency_resolution = resolve_currency(query)
+    if currency_resolution["ambiguous"]:
+        ambiguous_hits = [hit for hit in currency_resolution["matches"] if not hit["unique"]]
+        source_text = ambiguous_hits[0]["alias"] if ambiguous_hits else ", ".join(
+            hit["alias"] for hit in currency_resolution["matches"]
+        )
+        intent["ambiguities"].append(
+            {
+                "text": source_text,
+                "attribute": "currency",
+                "reason": "currency_alias_ambiguous",
+                "candidate_codes": currency_resolution["candidate_codes"],
+            }
+        )
+        intent["needs_clarification"] = True
     for span in predict_spans(query, lexicon):
         text, label = span["text"], span["label"]
-        field = _field_for(text, label)
-        numeric = _numeric_slots(text)
+        span_numbers = {
+            match.start() + span["start"]
+            for match in re.finditer(r"\d[\d,]*(?:\.\d+)?", text)
+        }
+        currency_present = any(
+            hit["nearest_number_start"] in span_numbers
+            for hit in currency_resolution["matches"]
+        )
+        currency_code = currency_resolution["currency_code"] if currency_present else None
+        field = _field_for(text, label, currency_present)
+        numeric = _numeric_slots(text, currency_code=currency_code if field == "price" else None)
         if label == "product_attribute":
             value = text.casefold().removeprefix("for ").replace("-", " ")
             if field == "hair_type" and "dry" in value:

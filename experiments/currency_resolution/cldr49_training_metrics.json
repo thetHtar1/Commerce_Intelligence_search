@@ -1,0 +1,86 @@
+{
+  "model": "character_tfidf_sgd_log_loss",
+  "model_path": "experiments/models/currency_resolution/cldr49_currency_classifier.joblib",
+  "dataset": "CLDR-derived synthetic currency mention queries; not production search logs",
+  "cldr_version": "49",
+  "split_strategy": "query_template_id; suffix 01-02=train, 03=validation, 04=test",
+  "ambiguous_alias_policy": "Ambiguous aliases are retained in split datasets for audit and excluded from classifier fitting and scoring.",
+  "split_counts": {
+    "train": {
+      "all_rows": 14406,
+      "trainable_rows": 14076,
+      "ambiguous_rows": 330,
+      "template_ids": [
+        "en_named_01",
+        "en_named_02",
+        "en_symbol_01",
+        "en_symbol_02",
+        "my_01",
+        "my_02",
+        "my_code_01",
+        "my_code_02",
+        "th_code_01",
+        "th_code_02",
+        "th_named_01",
+        "th_named_02",
+        "th_symbol_01",
+        "th_symbol_02"
+      ]
+    },
+    "validation": {
+      "all_rows": 7203,
+      "trainable_rows": 7038,
+      "ambiguous_rows": 165,
+      "template_ids": [
+        "en_named_03",
+        "en_symbol_03",
+        "my_03",
+        "my_code_03",
+        "th_code_03",
+        "th_named_03",
+        "th_symbol_03"
+      ]
+    },
+    "test": {
+      "all_rows": 7203,
+      "trainable_rows": 7038,
+      "ambiguous_rows": 165,
+      "template_ids": [
+        "en_named_04",
+        "en_symbol_04",
+        "my_04",
+        "my_code_04",
+        "th_code_04",
+        "th_named_04",
+        "th_symbol_04"
+      ]
+    }
+  },
+  "validation": {
+    "eligible_labeled_rows": 7038,
+    "ambiguous_rows_excluded": 165,
+    "accuracy": 0.9995737425404945,
+    "macro_f1": 0.9996357676197415,
+    "weighted_f1": 0.9995724228579572,
+    "top_3_accuracy": 1.0,
+    "currency_codes_in_eval": 306,
+    "rows_per_code_min": 15,
+    "rows_per_code_max": 39
+  },
+  "test": {
+    "eligible_labeled_rows": 7038,
+    "ambiguous_rows_excluded": 165,
+    "accuracy": 0.9994316567206593,
+    "macro_f1": 0.9995361664770447,
+    "weighted_f1": 0.9994305010716246,
+    "top_3_accuracy": 1.0,
+    "currency_codes_in_eval": 306,
+    "rows_per_code_min": 15,
+    "rows_per_code_max": 39
+  },
+  "limitations": [
+    "Synthetic examples use a fixed product category and three amount values.",
+    "Currency aliases appear in each split under different query templates, so this evaluates template generalization rather than unseen aliases.",
+    "Use the alias registry as the authoritative resolver; use the classifier as a learned fallback and evaluate on reviewed real queries before production."
+  ]
+}

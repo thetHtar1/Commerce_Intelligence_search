@@ -1,0 +1,1637 @@
+alias_id,alias,normalized_alias,locales,alias_types,candidate_codes,candidate_count,resolution_status,training_eligible
+3cdf2936da2f,$,$,en|my|th,narrow_symbol|symbol,ARS|AUD|BBD|BMD|BND|BSD|BZD|CAD|CLP|COP|CUC|CUP|DOP|FJD|GYD|HKD|JMD|KYD|LRD|MXN|NAD|NZD|SBD|SGD|SRD|TTD|TWD|USD|UYU|XCD,30,ambiguous,false
+89fee0382994,(unknown currency),(unknown currency),en,plural_name,XXX,1,unique,true
+d7559456d606,(unknown unit of currency),(unknown unit of currency),en,singular_name,XXX,1,unique,true
+e1682b18eae8,(ไม่ทราบชื่อสกุลเงิน),(ไม่ทราบชื่อสกุลเงิน),th,plural_name,XXX,1,unique,true
+98bf721fa915,(မသိသို့မဟုတ်မရှိသောငွေကြေး),(မသိသို့မဟုတ်မရှိသောငွေကြေး),my,plural_name,XXX,1,unique,true
+c0eb8e4895fe,[CFP] ဖရန့်,[cfp] ဖရန့်,my,display_name|plural_name,XPF,1,unique,true
+95cd748f9944,A$,a$,en|my,symbol,AUD,1,unique,true
+614522bbc1b7,ADB Unit of Account,adb unit of account,en,display_name|singular_name,XUA,1,unique,true
+4ce2f837a2af,ADB units of account,adb units of account,en,plural_name,XUA,1,unique,true
+0f0bcdd098b3,ADP,adp,und,iso_code,ADP,1,unique,true
+b77c351dac76,AED,aed,en|und,iso_code|symbol,AED,1,unique,true
+29b13d6be1f4,AFA,afa,und,iso_code,AFA,1,unique,true
+36578e761f38,Afghan Afghani,afghan afghani,en,display_name|singular_name,AFN,1,unique,true
+19f0bb56bf51,Afghan Afghani (1927–2002),afghan afghani (1927–2002),en,display_name|singular_name,AFA,1,unique,true
+cf9e12e30073,Afghan Afghanis,afghan afghanis,en,plural_name,AFN,1,unique,true
+482f9b94ac9e,Afghan afghanis (1927–2002),afghan afghanis (1927–2002),en,plural_name,AFA,1,unique,true
+18fa32e5f8ec,afghani,afghani,en,currency_name_core,AFN,1,unique,true
+47bbbbb8a0fa,afghanis,afghanis,en,currency_name_core,AFN,1,unique,true
+11cae8a1aa18,Afl,afl,my,symbol,AWG,1,unique,true
+65750e91a333,AFN,afn,en|und,iso_code|symbol,AFN,1,unique,true
+0e67856b559e,Albanian Lek,albanian lek,en,display_name|singular_name,ALL,1,unique,true
+f90ca68ea31d,Albanian Lek (1946–1965),albanian lek (1946–1965),en,display_name|singular_name,ALK,1,unique,true
+3f4e3df0bf5a,Albanian lekë,albanian lekë,en,plural_name,ALL,1,unique,true
+a9c3f34c277d,Albanian lekë (1946–1965),albanian lekë (1946–1965),en,plural_name,ALK,1,unique,true
+ef662d696311,Algerian Dinar,algerian dinar,en,display_name|singular_name,DZD,1,unique,true
+7016badb7eed,Algerian dinars,algerian dinars,en,plural_name,DZD,1,unique,true
+76658a2722cf,ALK,alk,und,iso_code,ALK,1,unique,true
+d87c448044de,ALL,all,en|und,iso_code|symbol,ALL,1,unique,true
+1ea0b794e1ac,AMD,amd,en|und,iso_code|symbol,AMD,1,unique,true
+e81e1032cf0c,Andorran Peseta,andorran peseta,en,display_name|singular_name,ADP,1,unique,true
+62472d8f2910,Andorran pesetas,andorran pesetas,en,plural_name,ADP,1,unique,true
+8f2e4f62be6b,ANG,ang,en|und,iso_code|symbol,ANG,1,unique,true
+ae893d148f5c,Angolan Kwanza,angolan kwanza,en,display_name|singular_name,AOA,1,unique,true
+1abebefb3f15,Angolan Kwanza (1977–1991),angolan kwanza (1977–1991),en,display_name|singular_name,AOK,1,unique,true
+77c7f9dcffe9,Angolan kwanzas,angolan kwanzas,en,plural_name,AOA,1,unique,true
+b7fd7a31efa6,Angolan kwanzas (1977–1991),angolan kwanzas (1977–1991),en,plural_name,AOK,1,unique,true
+9e365b7f2955,Angolan New Kwanza (1990–2000),angolan new kwanza (1990–2000),en,display_name|singular_name,AON,1,unique,true
+d257add2a391,Angolan new kwanzas (1990–2000),angolan new kwanzas (1990–2000),en,plural_name,AON,1,unique,true
+48ed1ec2996c,Angolan Readjusted Kwanza (1995–1999),angolan readjusted kwanza (1995–1999),en,display_name|singular_name,AOR,1,unique,true
+168de423aac0,Angolan readjusted kwanzas (1995–1999),angolan readjusted kwanzas (1995–1999),en,plural_name,AOR,1,unique,true
+86a0544f550d,AOA,aoa,en|und,iso_code|symbol,AOA,1,unique,true
+31b7f0ffe620,AOK,aok,und,iso_code,AOK,1,unique,true
+90c76bb8b2b5,AON,aon,und,iso_code,AON,1,unique,true
+8e6f6c7cb694,AOR,aor,und,iso_code,AOR,1,unique,true
+23d8e0156062,Ar,ar,en|my|th,narrow_symbol,MGA,1,unique,true
+ee12558b79a9,ARA,ara,und,iso_code,ARA,1,unique,true
+7a076348ed4a,Argentine Austral,argentine austral,en,display_name|singular_name,ARA,1,unique,true
+832845283417,Argentine australs,argentine australs,en,plural_name,ARA,1,unique,true
+ecb667d89c27,Argentine Peso,argentine peso,en,display_name|singular_name,ARS,1,unique,true
+d70387d2ae0d,Argentine Peso (1881–1970),argentine peso (1881–1970),en,display_name|singular_name,ARM,1,unique,true
+a8f735c95aaf,Argentine Peso (1983–1985),argentine peso (1983–1985),en,display_name|singular_name,ARP,1,unique,true
+9b55106f38bd,Argentine Peso Ley (1970–1983),argentine peso ley (1970–1983),en,display_name|singular_name,ARL,1,unique,true
+8f281a08176c,Argentine pesos,argentine pesos,en,plural_name,ARS,1,unique,true
+7d734fff358d,Argentine pesos (1881–1970),argentine pesos (1881–1970),en,plural_name,ARM,1,unique,true
+cb0f4d299965,Argentine pesos (1983–1985),argentine pesos (1983–1985),en,plural_name,ARP,1,unique,true
+155d5979f797,Argentine pesos ley (1970–1983),argentine pesos ley (1970–1983),en,plural_name,ARL,1,unique,true
+8ddc461110f8,ariaries,ariaries,en,currency_name_core,MGA,1,unique,true
+259cd68832b3,ariary,ariary,en,currency_name_core,MGA,1,unique,true
+789311e24f4b,ARL,arl,und,iso_code,ARL,1,unique,true
+ed945d6b996f,ARM,arm,und,iso_code,ARM,1,unique,true
+d48dba195017,Armenian Dram,armenian dram,en,display_name|singular_name,AMD,1,unique,true
+709417bae423,Armenian drams,armenian drams,en,plural_name,AMD,1,unique,true
+19ddb1621816,ARP,arp,und,iso_code,ARP,1,unique,true
+9c2996daf831,ARS,ars,en|und,iso_code|symbol,ARS,1,unique,true
+76030b1b06e4,Aruban Florin,aruban florin,en,display_name|plural_name|singular_name,AWG,1,unique,true
+0014592ca578,ATS,ats,und,iso_code,ATS,1,unique,true
+0982fe6bf286,AU$,au$,th,symbol,AUD,1,unique,true
+5e3ac5af72b7,AUD,aud,und,iso_code,AUD,1,unique,true
+d7873df98773,Australian Dollar,australian dollar,en,display_name|singular_name,AUD,1,unique,true
+3c749a308e09,Australian dollars,australian dollars,en,plural_name,AUD,1,unique,true
+7f03b08732e6,Austrian Schilling,austrian schilling,en,display_name|singular_name,ATS,1,unique,true
+0ee06624d66e,Austrian schillings,austrian schillings,en,plural_name,ATS,1,unique,true
+655dd4039015,AWG,awg,en|und,iso_code|symbol,AWG,1,unique,true
+3ef5753c1615,Azerbaijani Manat,azerbaijani manat,en,display_name|singular_name,AZN,1,unique,true
+89c738b513a2,Azerbaijani Manat (1993–2006),azerbaijani manat (1993–2006),en,display_name|singular_name,AZM,1,unique,true
+c8f75ca4d683,Azerbaijani manats,azerbaijani manats,en,plural_name,AZN,1,unique,true
+885fbad5c109,Azerbaijani manats (1993–2006),azerbaijani manats (1993–2006),en,plural_name,AZM,1,unique,true
+538a59010c3e,AZM,azm,und,iso_code,AZM,1,unique,true
+6a692a3b5bd2,AZN,azn,en|und,iso_code|symbol,AZN,1,unique,true
+28317d776049,B$,b$,my,narrow_symbol,BSD,1,unique,true
+e1bf4d77d389,B/.,b/.,my,symbol,PAB,1,unique,true
+1902e3d6fc4e,BAD,bad,und,iso_code,BAD,1,unique,true
+dd7c0cbcd11d,Bahamian Dollar,bahamian dollar,en,display_name|singular_name,BSD,1,unique,true
+5eab6f801a0b,Bahamian dollars,bahamian dollars,en,plural_name,BSD,1,unique,true
+56db927800dc,Bahraini Dinar,bahraini dinar,en,display_name|singular_name,BHD,1,unique,true
+34d49a257c3b,Bahraini dinars,bahraini dinars,en,plural_name,BHD,1,unique,true
+ea90904be544,baht,baht,en,currency_name_core,THB,1,unique,true
+5a9c373886f4,balboa,balboa,en,currency_name_core,PAB,1,unique,true
+14c3ca5eeefa,balboas,balboas,en,currency_name_core,PAB,1,unique,true
+7af258594b50,BAM,bam,en|und,iso_code|symbol,BAM,1,unique,true
+2580d49ff406,BAN,ban,und,iso_code,BAN,1,unique,true
+966081193690,Bangladeshi Taka,bangladeshi taka,en,display_name|singular_name,BDT,1,unique,true
+64cd61091f86,Bangladeshi takas,bangladeshi takas,en,plural_name,BDT,1,unique,true
+b011782bfc90,Barbadian Dollar,barbadian dollar,en,display_name|singular_name,BBD,1,unique,true
+050c3c73f68f,Barbadian dollars,barbadian dollars,en,plural_name,BBD,1,unique,true
+9b5b2c2b02e6,BBD,bbd,en|und,iso_code|symbol,BBD,1,unique,true
+c9d09671e5de,Bds$,bds$,my,narrow_symbol,BBD,1,unique,true
+585785ead0b2,BDT,bdt,en|und,iso_code|symbol,BDT,1,unique,true
+ed5bdd0b6efa,BEC,bec,und,iso_code,BEC,1,unique,true
+ded4d7a3ef27,BEF,bef,und,iso_code,BEF,1,unique,true
+47339068f2e5,BEL,bel,und,iso_code,BEL,1,unique,true
+03b066dfcd18,Belarusian Ruble,belarusian ruble,en,display_name|singular_name,BYN,1,unique,true
+c7341d2f1b3c,Belarusian Ruble (1994–1999),belarusian ruble (1994–1999),en,display_name|singular_name,BYB,1,unique,true
+de2ddd420bb9,Belarusian Ruble (2000–2016),belarusian ruble (2000–2016),en,display_name|singular_name,BYR,1,unique,true
+47cce5513b99,Belarusian rubles,belarusian rubles,en,plural_name,BYN,1,unique,true
+066cbf9bd09f,Belarusian rubles (1994–1999),belarusian rubles (1994–1999),en,plural_name,BYB,1,unique,true
+12cf3a36534f,Belarusian rubles (2000–2016),belarusian rubles (2000–2016),en,plural_name,BYR,1,unique,true
+50986e34a2aa,Belgian Franc,belgian franc,en,display_name|singular_name,BEF,1,unique,true
+c17a598371fe,Belgian Franc (convertible),belgian franc (convertible),en,display_name|singular_name,BEC,1,unique,true
+c78bfc821c9a,Belgian Franc (financial),belgian franc (financial),en,display_name|singular_name,BEL,1,unique,true
+c7945579de27,Belgian francs,belgian francs,en,plural_name,BEF,1,unique,true
+16c1fc5f6beb,Belgian francs (convertible),belgian francs (convertible),en,plural_name,BEC,1,unique,true
+55517f9bc84f,Belgian francs (financial),belgian francs (financial),en,plural_name,BEL,1,unique,true
+c9ee04be2d66,Belize Dollar,belize dollar,en,display_name|singular_name,BZD,1,unique,true
+c489bdcabf7a,Belize dollars,belize dollars,en,plural_name,BZD,1,unique,true
+4033bcf9f4ae,Bermudan Dollar,bermudan dollar,en,display_name|singular_name,BMD,1,unique,true
+25c03e7473d4,Bermudan dollars,bermudan dollars,en,plural_name,BMD,1,unique,true
+aa38e0ef3229,BGL,bgl,und,iso_code,BGL,1,unique,true
+9e94776d31bf,BGM,bgm,und,iso_code,BGM,1,unique,true
+00d0c856e4d5,BGN,bgn,en|und,iso_code|symbol,BGN,1,unique,true
+c1d9e78677f2,BGO,bgo,und,iso_code,BGO,1,unique,true
+f79f61e8075e,BHD,bhd,en|und,iso_code|symbol,BHD,1,unique,true
+263977aba689,Bhutanese Ngultrum,bhutanese ngultrum,en,display_name|singular_name,BTN,1,unique,true
+642f513efc00,Bhutanese ngultrums,bhutanese ngultrums,en,plural_name,BTN,1,unique,true
+1dcf14bc3c46,BIF,bif,en|und,iso_code|symbol,BIF,1,unique,true
+386de817fca6,birr,birr,en,currency_name_core,ETB,1,unique,true
+de1996c1df08,birrs,birrs,en,currency_name_core,ETB,1,unique,true
+70ed6b1813a4,BMD,bmd,en|und,iso_code|symbol,BMD,1,unique,true
+bafb221cad8d,BND,bnd,en|und,iso_code|symbol,BND,1,unique,true
+48181acd22b3,BOB,bob,en|und,iso_code|symbol,BOB,1,unique,true
+44b15b2b2080,BOL,bol,und,iso_code,BOL,1,unique,true
+4307c885e072,Bolivian Boliviano,bolivian boliviano,en,display_name|singular_name,BOB,1,unique,true
+1acee30d2459,Bolivian Boliviano (1863–1963),bolivian boliviano (1863–1963),en,display_name|singular_name,BOL,1,unique,true
+b7a402e3cc44,Bolivian bolivianos,bolivian bolivianos,en,plural_name,BOB,1,unique,true
+801cbacfd475,Bolivian bolivianos (1863–1963),bolivian bolivianos (1863–1963),en,plural_name,BOL,1,unique,true
+5f95427506d6,Bolivian Mvdol,bolivian mvdol,en,display_name|singular_name,BOV,1,unique,true
+5bbf2bd45cdf,Bolivian mvdols,bolivian mvdols,en,plural_name,BOV,1,unique,true
+577c9fa77028,Bolivian Peso,bolivian peso,en,display_name|singular_name,BOP,1,unique,true
+3f030f786b8a,Bolivian pesos,bolivian pesos,en,plural_name,BOP,1,unique,true
+e6a8d24b721e,boliviano,boliviano,en,currency_name_core,BOB,1,unique,true
+a6b832336bae,bolivianos,bolivianos,en,currency_name_core,BOB,1,unique,true
+1b22ef30071c,bolívar,bolívar,en,currency_name_core,VES,1,unique,true
+63db6e264894,Bolívar Soberano,bolívar soberano,en,display_name|singular_name,VED,1,unique,true
+0fb0af38099b,Bolívar Soberanos,bolívar soberanos,en,plural_name,VED,1,unique,true
+fef19f999d99,bolívars,bolívars,en,currency_name_core,VES,1,unique,true
+a2bcc9050233,BOP,bop,und,iso_code,BOP,1,unique,true
+104c520f4e21,Bosnia-Herzegovina Convertible Mark,bosnia-herzegovina convertible mark,en,display_name|singular_name,BAM,1,unique,true
+3a242f1324e1,Bosnia-Herzegovina convertible marks,bosnia-herzegovina convertible marks,en,plural_name,BAM,1,unique,true
+0068eec2e908,Bosnia-Herzegovina Dinar (1992–1994),bosnia-herzegovina dinar (1992–1994),en,display_name|singular_name,BAD,1,unique,true
+9c5add85f805,Bosnia-Herzegovina dinars (1992–1994),bosnia-herzegovina dinars (1992–1994),en,plural_name,BAD,1,unique,true
+f415527fd927,Bosnia-Herzegovina New Dinar (1994–1997),bosnia-herzegovina new dinar (1994–1997),en,display_name|singular_name,BAN,1,unique,true
+25f149bd4792,Bosnia-Herzegovina new dinars (1994–1997),bosnia-herzegovina new dinars (1994–1997),en,plural_name,BAN,1,unique,true
+610451676faf,Botswanan Pula,botswanan pula,en,display_name|singular_name,BWP,1,unique,true
+83cb9f6acd8c,Botswanan pulas,botswanan pulas,en,plural_name,BWP,1,unique,true
+df725e3fdf20,BOV,bov,und,iso_code,BOV,1,unique,true
+ecbbd1879154,Brazilian Cruzado (1986–1989),brazilian cruzado (1986–1989),en,display_name|singular_name,BRC,1,unique,true
+af77b2e93578,Brazilian cruzados (1986–1989),brazilian cruzados (1986–1989),en,plural_name,BRC,1,unique,true
+1bd318421838,Brazilian Cruzeiro (1942–1967),brazilian cruzeiro (1942–1967),en,display_name|singular_name,BRZ,1,unique,true
+ee6f823259b8,Brazilian Cruzeiro (1990–1993),brazilian cruzeiro (1990–1993),en,display_name|singular_name,BRE,1,unique,true
+18168b9cd28d,Brazilian Cruzeiro (1993–1994),brazilian cruzeiro (1993–1994),en,display_name|singular_name,BRR,1,unique,true
+aef9ff88b2d9,Brazilian cruzeiros (1942–1967),brazilian cruzeiros (1942–1967),en,plural_name,BRZ,1,unique,true
+9d08ed280491,Brazilian cruzeiros (1990–1993),brazilian cruzeiros (1990–1993),en,plural_name,BRE,1,unique,true
+e1c1657fa6c6,Brazilian cruzeiros (1993–1994),brazilian cruzeiros (1993–1994),en,plural_name,BRR,1,unique,true
+acb889aad3fe,Brazilian New Cruzado (1989–1990),brazilian new cruzado (1989–1990),en,display_name|singular_name,BRN,1,unique,true
+70f7de173f51,Brazilian new cruzados (1989–1990),brazilian new cruzados (1989–1990),en,plural_name,BRN,1,unique,true
+10e2fef1ae67,Brazilian New Cruzeiro (1967–1986),brazilian new cruzeiro (1967–1986),en,display_name|singular_name,BRB,1,unique,true
+0e01bf6de84e,Brazilian new cruzeiros (1967–1986),brazilian new cruzeiros (1967–1986),en,plural_name,BRB,1,unique,true
+abb82e7c9079,Brazilian Real,brazilian real,en,display_name|singular_name,BRL,1,unique,true
+11889b944e58,Brazilian reals,brazilian reals,en,plural_name,BRL,1,unique,true
+f55438a16402,BRB,brb,und,iso_code,BRB,1,unique,true
+b1c5719d12c6,BRC,brc,und,iso_code,BRC,1,unique,true
+a39a0fcfc6f5,BRE,bre,und,iso_code,BRE,1,unique,true
+09be0aa0d039,British Pound,british pound,en,display_name|singular_name,GBP,1,unique,true
+03598ec149c8,British pounds,british pounds,en,plural_name,GBP,1,unique,true
+602d4910c49e,BRL,brl,und,iso_code,BRL,1,unique,true
+bc16c7e5e6a8,BRN,brn,und,iso_code,BRN,1,unique,true
+0b20a70101a1,BRR,brr,und,iso_code,BRR,1,unique,true
+e5ab4898a24e,Brunei Dollar,brunei dollar,en,display_name|singular_name,BND,1,unique,true
+4e2c92a494ad,Brunei dollars,brunei dollars,en,plural_name,BND,1,unique,true
+850d273a23a3,BRZ,brz,und,iso_code,BRZ,1,unique,true
+f33330b10957,Bs,bs,en|my|th,narrow_symbol,BOB|VEF,2,ambiguous,false
+48f3f89ac3fa,BSD,bsd,en|und,iso_code|symbol,BSD,1,unique,true
+212301c593df,BTN,btn,en|und,iso_code|symbol,BTN,1,unique,true
+6ef6008c6501,BUK,buk,und,iso_code,BUK,1,unique,true
+3eb91a53e323,Bulgarian Hard Lev,bulgarian hard lev,en,display_name|singular_name,BGL,1,unique,true
+093390706cc4,Bulgarian hard leva,bulgarian hard leva,en,plural_name,BGL,1,unique,true
+46b0467d3faf,Bulgarian Lev,bulgarian lev,en,display_name|singular_name,BGN,1,unique,true
+339b4675386c,Bulgarian Lev (1879–1952),bulgarian lev (1879–1952),en,display_name|singular_name,BGO,1,unique,true
+3cba0e5f0a78,Bulgarian leva,bulgarian leva,en,plural_name,BGN,1,unique,true
+e18125a33fec,Bulgarian leva (1879–1952),bulgarian leva (1879–1952),en,plural_name,BGO,1,unique,true
+1f5d88578a6c,Bulgarian Socialist Lev,bulgarian socialist lev,en,display_name|singular_name,BGM,1,unique,true
+c3ac8126eb84,Bulgarian socialist leva,bulgarian socialist leva,en,plural_name,BGM,1,unique,true
+69dd0fe2006b,Burmese Kyat,burmese kyat,en,display_name|singular_name,BUK,1,unique,true
+f8a0e0c52e25,Burmese kyats,burmese kyats,en,plural_name,BUK,1,unique,true
+b2b7a829d260,Burundian Franc,burundian franc,en,display_name|singular_name,BIF,1,unique,true
+2cf9f7e8546a,Burundian francs,burundian francs,en,plural_name,BIF,1,unique,true
+a0e1462f8dba,BWP,bwp,en|und,iso_code|symbol,BWP,1,unique,true
+3699f9d2ada0,BYB,byb,und,iso_code,BYB,1,unique,true
+6905c6ca6b65,BYN,byn,en|und,iso_code|symbol,BYN,1,unique,true
+0dfad306809a,BYR,byr,und,iso_code,BYR,1,unique,true
+225c42091dd5,BZD,bzd,en|und,iso_code|symbol,BZD,1,unique,true
+0510f71242df,C$,c$,en|my|th,narrow_symbol,NIO,1,unique,true
+316d06144f60,CA$,ca$,en|my|th,symbol,CAD,1,unique,true
+462c18d5b890,CAD,cad,und,iso_code,CAD,1,unique,true
+f86cf7594148,Cambodian Riel,cambodian riel,en,display_name|singular_name,KHR,1,unique,true
+f1a07ef5b02a,Cambodian riels,cambodian riels,en,plural_name,KHR,1,unique,true
+d528a4525734,Canadian Dollar,canadian dollar,en,display_name|singular_name,CAD,1,unique,true
+b4cfdb41bb73,Canadian dollars,canadian dollars,en,plural_name,CAD,1,unique,true
+4f6c0ee97290,Cape Verdean Escudo,cape verdean escudo,en,display_name|singular_name,CVE,1,unique,true
+7c243b4aa30b,Cape Verdean escudos,cape verdean escudos,en,plural_name,CVE,1,unique,true
+755b6e16f3d6,Caribbean guilder,caribbean guilder,en,display_name|singular_name,XCG,1,unique,true
+dee588ba46c1,Caribbean guilders,caribbean guilders,en,plural_name,XCG,1,unique,true
+82e4264b14b1,Cayman Islands Dollar,cayman islands dollar,en,display_name|singular_name,KYD,1,unique,true
+e8a1c40ca6c4,Cayman Islands dollars,cayman islands dollars,en,plural_name,KYD,1,unique,true
+38d777105d2b,CDF,cdf,en|und,iso_code|symbol,CDF,1,unique,true
+cb3725b8e103,cedi,cedi,en,currency_name_core,GHS,1,unique,true
+7abf9fedd63c,cedis,cedis,en,currency_name_core,GHS,1,unique,true
+e8e28f6eaafd,Central African CFA Franc,central african cfa franc,en,display_name|singular_name,XAF,1,unique,true
+08aebde728db,Central African CFA francs,central african cfa francs,en,plural_name,XAF,1,unique,true
+f78b64c9e0f2,CF,cf,en|my|th,narrow_symbol,KMF,1,unique,true
+d9fe22f6af8b,CFP Franc,cfp franc,en,display_name|singular_name,XPF,1,unique,true
+73c9321a83e1,CFP francs,cfp francs,en,plural_name,XPF,1,unique,true
+4203935b2ecc,CFPF,cfpf,en|my|th,symbol,XPF,1,unique,true
+0b4f9396bf55,Cg.,cg.,en|my|th,symbol,XCG,1,unique,true
+69f14405f3a9,CHE,che,und,iso_code,CHE,1,unique,true
+3f93e2eb5fbf,CHF,chf,en|my|th|und,iso_code|symbol,CHF,1,unique,true
+02b93c2fc845,Chilean Escudo,chilean escudo,en,display_name|singular_name,CLE,1,unique,true
+747fdab9da4d,Chilean escudos,chilean escudos,en,plural_name,CLE,1,unique,true
+8794f71de9a9,Chilean Peso,chilean peso,en,display_name|singular_name,CLP,1,unique,true
+0441e12fbf11,Chilean pesos,chilean pesos,en,plural_name,CLP,1,unique,true
+53c9cafb9aaf,Chilean Unit of Account (UF),chilean unit of account (uf),en,display_name|singular_name,CLF,1,unique,true
+887fe8e31a54,Chilean units of account (UF),chilean units of account (uf),en,plural_name,CLF,1,unique,true
+5dce7773f32e,Chinese Yuan,chinese yuan,en,display_name|plural_name|singular_name,CNY,1,unique,true
+8db80791012e,Chinese Yuan (offshore),chinese yuan (offshore),en,display_name|plural_name|singular_name,CNH,1,unique,true
+43c130df0a1a,CHW,chw,und,iso_code,CHW,1,unique,true
+0546306c6a77,CLE,cle,und,iso_code,CLE,1,unique,true
+d22cd1955aca,CLF,clf,und,iso_code,CLF,1,unique,true
+3522ac5749e0,CLP,clp,en|und,iso_code|symbol,CLP,1,unique,true
+d5ed9e109429,CNH,cnh,en|und,iso_code|symbol,CNH,1,unique,true
+9bbef728b12a,CNY,cny,und,iso_code,CNY,1,unique,true
+d702a60155cd,CN¥,cn¥,en|my|th,symbol,CNY,1,unique,true
+9bc82d701203,Colombian Peso,colombian peso,en,display_name|singular_name,COP,1,unique,true
+760dc0b781ca,Colombian pesos,colombian pesos,en,plural_name,COP,1,unique,true
+7c8c8217e12d,Colombian Real Value Unit,colombian real value unit,en,display_name|singular_name,COU,1,unique,true
+fbd36926523b,Colombian real value units,colombian real value units,en,plural_name,COU,1,unique,true
+2ec4181a7797,colón,colón,en,currency_name_core,CRC,1,unique,true
+f3363252d9fe,colóns,colóns,en,currency_name_core,CRC,1,unique,true
+c4fcea453e51,Comorian Franc,comorian franc,en,display_name|singular_name,KMF,1,unique,true
+d50003429c39,Comorian francs,comorian francs,en,plural_name,KMF,1,unique,true
+b35b66415618,Congolese Franc,congolese franc,en,display_name|singular_name,CDF,1,unique,true
+edc7d4dcf23a,Congolese francs,congolese francs,en,plural_name,CDF,1,unique,true
+3bb4096cd3e1,COP,cop,en|und,iso_code|symbol,COP,1,unique,true
+153d2f751bec,Costa Rican Colón,costa rican colón,en,display_name|singular_name,CRC,1,unique,true
+d3efadd2a105,Costa Rican colóns,costa rican colóns,en,plural_name,CRC,1,unique,true
+c00c121041cc,COU,cou,und,iso_code,COU,1,unique,true
+315926cf9bb2,CRC,crc,en|und,iso_code|symbol,CRC,1,unique,true
+c3c24b1997d0,Croatian Dinar,croatian dinar,en,display_name|singular_name,HRD,1,unique,true
+58911fc356e6,Croatian dinars,croatian dinars,en,plural_name,HRD,1,unique,true
+70cf87291836,Croatian Kuna,croatian kuna,en,display_name|singular_name,HRK,1,unique,true
+d2371b4fe7b9,Croatian kunas,croatian kunas,en,plural_name,HRK,1,unique,true
+9f4921b51c2e,CSD,csd,und,iso_code,CSD,1,unique,true
+3f1b65d8ac62,CSK,csk,und,iso_code,CSK,1,unique,true
+249edeab84ef,Cuban Convertible Peso,cuban convertible peso,en,display_name|singular_name,CUC,1,unique,true
+f74c2c4d77fe,Cuban convertible pesos,cuban convertible pesos,en,plural_name,CUC,1,unique,true
+ebbea17095f9,Cuban Peso,cuban peso,en,display_name|singular_name,CUP,1,unique,true
+226e1e4e49d0,Cuban pesos,cuban pesos,en,plural_name,CUP,1,unique,true
+b092d3456862,CUC,cuc,en|und,iso_code|symbol,CUC,1,unique,true
+ad00c690d667,CUP,cup,en|und,iso_code|symbol,CUP,1,unique,true
+d7b6176967d0,CVE,cve,en|und,iso_code|symbol,CVE,1,unique,true
+04eead54d14a,CYP,cyp,und,iso_code,CYP,1,unique,true
+f88552d926b0,Cypriot Pound,cypriot pound,en,display_name|singular_name,CYP,1,unique,true
+315f80f662bf,Cypriot pounds,cypriot pounds,en,plural_name,CYP,1,unique,true
+370ccd67f5ee,Czech Koruna,czech koruna,en,display_name|singular_name,CZK,1,unique,true
+6bed9b2852b6,Czech korunas,czech korunas,en,plural_name,CZK,1,unique,true
+57fc2d4a2912,Czechoslovak Hard Koruna,czechoslovak hard koruna,en,display_name|singular_name,CSK,1,unique,true
+cff024f7fd9e,Czechoslovak hard korunas,czechoslovak hard korunas,en,plural_name,CSK,1,unique,true
+dee959ff9234,CZK,czk,en|und,iso_code|symbol,CZK,1,unique,true
+884ed98322c3,córdoba,córdoba,en,currency_name_core,NIO,1,unique,true
+f18464657465,córdobas,córdobas,en,currency_name_core,NIO,1,unique,true
+17ce259e5165,dalasi,dalasi,en,currency_name_core,GMD,1,unique,true
+123f7f8abfa1,dalasis,dalasis,en,currency_name_core,GMD,1,unique,true
+b9e94dd0bf82,Danish Krone,danish krone,en,display_name|singular_name,DKK,1,unique,true
+6d3bfcc4badd,Danish kroner,danish kroner,en,plural_name,DKK,1,unique,true
+0352a8acc949,Db,db,en|my|th,narrow_symbol,STN,1,unique,true
+25c8b8e91eb8,DDM,ddm,und,iso_code,DDM,1,unique,true
+122628109da3,DEM,dem,und,iso_code,DEM,1,unique,true
+c2eca8fa80f9,denar,denar,en,currency_name_core,MKD,1,unique,true
+8aa14e52ca1c,denari,denari,en,currency_name_core,MKD,1,unique,true
+130fa59d27d6,dinar,dinar,en,currency_name_core,BHD|DZD|IQD|JOD|KWD|LYD|RSD|TND,8,ambiguous,false
+cd8a2a995c27,dinars,dinars,en,currency_name_core,BHD|DZD|IQD|JOD|KWD|LYD|RSD|TND,8,ambiguous,false
+592c0df9b344,dirham,dirham,en,currency_name_core,AED|MAD,2,ambiguous,false
+6834b115f3f3,dirhams,dirhams,en,currency_name_core,AED|MAD,2,ambiguous,false
+ed10a9f972b8,DJF,djf,en|und,iso_code|symbol,DJF,1,unique,true
+7249d42a6c04,Djiboutian Franc,djiboutian franc,en,display_name|singular_name,DJF,1,unique,true
+c06325aff6e7,Djiboutian francs,djiboutian francs,en,plural_name,DJF,1,unique,true
+706e28345e7e,DKK,dkk,en|und,iso_code|symbol,DKK,1,unique,true
+a571bbb211a0,dobra,dobra,en,currency_name_core,STN,1,unique,true
+5e3e1e1e9837,dobras,dobras,en,currency_name_core,STN,1,unique,true
+6c36ab332e72,dollar,dollar,en,currency_name_core,AUD|BBD|BMD|BND|BSD|BZD|CAD|FJD|GYD|HKD|JMD|KYD|LRD|NAD|NZD|SBD|SGD|SRD|TTD|TWD|USD|XCD,22,ambiguous,false
+5c6ef4f4c212,dollars,dollars,en,currency_name_core,AUD|BBD|BMD|BND|BSD|BZD|CAD|FJD|GYD|HKD|JMD|KYD|LRD|NAD|NZD|SBD|SGD|SRD|TTD|TWD|USD|XCD,22,ambiguous,false
+f858a02de357,Dominican Peso,dominican peso,en,display_name|singular_name,DOP,1,unique,true
+5964dcc25eb8,Dominican pesos,dominican pesos,en,plural_name,DOP,1,unique,true
+a34e034b42fd,dong,dong,en,currency_name_core,VND,1,unique,true
+3decb3afc362,DOP,dop,en|und,iso_code|symbol,DOP,1,unique,true
+b87e5f603d4e,dram,dram,en,currency_name_core,AMD,1,unique,true
+bfc77d40f55b,drams,drams,en,currency_name_core,AMD,1,unique,true
+64d84646e547,Dutch Guilder,dutch guilder,en,display_name|singular_name,NLG,1,unique,true
+ef161a9041ae,Dutch guilders,dutch guilders,en,plural_name,NLG,1,unique,true
+afcb6326a83d,DZD,dzd,en|und,iso_code|symbol,DZD,1,unique,true
+fff82a77d0d0,East Caribbean Dollar,east caribbean dollar,en,display_name|singular_name,XCD,1,unique,true
+c7405c601bb6,East Caribbean dollars,east caribbean dollars,en,plural_name,XCD,1,unique,true
+64858005f28f,East German Mark,east german mark,en,display_name|singular_name,DDM,1,unique,true
+cf3c1d018d24,East German marks,east german marks,en,plural_name,DDM,1,unique,true
+77f3834e29cf,EC$,ec$,en|my|th,symbol,XCD,1,unique,true
+48573897ca02,ECS,ecs,und,iso_code,ECS,1,unique,true
+b9472ada340b,Ecuadorian Sucre,ecuadorian sucre,en,display_name|singular_name,ECS,1,unique,true
+9bb7fb62817e,Ecuadorian sucres,ecuadorian sucres,en,plural_name,ECS,1,unique,true
+a18ba5551e7d,Ecuadorian Unit of Constant Value,ecuadorian unit of constant value,en,display_name|singular_name,ECV,1,unique,true
+cb0a61e49466,Ecuadorian units of constant value,ecuadorian units of constant value,en,plural_name,ECV,1,unique,true
+ccec51bd313e,ECV,ecv,und,iso_code,ECV,1,unique,true
+64596ff7fa33,EEK,eek,und,iso_code,EEK,1,unique,true
+9d0354791485,EGP,egp,en|und,iso_code|symbol,EGP,1,unique,true
+9bc717696e32,Egyptian Pound,egyptian pound,en,display_name|singular_name,EGP,1,unique,true
+242c0846117d,Egyptian pounds,egyptian pounds,en,plural_name,EGP,1,unique,true
+de20747e74da,emalangeni,emalangeni,en,currency_name_core,SZL,1,unique,true
+c9fd8bf9e86c,Equatorial Guinean Ekwele,equatorial guinean ekwele,en,display_name|plural_name|singular_name,GQE,1,unique,true
+1effbad53951,Eritrean Nakfa,eritrean nakfa,en,display_name|singular_name,ERN,1,unique,true
+79bd576ada3b,Eritrean nakfas,eritrean nakfas,en,plural_name,ERN,1,unique,true
+7e8ff9e3e355,ERN,ern,en|und,iso_code|symbol,ERN,1,unique,true
+abf3c3727151,ESA,esa,und,iso_code,ESA,1,unique,true
+24af7304b42d,ESB,esb,und,iso_code,ESB,1,unique,true
+d4315838a665,escudo,escudo,en,currency_name_core,CVE,1,unique,true
+61ac71c11903,escudos,escudos,en,currency_name_core,CVE,1,unique,true
+9afb9d02e0ce,ESP,esp,und,iso_code,ESP,1,unique,true
+9d6244ae38bc,Estonian Kroon,estonian kroon,en,display_name|singular_name,EEK,1,unique,true
+4b13ea02eba4,Estonian kroons,estonian kroons,en,plural_name,EEK,1,unique,true
+48c5190f98e5,ETB,etb,en|und,iso_code|symbol,ETB,1,unique,true
+ee435f8c0c2b,Ethiopian Birr,ethiopian birr,en,display_name|singular_name,ETB,1,unique,true
+b74d42e0d8fa,Ethiopian birrs,ethiopian birrs,en,plural_name,ETB,1,unique,true
+27eae1ff2508,EUR,eur,und,iso_code,EUR,1,unique,true
+0eb8b4484399,Euro,euro,en,currency_name_core|display_name|singular_name,EUR,1,unique,true
+dfb5fe5d8991,European Composite Unit,european composite unit,en,display_name|singular_name,XBA,1,unique,true
+97c37769b2d8,European composite units,european composite units,en,plural_name,XBA,1,unique,true
+b441eb77b8c5,European Currency Unit,european currency unit,en,display_name|singular_name,XEU,1,unique,true
+fe2e43beb3cc,European currency units,european currency units,en,plural_name,XEU,1,unique,true
+59f9acd9d236,European Monetary Unit,european monetary unit,en,display_name|singular_name,XBB,1,unique,true
+654e1c2e53b5,European monetary units,european monetary units,en,plural_name,XBB,1,unique,true
+795b2ba3d974,European Unit of Account (XBC),european unit of account (xbc),en,display_name|singular_name,XBC,1,unique,true
+ab2f19b3f030,European Unit of Account (XBD),european unit of account (xbd),en,display_name|singular_name,XBD,1,unique,true
+8d8e8edf97fa,European units of account (XBC),european units of account (xbc),en,plural_name,XBC,1,unique,true
+c4ee4696fbd9,European units of account (XBD),european units of account (xbd),en,plural_name,XBD,1,unique,true
+fe487a49c89e,euros,euros,en,currency_name_core|plural_name,EUR,1,unique,true
+3dbf5a96ed14,E£,e£,en|my|th,narrow_symbol,EGP,1,unique,true
+cf6915252364,F CFA,f cfa,en|my|th,symbol,XOF,1,unique,true
+5588ed3d5f72,Falkland Islands Pound,falkland islands pound,en,display_name|singular_name,FKP,1,unique,true
+4141731d5587,Falkland Islands pounds,falkland islands pounds,en,plural_name,FKP,1,unique,true
+bd7a00850609,FCFA,fcfa,en|my|th,symbol,XAF,1,unique,true
+72f77e84ba01,FG,fg,en|my|th,narrow_symbol,GNF,1,unique,true
+618361422784,Fijian Dollar,fijian dollar,en,display_name|singular_name,FJD,1,unique,true
+48d0dc3d77eb,Fijian dollars,fijian dollars,en,plural_name,FJD,1,unique,true
+ba9b0ca9dfcb,FIM,fim,und,iso_code,FIM,1,unique,true
+de9ba49539c2,Finnish Markka,finnish markka,en,display_name|singular_name,FIM,1,unique,true
+875373116fdf,Finnish markkas,finnish markkas,en,plural_name,FIM,1,unique,true
+34123777d50d,FJD,fjd,en|und,iso_code|symbol,FJD,1,unique,true
+58d9fd4fc7f1,FKP,fkp,en|und,iso_code|symbol,FKP,1,unique,true
+3a837a37a2ac,florin,florin,en,currency_name_core,AWG,1,unique,true
+127eb165e316,forint,forint,en,currency_name_core,HUF,1,unique,true
+41f846aa06d0,forints,forints,en,currency_name_core,HUF,1,unique,true
+8e976215e3d6,Fr.,fr.,en|my|th,narrow_symbol,CHF,1,unique,true
+29adf2c36794,franc,franc,en,currency_name_core,BIF|CDF|CHF|DJF|GNF|KMF|RWF|XAF|XOF|XPF,10,ambiguous,false
+6f0b9efccf25,francs,francs,en,currency_name_core,BIF|CDF|CHF|DJF|GNF|KMF|RWF|XAF|XOF|XPF,10,ambiguous,false
+07552277af96,French Franc,french franc,en,display_name|singular_name,FRF,1,unique,true
+c910dbe30917,French francs,french francs,en,plural_name,FRF,1,unique,true
+4b9f92253321,French Gold Franc,french gold franc,en,display_name|singular_name,XFO,1,unique,true
+960a00f8da91,French gold francs,french gold francs,en,plural_name,XFO,1,unique,true
+bcb455d8bad7,French UIC-Franc,french uic-franc,en,display_name|singular_name,XFU,1,unique,true
+d3fc767cc734,French UIC-francs,french uic-francs,en,plural_name,XFU,1,unique,true
+87d21bd7adbd,FRF,frf,und,iso_code,FRF,1,unique,true
+d352dbdf6170,Ft,ft,en|my|th,narrow_symbol,HUF,1,unique,true
+54fd1711209f,G,g,my,symbol,HTG,1,unique,true
+ac4e677dc487,Gambian Dalasi,gambian dalasi,en,display_name|singular_name,GMD,1,unique,true
+c3b9e641cecb,Gambian dalasis,gambian dalasis,en,plural_name,GMD,1,unique,true
+659c98723250,GBP,gbp,und,iso_code,GBP,1,unique,true
+accfde133049,GEK,gek,und,iso_code,GEK,1,unique,true
+c7d9ff99c1b4,GEL,gel,en|und,iso_code|symbol,GEL,1,unique,true
+6c53030ecc4c,Georgian Kupon Larit,georgian kupon larit,en,display_name|singular_name,GEK,1,unique,true
+ebd87aff805e,Georgian kupon larits,georgian kupon larits,en,plural_name,GEK,1,unique,true
+d4c83e00b691,Georgian Lari,georgian lari,en,display_name|singular_name,GEL,1,unique,true
+9587550a9812,Georgian laris,georgian laris,en,plural_name,GEL,1,unique,true
+2a3ce03c62fa,German Mark,german mark,en,display_name|singular_name,DEM,1,unique,true
+e0dc5388ea6b,German marks,german marks,en,plural_name,DEM,1,unique,true
+600adc174007,Ghanaian Cedi,ghanaian cedi,en,display_name|singular_name,GHS,1,unique,true
+5c82f6103e71,Ghanaian Cedi (1979–2007),ghanaian cedi (1979–2007),en,display_name|singular_name,GHC,1,unique,true
+2115e8300b2c,Ghanaian cedis,ghanaian cedis,en,plural_name,GHS,1,unique,true
+304ef852dd98,Ghanaian cedis (1979–2007),ghanaian cedis (1979–2007),en,plural_name,GHC,1,unique,true
+9fd05f94d294,GHC,ghc,und,iso_code,GHC,1,unique,true
+e4055de792e6,GHS,ghs,en|und,iso_code|symbol,GHS,1,unique,true
+967bf39b298e,GH₵,gh₵,en|my|th,narrow_symbol,GHS,1,unique,true
+09b75bd77659,Gibraltar Pound,gibraltar pound,en,display_name|singular_name,GIP,1,unique,true
+23f1d96d5b8f,Gibraltar pounds,gibraltar pounds,en,plural_name,GIP,1,unique,true
+98565238b4b5,GIP,gip,en|und,iso_code|symbol,GIP,1,unique,true
+c2355fe56b85,GMD,gmd,en|und,iso_code|symbol,GMD,1,unique,true
+fe9500fa219d,GNF,gnf,en|und,iso_code|symbol,GNF,1,unique,true
+52f457933b52,GNS,gns,und,iso_code,GNS,1,unique,true
+09feb137fd5e,Gold,gold,en,currency_name_core|display_name,XAU|ZWG,2,ambiguous,false
+95d1198a6c46,gourde,gourde,en,currency_name_core,HTG,1,unique,true
+50214144c376,gourdes,gourdes,en,currency_name_core,HTG,1,unique,true
+b4e61b85a6b5,GQE,gqe,und,iso_code,GQE,1,unique,true
+386d40b85ed4,GRD,grd,und,iso_code,GRD,1,unique,true
+635661d424e0,Greek Drachma,greek drachma,en,display_name|singular_name,GRD,1,unique,true
+3a8c61a5af17,Greek drachmas,greek drachmas,en,plural_name,GRD,1,unique,true
+8fd38722e9a8,GTQ,gtq,en|und,iso_code|symbol,GTQ,1,unique,true
+80dac2a55661,guarani,guarani,en,currency_name_core,PYG,1,unique,true
+51f9f7b2073f,guaranis,guaranis,en,currency_name_core,PYG,1,unique,true
+f59d67cd788f,Guatemalan Quetzal,guatemalan quetzal,en,display_name|singular_name,GTQ,1,unique,true
+6bb4fd93e0c5,Guatemalan quetzals,guatemalan quetzals,en,plural_name,GTQ,1,unique,true
+7b05e0aad732,guilder,guilder,en,currency_name_core,XCG,1,unique,true
+bf08c604a41d,guilders,guilders,en,currency_name_core,XCG,1,unique,true
+65ab29ed2459,Guinea-Bissau Peso,guinea-bissau peso,en,display_name|singular_name,GWP,1,unique,true
+86a5e5f55943,Guinea-Bissau pesos,guinea-bissau pesos,en,plural_name,GWP,1,unique,true
+9a8b834c4e14,Guinean Franc,guinean franc,en,display_name|singular_name,GNF,1,unique,true
+8d4e7951aa27,Guinean francs,guinean francs,en,plural_name,GNF,1,unique,true
+a5cca2ce2901,Guinean Syli,guinean syli,en,display_name|singular_name,GNS,1,unique,true
+1c1b82e253d4,Guinean sylis,guinean sylis,en,plural_name,GNS,1,unique,true
+9f3fb43fd27a,Guyanaese Dollar,guyanaese dollar,en,display_name|singular_name,GYD,1,unique,true
+fd89115909b1,Guyanaese dollars,guyanaese dollars,en,plural_name,GYD,1,unique,true
+5d6fe8c43c7c,GWE,gwe,und,iso_code,GWE,1,unique,true
+6dbc87fef65a,GWP,gwp,und,iso_code,GWP,1,unique,true
+122f332bfbd7,GYD,gyd,en|und,iso_code|symbol,GYD,1,unique,true
+fe7d5ad15bea,Haitian Gourde,haitian gourde,en,display_name|singular_name,HTG,1,unique,true
+c1037097a21a,Haitian gourdes,haitian gourdes,en,plural_name,HTG,1,unique,true
+446e96b6ede7,HK$,hk$,en|my|th,symbol,HKD,1,unique,true
+f32dd7f0b85e,HKD,hkd,und,iso_code,HKD,1,unique,true
+e1c5b29b3cce,HNL,hnl,en|und,iso_code|symbol,HNL,1,unique,true
+dd8a44d3c727,Honduran Lempira,honduran lempira,en,display_name|singular_name,HNL,1,unique,true
+caa4d77e7838,Honduran lempiras,honduran lempiras,en,plural_name,HNL,1,unique,true
+17fa56ffc2f1,Hong Kong Dollar,hong kong dollar,en,display_name|singular_name,HKD,1,unique,true
+0ecfd16eeacc,Hong Kong dollars,hong kong dollars,en,plural_name,HKD,1,unique,true
+ff2c93fdc088,HRD,hrd,und,iso_code,HRD,1,unique,true
+512a097ad6af,HRK,hrk,en|und,iso_code|symbol,HRK,1,unique,true
+2282257f240e,hryvnia,hryvnia,en,currency_name_core,UAH,1,unique,true
+287f1a9f1e33,hryvnias,hryvnias,en,currency_name_core,UAH,1,unique,true
+effcffd6f7e8,HTG,htg,en|und,iso_code|symbol,HTG,1,unique,true
+1f2da42ae43d,HUF,huf,en|und,iso_code|symbol,HUF,1,unique,true
+737ca35e3652,Hungarian Forint,hungarian forint,en,display_name|singular_name,HUF,1,unique,true
+f756cbdad7f1,Hungarian forints,hungarian forints,en,plural_name,HUF,1,unique,true
+e3d0c91b9f3d,Icelandic Króna,icelandic króna,en,display_name|singular_name,ISK,1,unique,true
+7e2c6f4ad7ba,Icelandic Króna (1918–1981),icelandic króna (1918–1981),en,display_name|singular_name,ISJ,1,unique,true
+7564baed3a5a,Icelandic krónur,icelandic krónur,en,plural_name,ISK,1,unique,true
+6693740e0d33,Icelandic krónur (1918–1981),icelandic krónur (1918–1981),en,plural_name,ISJ,1,unique,true
+83437f65a0bd,IDR,idr,en|und,iso_code|symbol,IDR,1,unique,true
+93220e7376cb,IEP,iep,und,iso_code,IEP,1,unique,true
+e4966dcd5a6c,ILP,ilp,und,iso_code,ILP,1,unique,true
+4a7ac683b5c5,ILR,ilr,und,iso_code,ILR,1,unique,true
+43f57e1fc005,ILS,ils,und,iso_code,ILS,1,unique,true
+afe0eec9530e,Indian Rupee,indian rupee,en,display_name|singular_name,INR,1,unique,true
+4245e5c11398,Indian rupees,indian rupees,en,plural_name,INR,1,unique,true
+d2405c52be89,Indonesian Rupiah,indonesian rupiah,en,display_name|singular_name,IDR,1,unique,true
+0ce4cc00bc18,Indonesian rupiahs,indonesian rupiahs,en,plural_name,IDR,1,unique,true
+ac1af42ee96b,INR,inr,und,iso_code,INR,1,unique,true
+9f9fee05898c,IQD,iqd,en|und,iso_code|symbol,IQD,1,unique,true
+84bf7a60ac84,Iranian Rial,iranian rial,en,display_name|singular_name,IRR,1,unique,true
+5ec072a456d8,Iranian rials,iranian rials,en,plural_name,IRR,1,unique,true
+82575d48f8ec,Iraqi Dinar,iraqi dinar,en,display_name|singular_name,IQD,1,unique,true
+e272ba02908a,Iraqi dinars,iraqi dinars,en,plural_name,IQD,1,unique,true
+46f50b846385,Irish Pound,irish pound,en,display_name|singular_name,IEP,1,unique,true
+da96f3ed1a61,Irish pounds,irish pounds,en,plural_name,IEP,1,unique,true
+eacd1941a74a,IRR,irr,en|und,iso_code|symbol,IRR,1,unique,true
+acb699e332c4,ISJ,isj,und,iso_code,ISJ,1,unique,true
+b22131ff47c6,ISK,isk,en|und,iso_code|symbol,ISK,1,unique,true
+57abb79e3dec,Israeli New Shekel,israeli new shekel,en,display_name|singular_name,ILS,1,unique,true
+311afdcd81fa,Israeli new shekels,israeli new shekels,en,plural_name,ILS,1,unique,true
+bfa0c58cd7df,Israeli Pound,israeli pound,en,display_name|singular_name,ILP,1,unique,true
+4450c7b33596,Israeli pounds,israeli pounds,en,plural_name,ILP,1,unique,true
+ec4096131c85,Israeli Shekel (1980–1985),israeli shekel (1980–1985),en,display_name|singular_name,ILR,1,unique,true
+86505924fce2,Israeli shekels (1980–1985),israeli shekels (1980–1985),en,plural_name,ILR,1,unique,true
+08360389e797,Italian Lira,italian lira,en,display_name|singular_name,ITL,1,unique,true
+230325f8b848,Italian liras,italian liras,en,plural_name,ITL,1,unique,true
+a0632c47afe6,ITL,itl,und,iso_code,ITL,1,unique,true
+d8e54dce2552,Jamaican Dollar,jamaican dollar,en,display_name|singular_name,JMD,1,unique,true
+19e6185cfbde,Jamaican dollars,jamaican dollars,en,plural_name,JMD,1,unique,true
+2f5a5e9e3240,Japanese Yen,japanese yen,en,display_name|plural_name|singular_name,JPY,1,unique,true
+8a8dc155ea6d,JMD,jmd,en|und,iso_code|symbol,JMD,1,unique,true
+362798a90079,JOD,jod,en|und,iso_code|symbol,JOD,1,unique,true
+cc709917c2c0,Jordanian Dinar,jordanian dinar,en,display_name|singular_name,JOD,1,unique,true
+7c643deb9be4,Jordanian dinars,jordanian dinars,en,plural_name,JOD,1,unique,true
+1cfdd9cfbf90,JPY,jpy,und,iso_code,JPY,1,unique,true
+63b3873b4fad,JP¥,jp¥,my,symbol,JPY,1,unique,true
+13fbd79c3d39,K,k,en|my|th,narrow_symbol|symbol,MMK,1,unique,true
+89ce1b3043b5,Kazakhstani Tenge,kazakhstani tenge,en,display_name|singular_name,KZT,1,unique,true
+cb4c35a2197c,Kazakhstani tenges,kazakhstani tenges,en,plural_name,KZT,1,unique,true
+c041e8dfc8b1,Kenyan Shilling,kenyan shilling,en,display_name|singular_name,KES,1,unique,true
+e22030caa7c4,Kenyan shillings,kenyan shillings,en,plural_name,KES,1,unique,true
+46cbe2ad6904,KES,kes,en|und,iso_code|symbol,KES,1,unique,true
+23bacb064553,KGS,kgs,en|und,iso_code|symbol,KGS,1,unique,true
+8c99c3a9284e,KHR,khr,en|und,iso_code|symbol,KHR,1,unique,true
+36c1857cfc89,kina,kina,en,currency_name_core,PGK,1,unique,true
+e807c606ef71,kip,kip,en,currency_name_core,LAK,1,unique,true
+d602fc309416,kips,kips,en,currency_name_core,LAK,1,unique,true
+08ec69f5be3c,KM,km,en|my|th,narrow_symbol,BAM,1,unique,true
+dcabcac97225,KMF,kmf,en|und,iso_code|symbol,KMF,1,unique,true
+5c0795f509d6,kn,kn,en|my|th,narrow_symbol,HRK,1,unique,true
+351da65fc85c,koruna,koruna,en,currency_name_core,CZK,1,unique,true
+2676fab24c2e,korunas,korunas,en,currency_name_core,CZK,1,unique,true
+fb6270f0cb03,KPW,kpw,en|und,iso_code|symbol,KPW,1,unique,true
+faf8d203b3f9,kr,kr,en|my|th,narrow_symbol,DKK|ISK|NOK|SEK,4,ambiguous,false
+ca9b5b1e27d4,KRH,krh,und,iso_code,KRH,1,unique,true
+6a816293c7b7,KRO,kro,und,iso_code,KRO,1,unique,true
+1fb37748c43a,krona,krona,en,currency_name_core,SEK,1,unique,true
+bedc2a57e148,krone,krone,en,currency_name_core,DKK|NOK,2,ambiguous,false
+509bea10e32e,kroner,kroner,en,currency_name_core,DKK|NOK,2,ambiguous,false
+2b961c844cfb,kronor,kronor,en,currency_name_core,SEK,1,unique,true
+8f76ce154dc9,KRW,krw,und,iso_code,KRW,1,unique,true
+277eaada8aa3,króna,króna,en,currency_name_core,ISK,1,unique,true
+a14bf921a5a9,krónur,krónur,en,currency_name_core,ISK,1,unique,true
+db1f93b71656,Kuwaiti Dinar,kuwaiti dinar,en,display_name|singular_name,KWD,1,unique,true
+9595ec523f24,Kuwaiti dinars,kuwaiti dinars,en,plural_name,KWD,1,unique,true
+2b70fe10f76b,kwacha,kwacha,en,currency_name_core,MWK|ZMW,2,ambiguous,false
+1d37d7700aef,kwachas,kwachas,en,currency_name_core,MWK|ZMW,2,ambiguous,false
+ad5252f3baef,kwanza,kwanza,en,currency_name_core,AOA,1,unique,true
+41f01ce6de3d,kwanzas,kwanzas,en,currency_name_core,AOA,1,unique,true
+2581a433ed3d,KWD,kwd,en|und,iso_code|symbol,KWD,1,unique,true
+9a64c23aef8d,kyat,kyat,en,currency_name_core,MMK,1,unique,true
+c6c5ad915ca5,kyats,kyats,en,currency_name_core,MMK,1,unique,true
+7ff76641c5d1,KYD,kyd,en|und,iso_code|symbol,KYD,1,unique,true
+5501fd07a193,Kyrgyz Som,kyrgyz som,en,display_name|singular_name,KGS,1,unique,true
+b2fe17c97fa5,Kyrgyz soms,kyrgyz soms,en,plural_name,KGS,1,unique,true
+efb215f8f795,Kz,kz,en|my|th,narrow_symbol,AOA,1,unique,true
+3abeb275c290,KZT,kzt,en|und,iso_code|symbol,KZT,1,unique,true
+2a030e695309,Kč,kč,en|my|th,narrow_symbol,CZK,1,unique,true
+07c342be6e56,L,l,en|my|th,narrow_symbol,HNL,1,unique,true
+1d6d736997b8,LAK,lak,en|und,iso_code|symbol,LAK,1,unique,true
+dc04b9858404,Laotian Kip,laotian kip,en,display_name|singular_name,LAK,1,unique,true
+661f7169bad9,Laotian kips,laotian kips,en,plural_name,LAK,1,unique,true
+8b1473c377cf,lari,lari,en,currency_name_core,GEL,1,unique,true
+82ef4aeafdd3,laris,laris,en,currency_name_core,GEL,1,unique,true
+b6b473d80213,Latvian lati,latvian lati,en,plural_name,LVL,1,unique,true
+de542db1e322,Latvian Lats,latvian lats,en,display_name|singular_name,LVL,1,unique,true
+affaad6dec0f,Latvian Ruble,latvian ruble,en,display_name|singular_name,LVR,1,unique,true
+c45223fce39c,Latvian rubles,latvian rubles,en,plural_name,LVR,1,unique,true
+dd0e45f98a73,LBP,lbp,en|und,iso_code|symbol,LBP,1,unique,true
+e5529d20e704,Lebanese Pound,lebanese pound,en,display_name|singular_name,LBP,1,unique,true
+089a4b624117,Lebanese pounds,lebanese pounds,en,plural_name,LBP,1,unique,true
+a56ad06d45d7,lei,lei,en|my|th,currency_name_core|narrow_symbol,MDL|RON,2,ambiguous,false
+aa5f6d73039c,lek,lek,en,currency_name_core,ALL,1,unique,true
+46a9e45da9fb,lekë,lekë,en,currency_name_core,ALL,1,unique,true
+74c3b5cbb0e6,lempira,lempira,en,currency_name_core,HNL,1,unique,true
+ce28ff359ee6,lempiras,lempiras,en,currency_name_core,HNL,1,unique,true
+e7a44f3dbb68,leone,leone,en,currency_name_core,SLE,1,unique,true
+6359cacd2a96,leones,leones,en,currency_name_core,SLE,1,unique,true
+17c195fb0cd3,Lesotho Loti,lesotho loti,en,display_name|singular_name,LSL,1,unique,true
+d104c2700e1c,Lesotho lotis,lesotho lotis,en,plural_name,LSL,1,unique,true
+235566f6bb4c,leu,leu,en,currency_name_core,MDL|RON,2,ambiguous,false
+04fb9b0db680,Liberian Dollar,liberian dollar,en,display_name|singular_name,LRD,1,unique,true
+b72fcbbd98e8,Liberian dollars,liberian dollars,en,plural_name,LRD,1,unique,true
+62e4f75c6cce,Libyan Dinar,libyan dinar,en,display_name|singular_name,LYD,1,unique,true
+153713ba0b4f,Libyan dinars,libyan dinars,en,plural_name,LYD,1,unique,true
+0a50f9a294f9,lilangeni,lilangeni,en,currency_name_core,SZL,1,unique,true
+b1c7fd1004f9,lira,lira,en,currency_name_core,TRY,1,unique,true
+1ba9b75114a9,Lithuanian litai,lithuanian litai,en,plural_name,LTL,1,unique,true
+e4699b64ad3c,Lithuanian Litas,lithuanian litas,en,display_name|singular_name,LTL,1,unique,true
+44d0d6f67c96,Lithuanian Talonas,lithuanian talonas,en,display_name|singular_name,LTT,1,unique,true
+4e6dca40383b,Lithuanian talonases,lithuanian talonases,en,plural_name,LTT,1,unique,true
+3b636eb908d0,LKR,lkr,en|und,iso_code|symbol,LKR,1,unique,true
+3fd84ab8bab4,loti,loti,en,currency_name_core,LSL,1,unique,true
+be2481de5cac,lotis,lotis,en,currency_name_core,LSL,1,unique,true
+1d4e6ee1882e,LRD,lrd,en|und,iso_code|symbol,LRD,1,unique,true
+ebfdec641529,Ls,ls,en|my|th,narrow_symbol,LVL,1,unique,true
+0c752315a196,LSL,lsl,en|und,iso_code|symbol,LSL,1,unique,true
+5f3acfbeb4f6,Lt,lt,en|my|th,narrow_symbol,LTL,1,unique,true
+ce805fc653b0,LTL,ltl,und,iso_code,LTL,1,unique,true
+4a94099852f0,LTT,ltt,und,iso_code,LTT,1,unique,true
+5dc35fa9b518,LUC,luc,und,iso_code,LUC,1,unique,true
+4fa38cfb7aa7,LUF,luf,und,iso_code,LUF,1,unique,true
+328cc988b604,LUL,lul,und,iso_code,LUL,1,unique,true
+a84507e574df,Luxembourg Financial Franc,luxembourg financial franc,en,display_name|singular_name,LUL,1,unique,true
+8d65c1823cbf,Luxembourg financial francs,luxembourg financial francs,en,plural_name,LUL,1,unique,true
+15be864c40f7,Luxembourgian Convertible Franc,luxembourgian convertible franc,en,display_name|singular_name,LUC,1,unique,true
+f9e798addcbb,Luxembourgian convertible francs,luxembourgian convertible francs,en,plural_name,LUC,1,unique,true
+796b4a5f09c7,Luxembourgian Franc,luxembourgian franc,en,display_name|singular_name,LUF,1,unique,true
+b23e6dfd3367,Luxembourgian francs,luxembourgian francs,en,plural_name,LUF,1,unique,true
+00de275eec87,LVL,lvl,und,iso_code,LVL,1,unique,true
+51f5ecd5c2ec,LVR,lvr,und,iso_code,LVR,1,unique,true
+d47467552d44,LYD,lyd,en|und,iso_code|symbol,LYD,1,unique,true
+e96eb82cd1e0,L£,l£,en|my|th,narrow_symbol,LBP,1,unique,true
+d4865ee529e8,Macanese Pataca,macanese pataca,en,display_name|singular_name,MOP,1,unique,true
+e00e3ac61dff,Macanese patacas,macanese patacas,en,plural_name,MOP,1,unique,true
+5b47cfe9283b,Macedonian Denar,macedonian denar,en,display_name|singular_name,MKD,1,unique,true
+87835e74738b,Macedonian Denar (1992–1993),macedonian denar (1992–1993),en,display_name|singular_name,MKN,1,unique,true
+92d94d31fa95,Macedonian denari,macedonian denari,en,plural_name,MKD,1,unique,true
+c3f43aa0ba29,Macedonian denari (1992–1993),macedonian denari (1992–1993),en,plural_name,MKN,1,unique,true
+1b3cccda27f8,MAD,mad,en|und,iso_code|symbol,MAD,1,unique,true
+77ef950bce33,MAF,maf,und,iso_code,MAF,1,unique,true
+fde0fac6141f,Malagasy ariaries,malagasy ariaries,en,plural_name,MGA,1,unique,true
+bbec77380b8d,Malagasy Ariary,malagasy ariary,en,display_name|singular_name,MGA,1,unique,true
+73675711b882,Malagasy Franc,malagasy franc,en,display_name|singular_name,MGF,1,unique,true
+1863fa39afd0,Malagasy francs,malagasy francs,en,plural_name,MGF,1,unique,true
+b1f8fdfeec57,Malawian Kwacha,malawian kwacha,en,display_name|singular_name,MWK,1,unique,true
+e07c4b658015,Malawian kwachas,malawian kwachas,en,plural_name,MWK,1,unique,true
+e4c5ea1d2ce4,Malaysian Ringgit,malaysian ringgit,en,display_name|singular_name,MYR,1,unique,true
+084e8088686f,Malaysian ringgits,malaysian ringgits,en,plural_name,MYR,1,unique,true
+a8f0acabb6d5,Maldivian Rufiyaa,maldivian rufiyaa,en,display_name|singular_name,MVR,1,unique,true
+00896c3a54f6,Maldivian rufiyaas,maldivian rufiyaas,en,plural_name,MVR,1,unique,true
+ae1be23fc05c,Maldivian Rupee (1947–1981),maldivian rupee (1947–1981),en,display_name|singular_name,MVP,1,unique,true
+79818a6662eb,Maldivian rupees (1947–1981),maldivian rupees (1947–1981),en,plural_name,MVP,1,unique,true
+c4f7eafebe3f,Malian Franc,malian franc,en,display_name|singular_name,MLF,1,unique,true
+2872712ee3a9,Malian francs,malian francs,en,plural_name,MLF,1,unique,true
+242d04376a75,Maltese Lira,maltese lira,en,display_name|plural_name|singular_name,MTL,1,unique,true
+6ac4896d16e8,Maltese Pound,maltese pound,en,display_name|singular_name,MTP,1,unique,true
+6c0d16e2e16a,Maltese pounds,maltese pounds,en,plural_name,MTP,1,unique,true
+1434db3445b3,manat,manat,en,currency_name_core,AZN|TMT,2,ambiguous,false
+8871a03a406b,manats,manats,en,currency_name_core,AZN,1,unique,true
+f1b5a91d4d6a,mark,mark,en,currency_name_core,BAM,1,unique,true
+965242380eee,marks,marks,en,currency_name_core,BAM,1,unique,true
+30b006074f7e,Mauritanian Ouguiya,mauritanian ouguiya,en,display_name|singular_name,MRU,1,unique,true
+4dc01497a141,Mauritanian Ouguiya (1973–2017),mauritanian ouguiya (1973–2017),en,display_name|singular_name,MRO,1,unique,true
+db56da49655a,Mauritanian ouguiyas,mauritanian ouguiyas,en,plural_name,MRU,1,unique,true
+03a3c437f82c,Mauritanian ouguiyas (1973–2017),mauritanian ouguiyas (1973–2017),en,plural_name,MRO,1,unique,true
+862f7e076c41,Mauritian Rupee,mauritian rupee,en,display_name|singular_name,MUR,1,unique,true
+eef6672dab46,Mauritian rupees,mauritian rupees,en,plural_name,MUR,1,unique,true
+6df2cacc7570,MCF,mcf,und,iso_code,MCF,1,unique,true
+1b24514cd9a5,MDC,mdc,und,iso_code,MDC,1,unique,true
+acbc301f45bc,MDL,mdl,en|und,iso_code|symbol,MDL,1,unique,true
+320cc8d15e39,metical,metical,en,currency_name_core,MZN,1,unique,true
+cb68d22a0961,meticals,meticals,en,currency_name_core,MZN,1,unique,true
+5397bd073aa0,Mexican Investment Unit,mexican investment unit,en,display_name|singular_name,MXV,1,unique,true
+960ddc632ea6,Mexican investment units,mexican investment units,en,plural_name,MXV,1,unique,true
+7bf04042d28e,Mexican Peso,mexican peso,en,display_name|singular_name,MXN,1,unique,true
+b6b104d1f8c8,Mexican pesos,mexican pesos,en,plural_name,MXN,1,unique,true
+621e14984214,Mexican Silver Peso (1861–1992),mexican silver peso (1861–1992),en,display_name|singular_name,MXP,1,unique,true
+668d4131c758,Mexican silver pesos (1861–1992),mexican silver pesos (1861–1992),en,plural_name,MXP,1,unique,true
+9cdce9af0349,MGA,mga,en|und,iso_code|symbol,MGA,1,unique,true
+2f7573fdb117,MGF,mgf,und,iso_code,MGF,1,unique,true
+045d8851ef76,MKD,mkd,en|und,iso_code|symbol,MKD,1,unique,true
+7a284ce56e92,MKN,mkn,und,iso_code,MKN,1,unique,true
+1d80d894b354,MLF,mlf,und,iso_code,MLF,1,unique,true
+9438e3663cd6,MMK,mmk,en|und,iso_code|symbol,MMK,1,unique,true
+88b5c9f0a312,MNT,mnt,en|und,iso_code|symbol,MNT,1,unique,true
+cbeb73657523,Moldovan Cupon,moldovan cupon,en,display_name|plural_name|singular_name,MDC,1,unique,true
+f4f7bf6ff3cb,Moldovan lei,moldovan lei,en,plural_name,MDL,1,unique,true
+73c9ea9ef017,Moldovan Leu,moldovan leu,en,display_name|singular_name,MDL,1,unique,true
+6f389b39527e,Monegasque Franc,monegasque franc,en,display_name|singular_name,MCF,1,unique,true
+fb1e33c50a22,Monegasque francs,monegasque francs,en,plural_name,MCF,1,unique,true
+17510f55c944,Mongolian Tugrik,mongolian tugrik,en,display_name|singular_name,MNT,1,unique,true
+6ad9a0976a17,Mongolian tugriks,mongolian tugriks,en,plural_name,MNT,1,unique,true
+e428b54c599d,MOP,mop,en|und,iso_code|symbol,MOP,1,unique,true
+5d5c96688115,Moroccan Dirham,moroccan dirham,en,display_name|singular_name,MAD,1,unique,true
+14720334a554,Moroccan dirhams,moroccan dirhams,en,plural_name,MAD,1,unique,true
+15ec15d6eb68,Moroccan Franc,moroccan franc,en,display_name|singular_name,MAF,1,unique,true
+2662a84d9453,Moroccan francs,moroccan francs,en,plural_name,MAF,1,unique,true
+7ffbf7d025be,Mozambican Escudo,mozambican escudo,en,display_name|singular_name,MZE,1,unique,true
+b5d7840017db,Mozambican escudos,mozambican escudos,en,plural_name,MZE,1,unique,true
+ca15ec846282,Mozambican Metical,mozambican metical,en,display_name|singular_name,MZN,1,unique,true
+2f368001ed01,Mozambican Metical (1980–2006),mozambican metical (1980–2006),en,display_name|singular_name,MZM,1,unique,true
+d6f423cd05a2,Mozambican meticals,mozambican meticals,en,plural_name,MZN,1,unique,true
+b3ed6b65af37,Mozambican meticals (1980–2006),mozambican meticals (1980–2006),en,plural_name,MZM,1,unique,true
+3871580d9dfc,MRO,mro,und,iso_code,MRO,1,unique,true
+dfd117ec83c8,MRU,mru,en|und,iso_code|symbol,MRU,1,unique,true
+313debafc2ae,MTL,mtl,und,iso_code,MTL,1,unique,true
+a2b8da930762,MTP,mtp,und,iso_code,MTP,1,unique,true
+119f494d5dbb,MUR,mur,en|und,iso_code|symbol,MUR,1,unique,true
+3207c40fcdd8,MVP,mvp,und,iso_code,MVP,1,unique,true
+30511dd8c95f,MVR,mvr,en|und,iso_code|symbol,MVR,1,unique,true
+dcfc84d36903,MWK,mwk,en|und,iso_code|symbol,MWK,1,unique,true
+0bff8946fa7d,MX$,mx$,en|my|th,symbol,MXN,1,unique,true
+f51523358fc7,MXN,mxn,und,iso_code,MXN,1,unique,true
+b7fe3bd6b378,MXP,mxp,und,iso_code,MXP,1,unique,true
+579e6fdc6e2f,MXV,mxv,und,iso_code,MXV,1,unique,true
+21db500f47f9,Myanmar Kyat,myanmar kyat,en,display_name|singular_name,MMK,1,unique,true
+78893e1850b3,Myanmar kyats,myanmar kyats,en,plural_name,MMK,1,unique,true
+4493c6124de7,MYR,myr,en|und,iso_code|symbol,MYR,1,unique,true
+7ffecba6ff9a,MZE,mze,und,iso_code,MZE,1,unique,true
+83cfecb4502f,MZM,mzm,und,iso_code,MZM,1,unique,true
+e7937e92ff6a,MZN,mzn,en|und,iso_code|symbol,MZN,1,unique,true
+43f2a2d2c86e,NAD,nad,en|und,iso_code|symbol,NAD,1,unique,true
+b47b68c8a056,NAf,naf,my,symbol,ANG,1,unique,true
+080a37281c67,naira,naira,en,currency_name_core,NGN,1,unique,true
+9ec6a89c6342,nairas,nairas,en,currency_name_core,NGN,1,unique,true
+603e2bbbdf1b,nakfa,nakfa,en,currency_name_core,ERN,1,unique,true
+ef929f985900,nakfas,nakfas,en,currency_name_core,ERN,1,unique,true
+b23eaddb203e,Namibian Dollar,namibian dollar,en,display_name|singular_name,NAD,1,unique,true
+d33f8b90066c,Namibian dollars,namibian dollars,en,plural_name,NAD,1,unique,true
+311dc0bf4e1c,Nepalese Rupee,nepalese rupee,en,display_name|singular_name,NPR,1,unique,true
+89edf8191745,Nepalese rupees,nepalese rupees,en,plural_name,NPR,1,unique,true
+99294ffdb1a9,Netherlands Antillean Guilder,netherlands antillean guilder,en,display_name|singular_name,ANG,1,unique,true
+fe81a94012a0,Netherlands Antillean guilders,netherlands antillean guilders,en,plural_name,ANG,1,unique,true
+1def71a16116,New Taiwan Dollar,new taiwan dollar,en,display_name|singular_name,TWD,1,unique,true
+68fa5725715f,New Taiwan dollars,new taiwan dollars,en,plural_name,TWD,1,unique,true
+5bb036ba5642,New Zealand Dollar,new zealand dollar,en,display_name|singular_name,NZD,1,unique,true
+d9de16be3aa7,New Zealand dollars,new zealand dollars,en,plural_name,NZD,1,unique,true
+45a4e78d3b1f,NGN,ngn,en|und,iso_code|symbol,NGN,1,unique,true
+f3cb5f02eac1,ngultrum,ngultrum,en,currency_name_core,BTN,1,unique,true
+481401eaf546,ngultrums,ngultrums,en,currency_name_core,BTN,1,unique,true
+f27183276cbd,NIC,nic,und,iso_code,NIC,1,unique,true
+bfdd8a32c301,Nicaraguan Córdoba,nicaraguan córdoba,en,display_name|singular_name,NIO,1,unique,true
+4e69fee73357,Nicaraguan Córdoba (1988–1991),nicaraguan córdoba (1988–1991),en,display_name|singular_name,NIC,1,unique,true
+83b8863562cd,Nicaraguan córdobas,nicaraguan córdobas,en,plural_name,NIO,1,unique,true
+5f55461b6021,Nicaraguan córdobas (1988–1991),nicaraguan córdobas (1988–1991),en,plural_name,NIC,1,unique,true
+46a98a27f0ea,Nigerian Naira,nigerian naira,en,display_name|singular_name,NGN,1,unique,true
+a14040e9883e,Nigerian nairas,nigerian nairas,en,plural_name,NGN,1,unique,true
+98a5c9e92189,NIO,nio,en|und,iso_code|symbol,NIO,1,unique,true
+fa0b256d9ec4,NLG,nlg,und,iso_code,NLG,1,unique,true
+cb70df991458,NOK,nok,en|und,iso_code|symbol,NOK,1,unique,true
+a84935696112,North Korean Won,north korean won,en,display_name|plural_name|singular_name,KPW,1,unique,true
+498a2e185698,Norwegian Krone,norwegian krone,en,display_name|singular_name,NOK,1,unique,true
+4362d124b8c3,Norwegian kroner,norwegian kroner,en,plural_name,NOK,1,unique,true
+31d439d84784,NPR,npr,en|und,iso_code|symbol,NPR,1,unique,true
+59d7f4ea9c34,NT$,nt$,en|my|th,narrow_symbol|symbol,TWD,1,unique,true
+1ad22845797c,NZ$,nz$,en|my|th,symbol,NZD,1,unique,true
+e490fae68525,NZD,nzd,und,iso_code,NZD,1,unique,true
+1f473dcd88a8,Omani Rial,omani rial,en,display_name|singular_name,OMR,1,unique,true
+6cf7cd427843,Omani rials,omani rials,en,plural_name,OMR,1,unique,true
+7ed1dc2df8c7,OMR,omr,en|und,iso_code|symbol,OMR,1,unique,true
+1c0e42ca1f72,ouguiya,ouguiya,en,currency_name_core,MRU,1,unique,true
+de77e5f272a7,ouguiyas,ouguiyas,en,currency_name_core,MRU,1,unique,true
+516b9783fca5,P,p,en|my|th,narrow_symbol,BWP,1,unique,true
+650538893330,PAB,pab,en|und,iso_code|symbol,PAB,1,unique,true
+c929e129de90,Pakistani Rupee,pakistani rupee,en,display_name|singular_name,PKR,1,unique,true
+8e0a5bdee566,Pakistani rupees,pakistani rupees,en,plural_name,PKR,1,unique,true
+01f969f8d5d0,Palladium,palladium,en,display_name,XPD,1,unique,true
+832de3429edd,Panamanian Balboa,panamanian balboa,en,display_name|singular_name,PAB,1,unique,true
+2008533ad762,Panamanian balboas,panamanian balboas,en,plural_name,PAB,1,unique,true
+df943a3ee1b0,Papua New Guinean Kina,papua new guinean kina,en,display_name|plural_name|singular_name,PGK,1,unique,true
+50b14576a8c0,Paraguayan Guarani,paraguayan guarani,en,display_name|singular_name,PYG,1,unique,true
+37e1a5e0be72,Paraguayan guaranis,paraguayan guaranis,en,plural_name,PYG,1,unique,true
+222bef591f32,pataca,pataca,en,currency_name_core,MOP,1,unique,true
+ff229d3acb9f,patacas,patacas,en,currency_name_core,MOP,1,unique,true
+6e437d469bbe,paʻanga,paʻanga,en,currency_name_core,TOP,1,unique,true
+c9709a190fc5,PEI,pei,und,iso_code,PEI,1,unique,true
+31a841af7b2f,PEN,pen,en|und,iso_code|symbol,PEN,1,unique,true
+d772ebfadc69,Peruvian Inti,peruvian inti,en,display_name|singular_name,PEI,1,unique,true
+5facfe740232,Peruvian intis,peruvian intis,en,plural_name,PEI,1,unique,true
+cb48b7f88481,Peruvian Sol,peruvian sol,en,display_name|singular_name,PEN,1,unique,true
+822ecdafbbbc,Peruvian Sol (1863–1965),peruvian sol (1863–1965),en,display_name|singular_name,PES,1,unique,true
+74f329e2d938,Peruvian soles,peruvian soles,en,plural_name,PEN,1,unique,true
+2cb58099dddb,Peruvian soles (1863–1965),peruvian soles (1863–1965),en,plural_name,PES,1,unique,true
+1524e2951fc3,PES,pes,und,iso_code,PES,1,unique,true
+b0c7efa6f3eb,peso,peso,en,currency_name_core,ARS|CLP|COP|CUP|DOP|MXN|PHP|UYU,8,ambiguous,false
+d32cf3ebacf0,pesos,pesos,en,currency_name_core,ARS|CLP|COP|CUP|DOP|MXN|PHP|UYU,8,ambiguous,false
+5b32b5f33b5d,PGK,pgk,en|und,iso_code|symbol,PGK,1,unique,true
+8b83d8aab5f5,Philippine Peso,philippine peso,en,display_name|singular_name,PHP,1,unique,true
+48f44c768d02,Philippine pesos,philippine pesos,en,plural_name,PHP,1,unique,true
+47425e4490d1,PHP,php,th|und,iso_code|symbol,PHP,1,unique,true
+83cbe6d017d2,PKR,pkr,en|und,iso_code|symbol,PKR,1,unique,true
+eefc1767fec3,Platinum,platinum,en,display_name,XPT,1,unique,true
+cb055daa6119,PLN,pln,en|und,iso_code|symbol,PLN,1,unique,true
+ed66b3e45aad,PLZ,plz,und,iso_code,PLZ,1,unique,true
+d800b87b3858,Polish Zloty,polish zloty,en,display_name|singular_name,PLN,1,unique,true
+5d6a2fdb4156,Polish Zloty (1950–1995),polish zloty (1950–1995),en,display_name,PLZ,1,unique,true
+ee0dcc69dad4,Polish zloty (PLZ),polish zloty (plz),en,singular_name,PLZ,1,unique,true
+e2eb3e5292c5,Polish zlotys,polish zlotys,en,plural_name,PLN,1,unique,true
+66e208816c45,Polish zlotys (PLZ),polish zlotys (plz),en,plural_name,PLZ,1,unique,true
+654a1f94ff80,Portuguese Escudo,portuguese escudo,en,display_name|singular_name,PTE,1,unique,true
+3178f26d5f3f,Portuguese escudos,portuguese escudos,en,plural_name,PTE,1,unique,true
+a1c8ce8f8a2f,Portuguese Guinea Escudo,portuguese guinea escudo,en,display_name|singular_name,GWE,1,unique,true
+76e0f82fbbf2,Portuguese Guinea escudos,portuguese guinea escudos,en,plural_name,GWE,1,unique,true
+dad7d5e0fd94,pound,pound,en,currency_name_core,EGP|FKP|GBP|GIP|LBP|SDG|SHP|SSP|SYP,9,ambiguous,false
+736137d4cd0b,pounds,pounds,en,currency_name_core,EGP|FKP|GBP|GIP|LBP|SDG|SHP|SSP|SYP,9,ambiguous,false
+390236a13346,PTE,pte,und,iso_code,PTE,1,unique,true
+201d12fe92cd,pula,pula,en,currency_name_core,BWP,1,unique,true
+030e5c33585e,pulas,pulas,en,currency_name_core,BWP,1,unique,true
+b95816cff83b,PYG,pyg,en|und,iso_code|symbol,PYG,1,unique,true
+22ea1c649c82,Q,q,en|my|th,narrow_symbol,GTQ,1,unique,true
+ff53af78936a,QAR,qar,en|und,iso_code|symbol,QAR,1,unique,true
+35ac9911f1f7,Qatari Riyal,qatari riyal,en,display_name|singular_name,QAR,1,unique,true
+31e0b59718d9,Qatari riyals,qatari riyals,en,plural_name,QAR,1,unique,true
+2bf10699f335,quetzal,quetzal,en,currency_name_core,GTQ,1,unique,true
+a3a8918b837d,quetzals,quetzals,en,currency_name_core,GTQ,1,unique,true
+4dc7c9ec434e,R,r,en|my|th,narrow_symbol,ZAR,1,unique,true
+346e7a8b403b,R$,r$,en|my|th,narrow_symbol|symbol,BRL,1,unique,true
+524005606ce5,rand,rand,en,currency_name_core,ZAR,1,unique,true
+c9c64e071d28,real,real,en,currency_name_core,BRL,1,unique,true
+7de0df6baf8c,reals,reals,en,currency_name_core,BRL,1,unique,true
+22ee00971350,RF,rf,en|my|th,narrow_symbol,RWF,1,unique,true
+6ef5e86c2b75,RHD,rhd,und,iso_code,RHD,1,unique,true
+39a51371a88a,Rhodesian Dollar,rhodesian dollar,en,display_name|singular_name,RHD,1,unique,true
+46203f7016b3,Rhodesian dollars,rhodesian dollars,en,plural_name,RHD,1,unique,true
+227925b20128,rial,rial,en,currency_name_core,IRR|OMR|YER,3,ambiguous,false
+2ee4b7674a3d,rials,rials,en,currency_name_core,IRR|OMR|YER,3,ambiguous,false
+a21938f5d463,riel,riel,en,currency_name_core,KHR,1,unique,true
+997ec9b98dd1,riels,riels,en,currency_name_core,KHR,1,unique,true
+586b3fe1273e,RINET Funds,rinet funds,en,display_name,XRE,1,unique,true
+b41a6bea3531,RINET Funds unit,rinet funds unit,en,singular_name,XRE,1,unique,true
+cbf5369ccc78,RINET Funds units,rinet funds units,en,plural_name,XRE,1,unique,true
+f5874bd298eb,ringgit,ringgit,en,currency_name_core,MYR,1,unique,true
+8b4d7e1c3792,ringgits,ringgits,en,currency_name_core,MYR,1,unique,true
+e777369a20e6,riyal,riyal,en,currency_name_core,QAR|SAR,2,ambiguous,false
+06399d2f2207,riyals,riyals,en,currency_name_core,QAR|SAR,2,ambiguous,false
+5cd7e29c8817,RM,rm,en|my|th,narrow_symbol,MYR,1,unique,true
+96e3f164788c,ROL,rol,und,iso_code,ROL,1,unique,true
+089087448da3,Romanian lei,romanian lei,en,plural_name,RON,1,unique,true
+86befded2cc9,Romanian Lei (1952–2006),romanian lei (1952–2006),en,plural_name,ROL,1,unique,true
+1c2821609eda,Romanian Leu,romanian leu,en,display_name|singular_name,RON,1,unique,true
+6c6e4449026f,Romanian Leu (1952–2006),romanian leu (1952–2006),en,display_name|singular_name,ROL,1,unique,true
+b937b287f61b,RON,ron,en|und,iso_code|symbol,RON,1,unique,true
+5eec8e1caba2,Rp,rp,en|my|th,narrow_symbol,IDR,1,unique,true
+03aae0c369f2,Rs,rs,en|my|th,narrow_symbol,LKR|MUR|NPR|PKR,4,ambiguous,false
+259bbdd80456,RSD,rsd,en|und,iso_code|symbol,RSD,1,unique,true
+0eb10e9f9675,RUB,rub,en|und,iso_code|symbol,RUB,1,unique,true
+4598a39a7c81,ruble,ruble,en,currency_name_core,BYN|RUB,2,ambiguous,false
+f9d67e37ad7d,rubles,rubles,en,currency_name_core,BYN|RUB,2,ambiguous,false
+c9fcefeadffc,rufiyaa,rufiyaa,en,currency_name_core,MVR,1,unique,true
+f727d9490420,rufiyaas,rufiyaas,en,currency_name_core,MVR,1,unique,true
+be9a2ca0d460,rupee,rupee,en,currency_name_core,INR|LKR|MUR|NPR|PKR|SCR,6,ambiguous,false
+5c1f01d81a8f,rupees,rupees,en,currency_name_core,INR|LKR|MUR|NPR|PKR|SCR,6,ambiguous,false
+21c8e475ecdf,rupiah,rupiah,en,currency_name_core,IDR,1,unique,true
+9edeadcd5d18,rupiahs,rupiahs,en,currency_name_core,IDR,1,unique,true
+675419782de4,RUR,rur,und,iso_code,RUR,1,unique,true
+02739c48dc03,Russian Ruble,russian ruble,en,display_name|singular_name,RUB,1,unique,true
+18b417f690fb,Russian Ruble (1991–1998),russian ruble (1991–1998),en,display_name|singular_name,RUR,1,unique,true
+c696ffc892b9,Russian rubles,russian rubles,en,plural_name,RUB,1,unique,true
+ffd9acf58b36,Russian rubles (1991–1998),russian rubles (1991–1998),en,plural_name,RUR,1,unique,true
+bc8adc7fcc5e,Rwandan Franc,rwandan franc,en,display_name|singular_name,RWF,1,unique,true
+3808df7fd306,Rwandan francs,rwandan francs,en,plural_name,RWF,1,unique,true
+52ea89a756df,RWF,rwf,en|und,iso_code|symbol,RWF,1,unique,true
+89cfd7bc8610,Salvadoran colones,salvadoran colones,en,plural_name,SVC,1,unique,true
+eb7a6e3e0d23,Salvadoran Colón,salvadoran colón,en,display_name|singular_name,SVC,1,unique,true
+f3da3849e474,Samoan Tala,samoan tala,en,display_name|plural_name|singular_name,WST,1,unique,true
+67fca1f36315,SAR,sar,en|und,iso_code|symbol,SAR,1,unique,true
+8c339eece55c,Saudi Riyal,saudi riyal,en,display_name|singular_name,SAR,1,unique,true
+8cdf4041123b,Saudi riyals,saudi riyals,en,plural_name,SAR,1,unique,true
+881be3e919a6,SBD,sbd,en|und,iso_code|symbol,SBD,1,unique,true
+1f21d5692312,SCR,scr,en|und,iso_code|symbol,SCR,1,unique,true
+3dfbba6224af,SDD,sdd,und,iso_code,SDD,1,unique,true
+060e3c0159f7,SDG,sdg,en|und,iso_code|symbol,SDG,1,unique,true
+0f4e4c91a3ad,SDP,sdp,und,iso_code,SDP,1,unique,true
+7383eb35235f,SEK,sek,en|und,iso_code|symbol,SEK,1,unique,true
+30db0e2a1794,Serbian Dinar,serbian dinar,en,display_name|singular_name,RSD,1,unique,true
+9d70070aa6fb,Serbian Dinar (2002–2006),serbian dinar (2002–2006),en,display_name|singular_name,CSD,1,unique,true
+6722bcac3ac2,Serbian dinars,serbian dinars,en,plural_name,RSD,1,unique,true
+89e45b29d1b2,Serbian dinars (2002–2006),serbian dinars (2002–2006),en,plural_name,CSD,1,unique,true
+0be0d7901f3d,Seychellois Rupee,seychellois rupee,en,display_name|singular_name,SCR,1,unique,true
+7ea6b19abe6b,Seychellois rupees,seychellois rupees,en,plural_name,SCR,1,unique,true
+93a0c3b363fc,SGD,sgd,en|und,iso_code|symbol,SGD,1,unique,true
+649dd872de41,shekel,shekel,en,currency_name_core,ILS,1,unique,true
+412c4dd9ad7b,shekels,shekels,en,currency_name_core,ILS,1,unique,true
+3629b1e7706d,shilling,shilling,en,currency_name_core,KES|SOS|TZS|UGX,4,ambiguous,false
+b384acdcaad9,shillings,shillings,en,currency_name_core,KES|SOS|TZS|UGX,4,ambiguous,false
+a039bf69d0b6,SHP,shp,en|und,iso_code|symbol,SHP,1,unique,true
+36718b9e897f,Sierra Leonean Leone,sierra leonean leone,en,display_name|singular_name,SLE,1,unique,true
+32ff829bd0b4,Sierra Leonean Leone (1964—2022),sierra leonean leone (1964—2022),en,display_name|singular_name,SLL,1,unique,true
+b984f93cbc6f,Sierra Leonean leones,sierra leonean leones,en,plural_name,SLE,1,unique,true
+387d71d16866,Sierra Leonean leones (1964—2022),sierra leonean leones (1964—2022),en,plural_name,SLL,1,unique,true
+f8248e127277,Silver,silver,en,display_name,XAG,1,unique,true
+10a0fe4434f0,Singapore Dollar,singapore dollar,en,display_name|singular_name,SGD,1,unique,true
+7c4e1cb57b31,Singapore dollars,singapore dollars,en,plural_name,SGD,1,unique,true
+abdcde66d68b,SIT,sit,und,iso_code,SIT,1,unique,true
+8a5fef144885,SKK,skk,und,iso_code,SKK,1,unique,true
+1969d8dff896,SLE,sle,en|und,iso_code|symbol,SLE,1,unique,true
+37cf17f9025e,SLL,sll,en|und,iso_code|symbol,SLL,1,unique,true
+3663b72a3544,Slovak Koruna,slovak koruna,en,display_name|singular_name,SKK,1,unique,true
+7c454cb43d3d,Slovak korunas,slovak korunas,en,plural_name,SKK,1,unique,true
+e109f00006e0,Slovenian Tolar,slovenian tolar,en,display_name|singular_name,SIT,1,unique,true
+5f32a04ddb35,Slovenian tolars,slovenian tolars,en,plural_name,SIT,1,unique,true
+fbb93bb966c8,sol,sol,en,currency_name_core,PEN,1,unique,true
+943c66497f2f,soles,soles,en,currency_name_core,PEN,1,unique,true
+d3465aaef72d,Solomon Islands Dollar,solomon islands dollar,en,display_name|singular_name,SBD,1,unique,true
+3e6819f452e7,Solomon Islands dollars,solomon islands dollars,en,plural_name,SBD,1,unique,true
+0a1d60115ed0,som,som,en,currency_name_core,KGS|UZS,2,ambiguous,false
+88be03056681,Somali Shilling,somali shilling,en,display_name|singular_name,SOS,1,unique,true
+461581d9fc16,Somali shillings,somali shillings,en,plural_name,SOS,1,unique,true
+5e1c0962c567,somoni,somoni,en,currency_name_core,TJS,1,unique,true
+8f85fa55ff2e,somonis,somonis,en,currency_name_core,TJS,1,unique,true
+2798ea394ff6,soms,soms,en,currency_name_core,KGS,1,unique,true
+2a816d1b9d8c,SOS,sos,en|und,iso_code|symbol,SOS,1,unique,true
+cfdb9c58f1e1,South African Rand,south african rand,en,display_name|plural_name|singular_name,ZAR,1,unique,true
+777a400a2c12,South African Rand (financial),south african rand (financial),en,display_name|singular_name,ZAL,1,unique,true
+506229a9a08a,South African rands (financial),south african rands (financial),en,plural_name,ZAL,1,unique,true
+c899e10bf5b3,South Korean Hwan (1953–1962),south korean hwan (1953–1962),en,display_name|plural_name|singular_name,KRH,1,unique,true
+5666530be346,South Korean Won,south korean won,en,display_name|plural_name|singular_name,KRW,1,unique,true
+2ad9f0986d5f,South Korean Won (1945–1953),south korean won (1945–1953),en,display_name|plural_name|singular_name,KRO,1,unique,true
+2a49d2ddddfd,South Sudanese Pound,south sudanese pound,en,display_name|singular_name,SSP,1,unique,true
+0e7566de845c,South Sudanese pounds,south sudanese pounds,en,plural_name,SSP,1,unique,true
+70d06c1c3529,Soviet Rouble,soviet rouble,en,display_name|singular_name,SUR,1,unique,true
+5bf39fd237f1,Soviet roubles,soviet roubles,en,plural_name,SUR,1,unique,true
+4a109b5c83c5,Spanish Peseta,spanish peseta,en,display_name|singular_name,ESP,1,unique,true
+98db51bd70e8,Spanish Peseta (A account),spanish peseta (a account),en,display_name|singular_name,ESA,1,unique,true
+0aaf00210c8e,Spanish Peseta (convertible account),spanish peseta (convertible account),en,display_name|singular_name,ESB,1,unique,true
+42d9c9e22166,Spanish pesetas,spanish pesetas,en,plural_name,ESP,1,unique,true
+35309f587518,Spanish pesetas (A account),spanish pesetas (a account),en,plural_name,ESA,1,unique,true
+ba91962c91eb,Spanish pesetas (convertible account),spanish pesetas (convertible account),en,plural_name,ESB,1,unique,true
+03cbc6354a08,Special Drawing Rights,special drawing rights,en,display_name|plural_name|singular_name,XDR,1,unique,true
+f23b2c276167,SRD,srd,en|und,iso_code|symbol,SRD,1,unique,true
+42f5b7ead0e3,SRG,srg,und,iso_code,SRG,1,unique,true
+a8d64ee4df38,Sri Lankan Rupee,sri lankan rupee,en,display_name|singular_name,LKR,1,unique,true
+9a6038e05b8b,Sri Lankan rupees,sri lankan rupees,en,plural_name,LKR,1,unique,true
+793d0520344d,SSP,ssp,en|und,iso_code|symbol,SSP,1,unique,true
+4c8d899b6ef0,St. Helena Pound,st. helena pound,en,display_name|singular_name,SHP,1,unique,true
+be4fd1f790f4,St. Helena pounds,st. helena pounds,en,plural_name,SHP,1,unique,true
+55ec981f0a60,STD,std,und,iso_code,STD,1,unique,true
+50f2924dda15,STN,stn,en|und,iso_code|symbol,STN,1,unique,true
+09dcbbb0dd9f,Sucre,sucre,en,display_name|singular_name,XSU,1,unique,true
+60aa359593b5,Sucres,sucres,en,plural_name,XSU,1,unique,true
+22787a35fb15,Sudanese Dinar (1992–2007),sudanese dinar (1992–2007),en,display_name|singular_name,SDD,1,unique,true
+8d57a8da851b,Sudanese dinars (1992–2007),sudanese dinars (1992–2007),en,plural_name,SDD,1,unique,true
+70072d5fc953,Sudanese Pound,sudanese pound,en,display_name|singular_name,SDG,1,unique,true
+ee08230df41f,Sudanese Pound (1957–1998),sudanese pound (1957–1998),en,display_name|singular_name,SDP,1,unique,true
+83e5381f003d,Sudanese pounds,sudanese pounds,en,plural_name,SDG,1,unique,true
+8b783c89e4b3,Sudanese pounds (1957–1998),sudanese pounds (1957–1998),en,plural_name,SDP,1,unique,true
+3d54fd66df56,SUR,sur,und,iso_code,SUR,1,unique,true
+19c9c645e9fb,Surinamese Dollar,surinamese dollar,en,display_name|singular_name,SRD,1,unique,true
+9bc6f19d37e9,Surinamese dollars,surinamese dollars,en,plural_name,SRD,1,unique,true
+7c7deb9d3900,Surinamese Guilder,surinamese guilder,en,display_name|singular_name,SRG,1,unique,true
+e669e4782a6a,Surinamese guilders,surinamese guilders,en,plural_name,SRG,1,unique,true
+a0089182becd,SVC,svc,und,iso_code,SVC,1,unique,true
+3a929055407f,Swazi emalangeni,swazi emalangeni,en,plural_name,SZL,1,unique,true
+6fc19e61722a,Swazi Lilangeni,swazi lilangeni,en,display_name|singular_name,SZL,1,unique,true
+3827530c415c,Swedish Krona,swedish krona,en,display_name|singular_name,SEK,1,unique,true
+25d992d79a69,Swedish kronor,swedish kronor,en,plural_name,SEK,1,unique,true
+7420f3da52a0,Swiss Franc,swiss franc,en,display_name|singular_name,CHF,1,unique,true
+83fc53376fd8,Swiss francs,swiss francs,en,plural_name,CHF,1,unique,true
+91d1a66b9610,SYP,syp,en|und,iso_code|symbol,SYP,1,unique,true
+0b3bad95dae3,Syrian Pound,syrian pound,en,display_name|singular_name,SYP,1,unique,true
+9c13090479f7,Syrian pounds,syrian pounds,en,plural_name,SYP,1,unique,true
+a45de6c5c1a7,SZL,szl,en|und,iso_code|symbol,SZL,1,unique,true
+1fd10296e91f,São Tomé & Príncipe Dobra,são tomé & príncipe dobra,en,display_name|singular_name,STN,1,unique,true
+a56d66432a2e,São Tomé & Príncipe Dobra (1977–2017),são tomé & príncipe dobra (1977–2017),en,display_name|singular_name,STD,1,unique,true
+083307155360,São Tomé & Príncipe dobras,são tomé & príncipe dobras,en,plural_name,STN,1,unique,true
+ec509e95817f,São Tomé & Príncipe dobras (1977–2017),são tomé & príncipe dobras (1977–2017),en,plural_name,STD,1,unique,true
+b5cd8ca26d49,T$,t$,en|my|th,narrow_symbol,TOP,1,unique,true
+795bc399d4c0,Tajikistani Ruble,tajikistani ruble,en,display_name|singular_name,TJR,1,unique,true
+c3cb7ca44105,Tajikistani rubles,tajikistani rubles,en,plural_name,TJR,1,unique,true
+149769af18b5,Tajikistani Somoni,tajikistani somoni,en,display_name|singular_name,TJS,1,unique,true
+4137abd44f48,Tajikistani somonis,tajikistani somonis,en,plural_name,TJS,1,unique,true
+c882f80eb614,taka,taka,en,currency_name_core,BDT,1,unique,true
+bdff48d590e3,takas,takas,en,currency_name_core,BDT,1,unique,true
+8ea49b311d83,tala,tala,en,currency_name_core,WST,1,unique,true
+9de65f5c392c,Tanzanian Shilling,tanzanian shilling,en,display_name|singular_name,TZS,1,unique,true
+18da8d11ab8a,Tanzanian shillings,tanzanian shillings,en,plural_name,TZS,1,unique,true
+50779c2ad4f7,tenge,tenge,en,currency_name_core,KZT,1,unique,true
+8dea03fee12c,tenges,tenges,en,currency_name_core,KZT,1,unique,true
+c2de4c3f6b4a,Testing Currency Code,testing currency code,en,display_name,XTS,1,unique,true
+c127876f595b,Testing Currency unit,testing currency unit,en,singular_name,XTS,1,unique,true
+bfbfddff7f3c,Testing Currency units,testing currency units,en,plural_name,XTS,1,unique,true
+70e1b955d691,Thai Baht,thai baht,en,display_name|plural_name|singular_name,THB,1,unique,true
+820d075eff32,THB,thb,en|und,iso_code|symbol,THB,1,unique,true
+69cb15698beb,Timorese Escudo,timorese escudo,en,display_name|singular_name,TPE,1,unique,true
+0696e102c281,Timorese escudos,timorese escudos,en,plural_name,TPE,1,unique,true
+a3ea0269a751,TJR,tjr,und,iso_code,TJR,1,unique,true
+a87a46a6cf06,TJS,tjs,en|und,iso_code|symbol,TJS,1,unique,true
+5e2cbfa6f18d,TL,tl,en|my|th,symbol_variant,TRY,1,unique,true
+be08c3ea48d0,TMM,tmm,und,iso_code,TMM,1,unique,true
+c698aa578bdd,TMT,tmt,en|und,iso_code|symbol,TMT,1,unique,true
+d0b5a7586b09,TND,tnd,en|und,iso_code|symbol,TND,1,unique,true
+60188cfedf8c,Tongan Paʻanga,tongan paʻanga,en,display_name|plural_name|singular_name,TOP,1,unique,true
+af2c7b4ca07a,TOP,top,en|und,iso_code|symbol,TOP,1,unique,true
+a6f1105d3f0b,TPE,tpe,und,iso_code,TPE,1,unique,true
+e8a47974a978,Trinidad & Tobago Dollar,trinidad & tobago dollar,en,display_name|singular_name,TTD,1,unique,true
+4bfdb54c850f,Trinidad & Tobago dollars,trinidad & tobago dollars,en,plural_name,TTD,1,unique,true
+b179748da1ec,TRL,trl,und,iso_code,TRL,1,unique,true
+2f3b0f490add,troy ounce of gold,troy ounce of gold,en,singular_name,XAU,1,unique,true
+38df954a9b67,troy ounce of palladium,troy ounce of palladium,en,singular_name,XPD,1,unique,true
+e0b3c2e2af4a,troy ounce of platinum,troy ounce of platinum,en,singular_name,XPT,1,unique,true
+f9621441ab1d,troy ounce of silver,troy ounce of silver,en,singular_name,XAG,1,unique,true
+6b298c00b37b,troy ounces of gold,troy ounces of gold,en,plural_name,XAU,1,unique,true
+4da1186611b1,troy ounces of palladium,troy ounces of palladium,en,plural_name,XPD,1,unique,true
+a992c1964aab,troy ounces of platinum,troy ounces of platinum,en,plural_name,XPT,1,unique,true
+8a3f2836da55,troy ounces of silver,troy ounces of silver,en,plural_name,XAG,1,unique,true
+3240aa0fe3ca,TRY,try,en|und,iso_code|symbol,TRY,1,unique,true
+bd80e9fb7ff0,TT$,tt$,my,symbol,TTD,1,unique,true
+52fb33087be0,TTD,ttd,en|und,iso_code|symbol,TTD,1,unique,true
+f96dec2764fb,tugrik,tugrik,en,currency_name_core,MNT,1,unique,true
+f1e37ee4814e,tugriks,tugriks,en,currency_name_core,MNT,1,unique,true
+9d085f02aa53,Tunisian Dinar,tunisian dinar,en,display_name|singular_name,TND,1,unique,true
+c451f9786478,Tunisian dinars,tunisian dinars,en,plural_name,TND,1,unique,true
+e3ba4b73534a,Turkish Lira,turkish lira,en,display_name|plural_name|singular_name,TRY,1,unique,true
+dec1f6d51507,Turkish Lira (1922–2005),turkish lira (1922–2005),en,display_name|plural_name|singular_name,TRL,1,unique,true
+465b3741b486,Turkmenistani Manat,turkmenistani manat,en,display_name|plural_name|singular_name,TMT,1,unique,true
+ae68e3539113,Turkmenistani Manat (1993–2009),turkmenistani manat (1993–2009),en,display_name|plural_name|singular_name,TMM,1,unique,true
+865049477fa9,TWD,twd,und,iso_code,TWD,1,unique,true
+d12ad066db24,TZS,tzs,en|und,iso_code|symbol,TZS,1,unique,true
+9a3d0215380f,UAE dirham,uae dirham,en,singular_name,AED,1,unique,true
+3103dc057d23,UAE dirhams,uae dirhams,en,plural_name,AED,1,unique,true
+d2502def146e,UAH,uah,en|und,iso_code|symbol,UAH,1,unique,true
+110355520a49,UAK,uak,und,iso_code,UAK,1,unique,true
+4a5d4a091885,Ugandan Shilling,ugandan shilling,en,display_name|singular_name,UGX,1,unique,true
+588f7d437270,Ugandan Shilling (1966–1987),ugandan shilling (1966–1987),en,display_name|singular_name,UGS,1,unique,true
+47e9f42813b4,Ugandan shillings,ugandan shillings,en,plural_name,UGX,1,unique,true
+8c95c7a189c0,Ugandan shillings (1966–1987),ugandan shillings (1966–1987),en,plural_name,UGS,1,unique,true
+d2f5fd343859,UGS,ugs,und,iso_code,UGS,1,unique,true
+61d06f0d3b52,UGX,ugx,en|und,iso_code|symbol,UGX,1,unique,true
+250a72e2ad8a,Ukrainian Hryvnia,ukrainian hryvnia,en,display_name|singular_name,UAH,1,unique,true
+ed6d8b9722df,Ukrainian hryvnias,ukrainian hryvnias,en,plural_name,UAH,1,unique,true
+ce4ac2b220d7,Ukrainian Karbovanets,ukrainian karbovanets,en,display_name|singular_name,UAK,1,unique,true
+ae94935ce352,Ukrainian karbovantsiv,ukrainian karbovantsiv,en,plural_name,UAK,1,unique,true
+a38a9078fc8d,United Arab Emirates Dirham,united arab emirates dirham,en,display_name,AED,1,unique,true
+b1b3496e2294,Unknown Currency,unknown currency,en,display_name,XXX,1,unique,true
+12fe7518cfc8,Uruguayan Nominal Wage Index Unit,uruguayan nominal wage index unit,en,display_name|singular_name,UYW,1,unique,true
+067efc0e4122,Uruguayan nominal wage index units,uruguayan nominal wage index units,en,plural_name,UYW,1,unique,true
+779788cab390,Uruguayan Peso,uruguayan peso,en,display_name|singular_name,UYU,1,unique,true
+78e04ad96835,Uruguayan Peso (1975–1993),uruguayan peso (1975–1993),en,display_name|singular_name,UYP,1,unique,true
+f210a8d817db,Uruguayan Peso (Indexed Units),uruguayan peso (indexed units),en,display_name|singular_name,UYI,1,unique,true
+f064c66a3fc3,Uruguayan pesos,uruguayan pesos,en,plural_name,UYU,1,unique,true
+7eed79ac3ad9,Uruguayan pesos (1975–1993),uruguayan pesos (1975–1993),en,plural_name,UYP,1,unique,true
+1b2c33150690,Uruguayan pesos (indexed units),uruguayan pesos (indexed units),en,plural_name,UYI,1,unique,true
+480db64f78b2,US Dollar,us dollar,en,display_name|singular_name,USD,1,unique,true
+4baeba21f506,US Dollar (Next day),us dollar (next day),en,display_name|singular_name,USN,1,unique,true
+db3a59216d51,US Dollar (Same day),us dollar (same day),en,display_name|singular_name,USS,1,unique,true
+db8b4aea42bb,US dollars,us dollars,en,plural_name,USD,1,unique,true
+dd1c9ad5e242,US dollars (next day),us dollars (next day),en,plural_name,USN,1,unique,true
+315028ca8a7a,US dollars (same day),us dollars (same day),en,plural_name,USS,1,unique,true
+48a3ef9ca5f8,US$,us$,my|th,symbol,USD,1,unique,true
+8084589732a6,USD,usd,und,iso_code,USD,1,unique,true
+094da5ac167f,USN,usn,und,iso_code,USN,1,unique,true
+219112eb6543,USS,uss,und,iso_code,USS,1,unique,true
+1b8fb4297a25,UYI,uyi,und,iso_code,UYI,1,unique,true
+6314dc4f729c,UYP,uyp,und,iso_code,UYP,1,unique,true
+86538a46bb1b,UYU,uyu,en|und,iso_code|symbol,UYU,1,unique,true
+ae5daa26cac4,UYW,uyw,und,iso_code,UYW,1,unique,true
+a693ebf069ef,Uzbekistani Som,uzbekistani som,en,display_name|plural_name|singular_name,UZS,1,unique,true
+36d953f9c802,UZS,uzs,en|und,iso_code|symbol,UZS,1,unique,true
+29a4d1a69f3e,Vanuatu Vatu,vanuatu vatu,en,display_name|singular_name,VUV,1,unique,true
+0ff7cb9cd00a,Vanuatu vatus,vanuatu vatus,en,plural_name,VUV,1,unique,true
+442857111513,vatu,vatu,en,currency_name_core,VUV,1,unique,true
+93748f17a88c,vatus,vatus,en,currency_name_core,VUV,1,unique,true
+06288ec1c022,VEB,veb,und,iso_code,VEB,1,unique,true
+3d4142302566,VED,ved,und,iso_code,VED,1,unique,true
+5cdacb2d6ae5,VEF,vef,und,iso_code,VEF,1,unique,true
+eb831a0d2728,Venezuelan Bolívar,venezuelan bolívar,en,display_name|singular_name,VES,1,unique,true
+5bfc16dc4c49,Venezuelan Bolívar (1871–2008),venezuelan bolívar (1871–2008),en,display_name|singular_name,VEB,1,unique,true
+cac76d33406d,Venezuelan Bolívar (2008–2018),venezuelan bolívar (2008–2018),en,display_name|singular_name,VEF,1,unique,true
+49bc0f917dc2,Venezuelan bolívars,venezuelan bolívars,en,plural_name,VES,1,unique,true
+bbabc1521759,Venezuelan bolívars (1871–2008),venezuelan bolívars (1871–2008),en,plural_name,VEB,1,unique,true
+dda633094cac,Venezuelan bolívars (2008–2018),venezuelan bolívars (2008–2018),en,plural_name,VEF,1,unique,true
+ad75c7953a35,VES,ves,en|und,iso_code|symbol,VES,1,unique,true
+82d6a6a14607,Vietnamese Dong,vietnamese dong,en,display_name|plural_name|singular_name,VND,1,unique,true
+298502c37c04,Vietnamese Dong (1978–1985),vietnamese dong (1978–1985),en,display_name|plural_name|singular_name,VNN,1,unique,true
+ac54ca663762,VND,vnd,und,iso_code,VND,1,unique,true
+fc2ea0b90ab9,VNN,vnn,und,iso_code,VNN,1,unique,true
+690f23f5ea0b,VUV,vuv,en|und,iso_code|symbol,VUV,1,unique,true
+e8c2caf389ca,West African CFA Franc,west african cfa franc,en,display_name|singular_name,XOF,1,unique,true
+78ceff169884,West African CFA francs,west african cfa francs,en,plural_name,XOF,1,unique,true
+0653cd6f1b4d,WIR Euro,wir euro,en,display_name|singular_name,CHE,1,unique,true
+01611800c671,WIR euros,wir euros,en,plural_name,CHE,1,unique,true
+08894545e685,WIR Franc,wir franc,en,display_name|singular_name,CHW,1,unique,true
+c098aad56051,WIR francs,wir francs,en,plural_name,CHW,1,unique,true
+a32b8cd11ba5,won,won,en,currency_name_core,KPW|KRW,2,ambiguous,false
+abbff479fccc,WST,wst,en|und,iso_code|symbol,WST,1,unique,true
+b03e42921754,XAF,xaf,und,iso_code,XAF,1,unique,true
+95f5d1089a2d,XAG,xag,und,iso_code,XAG,1,unique,true
+f3b99e0d8b2e,XAU,xau,und,iso_code,XAU,1,unique,true
+c02cd076544b,XBA,xba,und,iso_code,XBA,1,unique,true
+7bbe2d82cb6a,XBB,xbb,und,iso_code,XBB,1,unique,true
+485ebfade40f,XBC,xbc,und,iso_code,XBC,1,unique,true
+941a77f986e3,XBD,xbd,und,iso_code,XBD,1,unique,true
+508462bd2502,XCD,xcd,und,iso_code,XCD,1,unique,true
+2e290834cc7f,XCG,xcg,und,iso_code,XCG,1,unique,true
+0a8092577e29,XDR,xdr,und,iso_code,XDR,1,unique,true
+ed6f2c0f1983,XEU,xeu,und,iso_code,XEU,1,unique,true
+5a59e3fd6d2d,XFO,xfo,und,iso_code,XFO,1,unique,true
+1beb474e21bf,XFU,xfu,und,iso_code,XFU,1,unique,true
+442df86245b5,XOF,xof,und,iso_code,XOF,1,unique,true
+4e142841c77b,XPD,xpd,und,iso_code,XPD,1,unique,true
+e168ca34dacf,XPF,xpf,und,iso_code,XPF,1,unique,true
+495baccfc4dc,XPT,xpt,und,iso_code,XPT,1,unique,true
+e7f034a824d1,XRE,xre,und,iso_code,XRE,1,unique,true
+dca83307c877,XSU,xsu,und,iso_code,XSU,1,unique,true
+1ef68b7b7262,XTS,xts,und,iso_code,XTS,1,unique,true
+1fc2bc44dc4b,XUA,xua,und,iso_code,XUA,1,unique,true
+b60d121b438a,XXX,xxx,th|und,iso_code|symbol,XXX,1,unique,true
+0550aa37b4ef,YDD,ydd,und,iso_code,YDD,1,unique,true
+1e9a53c43a67,Yemeni Dinar,yemeni dinar,en,display_name|singular_name,YDD,1,unique,true
+cc76b38d4e3f,Yemeni dinars,yemeni dinars,en,plural_name,YDD,1,unique,true
+a4e865afe924,Yemeni Rial,yemeni rial,en,display_name|singular_name,YER,1,unique,true
+af5c89c28d85,Yemeni rials,yemeni rials,en,plural_name,YER,1,unique,true
+720766642bbc,yen,yen,en,currency_name_core,JPY,1,unique,true
+b595b74dccd8,YER,yer,en|und,iso_code|symbol,YER,1,unique,true
+35015dd23b25,yuan,yuan,en,currency_name_core,CNY,1,unique,true
+8f5420233968,YUD,yud,und,iso_code,YUD,1,unique,true
+b150e72c1994,Yugoslavian Convertible Dinar (1990–1992),yugoslavian convertible dinar (1990–1992),en,display_name|singular_name,YUN,1,unique,true
+ee850212055c,Yugoslavian convertible dinars (1990–1992),yugoslavian convertible dinars (1990–1992),en,plural_name,YUN,1,unique,true
+30dc0c929c83,Yugoslavian Hard Dinar (1966–1990),yugoslavian hard dinar (1966–1990),en,display_name|singular_name,YUD,1,unique,true
+ce46e14f0f99,Yugoslavian hard dinars (1966–1990),yugoslavian hard dinars (1966–1990),en,plural_name,YUD,1,unique,true
+06e507334d21,Yugoslavian New Dinar (1994–2002),yugoslavian new dinar (1994–2002),en,display_name|singular_name,YUM,1,unique,true
+6d1d6c53127a,Yugoslavian new dinars (1994–2002),yugoslavian new dinars (1994–2002),en,plural_name,YUM,1,unique,true
+04bc3baa5006,Yugoslavian Reformed Dinar (1992–1993),yugoslavian reformed dinar (1992–1993),en,display_name|singular_name,YUR,1,unique,true
+8e794bd82d0f,Yugoslavian reformed dinars (1992–1993),yugoslavian reformed dinars (1992–1993),en,plural_name,YUR,1,unique,true
+3c14423e8df2,YUM,yum,und,iso_code,YUM,1,unique,true
+056ed9abe6e7,YUN,yun,und,iso_code,YUN,1,unique,true
+a39d2899068f,YUR,yur,und,iso_code,YUR,1,unique,true
+922546369ac8,Zairean New Zaire (1993–1998),zairean new zaire (1993–1998),en,display_name|singular_name,ZRN,1,unique,true
+e102e838ce47,Zairean new zaires (1993–1998),zairean new zaires (1993–1998),en,plural_name,ZRN,1,unique,true
+5b67ac146c0d,Zairean Zaire (1971–1993),zairean zaire (1971–1993),en,display_name|singular_name,ZRZ,1,unique,true
+aec38c48ef5e,Zairean zaires (1971–1993),zairean zaires (1971–1993),en,plural_name,ZRZ,1,unique,true
+8ca8d2bb7915,ZAL,zal,und,iso_code,ZAL,1,unique,true
+ed1d300506ef,Zambian Kwacha,zambian kwacha,en,display_name|singular_name,ZMW,1,unique,true
+08dd760c5690,Zambian Kwacha (1968–2012),zambian kwacha (1968–2012),en,display_name|singular_name,ZMK,1,unique,true
+228760a0555e,Zambian kwachas,zambian kwachas,en,plural_name,ZMW,1,unique,true
+5f4a8ee250f4,Zambian kwachas (1968–2012),zambian kwachas (1968–2012),en,plural_name,ZMK,1,unique,true
+1c7a98c591f6,ZAR,zar,en|und,iso_code|symbol,ZAR,1,unique,true
+dc3460712244,Zimbabwean Dollar (1980–2008),zimbabwean dollar (1980–2008),en,display_name|singular_name,ZWD,1,unique,true
+4b521c43c679,Zimbabwean Dollar (2008),zimbabwean dollar (2008),en,display_name|singular_name,ZWR,1,unique,true
+d35f8380cd39,Zimbabwean Dollar (2009–2024),zimbabwean dollar (2009–2024),en,display_name|singular_name,ZWL,1,unique,true
+1a0c494c014a,Zimbabwean dollars (1980–2008),zimbabwean dollars (1980–2008),en,plural_name,ZWD,1,unique,true
+72214fbf1f0b,Zimbabwean dollars (2008),zimbabwean dollars (2008),en,plural_name,ZWR,1,unique,true
+5f65646c0924,Zimbabwean dollars (2009–2024),zimbabwean dollars (2009–2024),en,plural_name,ZWL,1,unique,true
+48f0411a056c,Zimbabwean Gold,zimbabwean gold,en,display_name|plural_name|singular_name,ZWG,1,unique,true
+33dc6ababc9e,ZK,zk,en|my|th,narrow_symbol,ZMW,1,unique,true
+f8ca8956b166,zloty,zloty,en,currency_name_core,PLN,1,unique,true
+827d48cc379a,zlotys,zlotys,en,currency_name_core,PLN,1,unique,true
+68da51edd6f3,ZMK,zmk,und,iso_code,ZMK,1,unique,true
+8b9af1851529,ZMW,zmw,en|und,iso_code|symbol,ZMW,1,unique,true
+8c22dc256165,ZRN,zrn,und,iso_code,ZRN,1,unique,true
+d453a6a2e216,ZRZ,zrz,und,iso_code,ZRZ,1,unique,true
+397a1de95a59,ZWD,zwd,und,iso_code,ZWD,1,unique,true
+d45b5a334156,ZWG,zwg,en|und,iso_code|symbol,ZWG,1,unique,true
+7aaba9bfda95,ZWL,zwl,und,iso_code,ZWL,1,unique,true
+bd6c573612cf,ZWR,zwr,und,iso_code,ZWR,1,unique,true
+159c82907690,zł,zł,en|my|th,narrow_symbol,PLN,1,unique,true
+0c065e4d07fc,£,£,en|my|th,narrow_symbol|symbol,FKP|GBP|GIP|SHP|SSP|SYP,6,ambiguous,false
+90323b9783ab,¥,¥,en|my|th,narrow_symbol|symbol,CNY|JPY,2,ambiguous,false
+45e8a717f3e9,р.,р.,my|th,narrow_symbol,BYN,1,unique,true
+e72e29ddaf12,֏,֏,en|my|th,narrow_symbol,AMD,1,unique,true
+73b642321ecd,؋,؋,en|my|th,narrow_symbol,AFN,1,unique,true
+667044e8ba49,৳,৳,en|my|th,narrow_symbol,BDT,1,unique,true
+369d2037c99f,กวานซารีจัสทาโดแองโกลา (1995–1999),กวานซารีจัสทาโดแองโกลา (1995–1999),th,display_name|plural_name,AOR,1,unique,true
+a7832c1a3d9e,กวานซาแองโกลา,กวานซาแองโกลา,th,display_name|plural_name,AOA,1,unique,true
+2001d954ea9d,กวานซาแองโกลา (1977–1990),กวานซาแองโกลา (1977–1990),th,display_name|plural_name,AOK,1,unique,true
+cb3d0fe5bda5,กวารานีปารากวัย,กวารานีปารากวัย,th,display_name|plural_name,PYG,1,unique,true
+bd392b7d4389,กองทุนไรเน็ต,กองทุนไรเน็ต,th,display_name|plural_name,XRE,1,unique,true
+7fc2676aa855,กอร์โดบานิการากัว,กอร์โดบานิการากัว,th,display_name|plural_name,NIO,1,unique,true
+9b2af35cb857,กิลเดอร์ซูรินาเม,กิลเดอร์ซูรินาเม,th,display_name|plural_name,SRG,1,unique,true
+af9a6b971296,กิลเดอร์เนเธอร์แลนด์,กิลเดอร์เนเธอร์แลนด์,th,display_name|plural_name,NLG,1,unique,true
+e00d85f0083a,กิลเดอร์เนเธอร์แลนด์แอนทิลลิส,กิลเดอร์เนเธอร์แลนด์แอนทิลลิส,th,display_name|plural_name,ANG,1,unique,true
+c6063d2d23d8,กิลเดอร์แคริบเบียน,กิลเดอร์แคริบเบียน,th,display_name|plural_name,XCG,1,unique,true
+219cef2f11c5,กีนาปาปัวนิวกินี,กีนาปาปัวนิวกินี,th,display_name|plural_name,PGK,1,unique,true
+da74d012ee1d,กีบลาว,กีบลาว,th,display_name|plural_name,LAK,1,unique,true
+f26d7e07e3ff,กูร์ดเฮติ,กูร์ดเฮติ,th,display_name|plural_name,HTG,1,unique,true
+db778a8bdcf1,ครูซาโดบราซิล,ครูซาโดบราซิล,th,display_name|plural_name,BRC,1,unique,true
+b0c1e4139d76,ครูซาโดโนโวบราซิล,ครูซาโดโนโวบราซิล,th,display_name|plural_name,BRN,1,unique,true
+3d8faa1f0b3f,ครูนเอสโตเนีย,ครูนเอสโตเนีย,th,display_name|plural_name,EEK,1,unique,true
+fbe298bea4bb,ครูเซโรบราซิล,ครูเซโรบราซิล,th,display_name|plural_name,BRR,1,unique,true
+606787262989,ครูเซโรบราซิล (1942–1967),ครูเซโรบราซิล (1942–1967),th,display_name|plural_name,BRZ,1,unique,true
+e1bea451b5a6,ครูเซโรบราซิล (1990–1993),ครูเซโรบราซิล (1990–1993),th,display_name|plural_name,BRE,1,unique,true
+d0b17b6e9407,ครูเซโรโนโวบราซิล (1967–1986),ครูเซโรโนโวบราซิล (1967–1986),th,display_name|plural_name,BRB,1,unique,true
+f842885be8f3,ควาชามาลาวี,ควาชามาลาวี,th,display_name|plural_name,MWK,1,unique,true
+4e00c19ece96,ควาชาแซมเบีย,ควาชาแซมเบีย,th,display_name|plural_name,ZMW,1,unique,true
+2c731c4c3422,ควาชาแซมเบีย (1968–2012),ควาชาแซมเบีย (1968–2012),th,display_name|plural_name,ZMK,1,unique,true
+47897ad869ec,คอนเวอร์ทิเบิลดีนาร์ยูโกสลาเวีย,คอนเวอร์ทิเบิลดีนาร์ยูโกสลาเวีย,th,display_name|plural_name,YUN,1,unique,true
+c44ed9b80529,คอนเวอร์ทิเบิลฟรังก์ลักเซมเบิร์ก,คอนเวอร์ทิเบิลฟรังก์ลักเซมเบิร์ก,th,display_name|plural_name,LUC,1,unique,true
+f18de20787e1,คอร์โดบานิการากัว,คอร์โดบานิการากัว,th,display_name|plural_name,NIC,1,unique,true
+a66ddb29f81a,คาร์โบวาเนตซ์ยูเครน,คาร์โบวาเนตซ์ยูเครน,th,display_name|plural_name,UAK,1,unique,true
+75860a1959df,คูนาโครเอเชีย,คูนาโครเอเชีย,th,display_name|plural_name,HRK,1,unique,true
+13203fa4b21b,คูปอนลาริตจอร์เจีย,คูปอนลาริตจอร์เจีย,th,display_name|plural_name,GEK,1,unique,true
+c99fe6d9290b,จ๊าดพม่า,จ๊าดพม่า,th,display_name|plural_name,BUK,1,unique,true
+3cae3148b06c,จ๊าตพม่า,จ๊าตพม่า,th,display_name|plural_name,MMK,1,unique,true
+7b82c4ebd826,ชิลลิงยูกันดา,ชิลลิงยูกันดา,th,display_name|plural_name,UGX,1,unique,true
+75c3e19fb2e6,ชิลลิงยูกันดา (1966–1987),ชิลลิงยูกันดา (1966–1987),th,display_name|plural_name,UGS,1,unique,true
+51727b1b5c8e,ชิลลิงออสเตรีย,ชิลลิงออสเตรีย,th,display_name|plural_name,ATS,1,unique,true
+023c534eb67c,ชิลลิงเคนยา,ชิลลิงเคนยา,th,display_name|plural_name,KES,1,unique,true
+b585822293ea,ชิลลิงแทนซาเนีย,ชิลลิงแทนซาเนีย,th,display_name|plural_name,TZS,1,unique,true
+b590e13ed2c7,ชิลลิงโซมาเลีย,ชิลลิงโซมาเลีย,th,display_name|plural_name,SOS,1,unique,true
+b7b8fbb5e1d1,ซลอตีโปแลนด์,ซลอตีโปแลนด์,th,display_name|plural_name,PLN,1,unique,true
+710fb4ccab58,ซลอตีโปแลนด์ (1950–1995),ซลอตีโปแลนด์ (1950–1995),th,display_name|plural_name,PLZ,1,unique,true
+43c1f024e961,ซอมคีร์กีซสถาน,ซอมคีร์กีซสถาน,th,display_name|plural_name,KGS,1,unique,true
+36fe5e770455,ซอมอุซเบกิสถาน,ซอมอุซเบกิสถาน,th,display_name|plural_name,UZS,1,unique,true
+73c0cde5d0fa,ซอลเปรู,ซอลเปรู,th,display_name|plural_name,PEN,1,unique,true
+32f8bf45afc0,ซอลเปรู (1863–1965),ซอลเปรู (1863–1965),th,display_name,PES,1,unique,true
+79da25e04629,ซอลเปรู(1863–1965),ซอลเปรู(1863–1965),th,plural_name,PES,1,unique,true
+fc9f95cb33a1,ซูเกร,ซูเกร,th,display_name|plural_name,XSU,1,unique,true
+6da7fe606c77,ซูเกรเอกวาดอร์,ซูเกรเอกวาดอร์,th,display_name|plural_name,ECS,1,unique,true
+899711b8a46b,ดรัชมากรีก,ดรัชมากรีก,th,display_name|plural_name,GRD,1,unique,true
+d666d77a512f,ดองเวียดนาม,ดองเวียดนาม,th,display_name|plural_name,VND,1,unique,true
+63006839a21a,ดองเวียดนาม (1978–1985),ดองเวียดนาม (1978–1985),th,display_name|plural_name,VNN,1,unique,true
+80cecbc3f98b,ดอบราเซาตูเมและปรินซิปี,ดอบราเซาตูเมและปรินซิปี,th,display_name|plural_name,STN,1,unique,true
+eb6ffeeb2dc0,ดอบราเซาตูเมและปรินซิปี (1977–2017),ดอบราเซาตูเมและปรินซิปี (1977–2017),th,display_name|plural_name,STD,1,unique,true
+2e9fb9e8881f,ดอลลาร์กายอานา,ดอลลาร์กายอานา,th,display_name|plural_name,GYD,1,unique,true
+3b02b371d94c,ดอลลาร์จาเมกา,ดอลลาร์จาเมกา,th,display_name|plural_name,JMD,1,unique,true
+63a8182f35f1,ดอลลาร์ซิมบับเว,ดอลลาร์ซิมบับเว,th,display_name|plural_name,ZWD,1,unique,true
+2aee85f166d9,ดอลลาร์ซิมบับเว (2008),ดอลลาร์ซิมบับเว (2008),th,display_name|plural_name,ZWR,1,unique,true
+9fb9e347b715,ดอลลาร์ซิมบับเว (2009),ดอลลาร์ซิมบับเว (2009),th,display_name|plural_name,ZWL,1,unique,true
+d655a745a4a1,ดอลลาร์ซูรินาเม,ดอลลาร์ซูรินาเม,th,display_name|plural_name,SRD,1,unique,true
+f34d60ea9384,ดอลลาร์ตรินิแดดและโตเบโก,ดอลลาร์ตรินิแดดและโตเบโก,th,display_name|plural_name,TTD,1,unique,true
+2a376faae796,ดอลลาร์นามิเบีย,ดอลลาร์นามิเบีย,th,display_name|plural_name,NAD,1,unique,true
+de78361660db,ดอลลาร์นิวซีแลนด์,ดอลลาร์นิวซีแลนด์,th,display_name|plural_name,NZD,1,unique,true
+d70b1400b225,ดอลลาร์บรูไน,ดอลลาร์บรูไน,th,display_name|plural_name,BND,1,unique,true
+3ecdbf8fec9e,ดอลลาร์บาร์เบโดส,ดอลลาร์บาร์เบโดส,th,display_name|plural_name,BBD,1,unique,true
+db7139687d11,ดอลลาร์บาฮามาส,ดอลลาร์บาฮามาส,th,display_name|plural_name,BSD,1,unique,true
+294b91a86ca7,ดอลลาร์ฟิจิ,ดอลลาร์ฟิจิ,th,display_name|plural_name,FJD,1,unique,true
+3bfd2dff397e,ดอลลาร์สหรัฐ,ดอลลาร์สหรัฐ,th,display_name|plural_name,USD,1,unique,true
+6972bc0708c2,ดอลลาร์สหรัฐ (วันถัดไป),ดอลลาร์สหรัฐ (วันถัดไป),th,display_name|plural_name,USN,1,unique,true
+ae8e0b6d8be7,ดอลลาร์สหรัฐ (วันเดียวกัน),ดอลลาร์สหรัฐ (วันเดียวกัน),th,display_name|plural_name,USS,1,unique,true
+e3c26a2620c4,ดอลลาร์สิงคโปร์,ดอลลาร์สิงคโปร์,th,display_name|plural_name,SGD,1,unique,true
+872b162fb268,ดอลลาร์หมู่เกาะเคย์แมน,ดอลลาร์หมู่เกาะเคย์แมน,th,display_name|plural_name,KYD,1,unique,true
+043932a79a3a,ดอลลาร์หมู่เกาะโซโลมอน,ดอลลาร์หมู่เกาะโซโลมอน,th,display_name|plural_name,SBD,1,unique,true
+bd2bf76a0943,ดอลลาร์ออสเตรเลีย,ดอลลาร์ออสเตรเลีย,th,display_name|plural_name,AUD,1,unique,true
+26a522ebf79a,ดอลลาร์ฮ่องกง,ดอลลาร์ฮ่องกง,th,display_name|plural_name,HKD,1,unique,true
+165b7f950af5,ดอลลาร์เบลีซ,ดอลลาร์เบลีซ,th,display_name|plural_name,BZD,1,unique,true
+251abaf21c3b,ดอลลาร์เบอร์มิวดา,ดอลลาร์เบอร์มิวดา,th,display_name|plural_name,BMD,1,unique,true
+ce78b5311c34,ดอลลาร์แคนาดา,ดอลลาร์แคนาดา,th,display_name|plural_name,CAD,1,unique,true
+a08f9ba9a976,ดอลลาร์แคริบเบียนตะวันออก,ดอลลาร์แคริบเบียนตะวันออก,th,display_name|plural_name,XCD,1,unique,true
+ba8eefbbf46e,ดอลลาร์โรดีเซีย,ดอลลาร์โรดีเซีย,th,display_name|plural_name,RHD,1,unique,true
+e477c10e6fd8,ดอลลาร์ไต้หวันใหม่,ดอลลาร์ไต้หวันใหม่,th,display_name|plural_name,TWD,1,unique,true
+04444727a51f,ดอลลาร์ไลบีเรีย,ดอลลาร์ไลบีเรีย,th,display_name|plural_name,LRD,1,unique,true
+e7314544c68d,ดาลาซีแกมเบีย,ดาลาซีแกมเบีย,th,display_name|plural_name,GMD,1,unique,true
+6f0de88ce883,ดีนาร์คูเวต,ดีนาร์คูเวต,th,display_name|plural_name,KWD,1,unique,true
+9461eeee38dd,ดีนาร์จอร์แดน,ดีนาร์จอร์แดน,th,display_name|plural_name,JOD,1,unique,true
+a07cac2b9262,ดีนาร์ซูดานเก่า,ดีนาร์ซูดานเก่า,th,display_name|plural_name,SDD,1,unique,true
+ad92cb2b0390,ดีนาร์ตูนิเซีย,ดีนาร์ตูนิเซีย,th,display_name|plural_name,TND,1,unique,true
+4e26da841b93,ดีนาร์บอสเนีย-เฮอร์เซโกวีนา,ดีนาร์บอสเนีย-เฮอร์เซโกวีนา,th,display_name|plural_name,BAD,1,unique,true
+513ed097773d,ดีนาร์บาห์เรน,ดีนาร์บาห์เรน,th,display_name|plural_name,BHD,1,unique,true
+558201b17974,ดีนาร์ปฏิรูปยูโกสลาเวีย (1992–1993),ดีนาร์ปฏิรูปยูโกสลาเวีย (1992–1993),th,display_name|plural_name,YUR,1,unique,true
+2ef35b068b91,ดีนาร์มาซิโดเนีย,ดีนาร์มาซิโดเนีย,th,display_name|plural_name,MKD,1,unique,true
+b19e4cc38dd6,ดีนาร์มาซิโดเนีย (1992–1993),ดีนาร์มาซิโดเนีย (1992–1993),th,display_name|plural_name,MKN,1,unique,true
+6324e0320bae,ดีนาร์ลิเบีย,ดีนาร์ลิเบีย,th,display_name|plural_name,LYD,1,unique,true
+d782a852a431,ดีนาร์อิรัก,ดีนาร์อิรัก,th,display_name|plural_name,IQD,1,unique,true
+5f9ff8d2bd01,ดีนาร์เซอร์เบีย,ดีนาร์เซอร์เบีย,th,display_name|plural_name,RSD,1,unique,true
+97efe1f8a741,ดีนาร์เซอร์เบียเก่า,ดีนาร์เซอร์เบียเก่า,th,display_name|plural_name,CSD,1,unique,true
+0f6b8833555c,ดีนาร์เยเมน,ดีนาร์เยเมน,th,display_name|plural_name,YDD,1,unique,true
+1457ab0b936c,ดีนาร์แอลจีเรีย,ดีนาร์แอลจีเรีย,th,display_name|plural_name,DZD,1,unique,true
+36fb48324f89,ดีนาร์โครเอเชีย,ดีนาร์โครเอเชีย,th,display_name|plural_name,HRD,1,unique,true
+d7231f6169b9,ดีนาร์ใหม่บอสเนีย-เฮอร์เซโกวีนา (1994–1997),ดีนาร์ใหม่บอสเนีย-เฮอร์เซโกวีนา (1994–1997),th,display_name|plural_name,BAN,1,unique,true
+9ede9260cf01,ดีแรห์มโมร็อกโก,ดีแรห์มโมร็อกโก,th,display_name|plural_name,MAD,1,unique,true
+8d2d085e4313,ตากาบังกลาเทศ,ตากาบังกลาเทศ,th,display_name|plural_name,BDT,1,unique,true
+e59eb898381e,ทอง,ทอง,th,display_name|plural_name,XAU,1,unique,true
+224d4d2290f4,ทองซิมบับเว,ทองซิมบับเว,th,display_name|plural_name,ZWG,1,unique,true
+29fd9fa6814f,ทอลาร์สโลวีเนีย,ทอลาร์สโลวีเนีย,th,display_name|plural_name,SIT,1,unique,true
+bd5c56ecd147,ทาลาซามัว,ทาลาซามัว,th,display_name|plural_name,WST,1,unique,true
+6d0a1bcfcccd,ทาโลนัสลิทัวเนีย,ทาโลนัสลิทัวเนีย,th,display_name|plural_name,LTT,1,unique,true
+ae4b6ba27ac5,ทูกริกมองโกเลีย,ทูกริกมองโกเลีย,th,display_name|plural_name,MNT,1,unique,true
+2d4a8b503d26,นิวกวานซาแองโกลา (1990–2000),นิวกวานซาแองโกลา (1990–2000),th,display_name|plural_name,AON,1,unique,true
+56ec7c4f2999,นิวรูเบิลเบลารุส (1994–1999),นิวรูเบิลเบลารุส (1994–1999),th,display_name|plural_name,BYB,1,unique,true
+297483a6eb4f,นิวเชเกลอิสราเอล,นิวเชเกลอิสราเอล,th,display_name|plural_name,ILS,1,unique,true
+9c1d081572e6,นิวแซร์คองโก,นิวแซร์คองโก,th,display_name|plural_name,ZRN,1,unique,true
+a631dc868b70,บัตรปันส่วนมอลโดวา,บัตรปันส่วนมอลโดวา,th,display_name|plural_name,MDC,1,unique,true
+9a95f35324ae,บัลบัวปานามา,บัลบัวปานามา,th,display_name|plural_name,PAB,1,unique,true
+36346b7102b4,บาท,บาท,th,display_name,THB,1,unique,true
+27a3fbb076ff,บาทไทย,บาทไทย,th,plural_name,THB,1,unique,true
+5e1b910bc3ff,ปอนด์ซีเรีย,ปอนด์ซีเรีย,th,display_name|plural_name,SYP,1,unique,true
+1cabcad6c365,ปอนด์ซูดาน,ปอนด์ซูดาน,th,display_name|plural_name,SDG,1,unique,true
+1acfae2007cc,ปอนด์ซูดานเก่า,ปอนด์ซูดานเก่า,th,display_name|plural_name,SDP,1,unique,true
+72fb5cea492e,ปอนด์ซูดานใต้,ปอนด์ซูดานใต้,th,display_name|plural_name,SSP,1,unique,true
+70acd635bab1,ปอนด์มอลตา,ปอนด์มอลตา,th,display_name|plural_name,MTP,1,unique,true
+c810f134bf5e,ปอนด์ยิบรอลตาร์,ปอนด์ยิบรอลตาร์,th,display_name|plural_name,GIP,1,unique,true
+e912cefdbcd6,ปอนด์สเตอร์ลิง (สหราชอาณาจักร),ปอนด์สเตอร์ลิง (สหราชอาณาจักร),th,display_name|plural_name,GBP,1,unique,true
+1a2c0e371905,ปอนด์หมู่เกาะฟอล์กแลนด์,ปอนด์หมู่เกาะฟอล์กแลนด์,th,display_name|plural_name,FKP,1,unique,true
+28eef8689c7f,ปอนด์อิสราเอล,ปอนด์อิสราเอล,th,display_name|plural_name,ILP,1,unique,true
+9c0147a7cd54,ปอนด์อียิปต์,ปอนด์อียิปต์,th,display_name|plural_name,EGP,1,unique,true
+6fb62fd619f3,ปอนด์เซนต์เฮเลนา,ปอนด์เซนต์เฮเลนา,th,display_name|plural_name,SHP,1,unique,true
+e999acc5ace7,ปอนด์เลบานอน,ปอนด์เลบานอน,th,display_name|plural_name,LBP,1,unique,true
+a760dfe6ffe0,ปอนด์ไซปรัส,ปอนด์ไซปรัส,th,display_name|plural_name,CYP,1,unique,true
+41a45b01ae7f,ปอนด์ไอริช,ปอนด์ไอริช,th,display_name|plural_name,IEP,1,unique,true
+1e8f9a1fe1e7,ปาตากามาเก๊า,ปาตากามาเก๊า,th,display_name|plural_name,MOP,1,unique,true
+662497ae9baf,ปูลาบอตสวานา,ปูลาบอตสวานา,th,display_name|plural_name,BWP,1,unique,true
+967afaeb3b40,พัลเลเดียม,พัลเลเดียม,th,display_name|plural_name,XPD,1,unique,true
+ad5bb13a7c6d,พาแองกาตองกา,พาแองกาตองกา,th,display_name|plural_name,TOP,1,unique,true
+ef51a06f8b59,ฟรังก์กินี,ฟรังก์กินี,th,display_name|plural_name,GNF,1,unique,true
+bbb4b553a295,ฟรังก์คองโก,ฟรังก์คองโก,th,display_name|plural_name,CDF,1,unique,true
+feb509a0168d,ฟรังก์คอโมโรส,ฟรังก์คอโมโรส,th,display_name|plural_name,KMF,1,unique,true
+d145a13f91e2,ฟรังก์จิบูตี,ฟรังก์จิบูตี,th,display_name|plural_name,DJF,1,unique,true
+930562082e87,ฟรังก์ซีเอฟพี,ฟรังก์ซีเอฟพี,th,display_name|plural_name,XPF,1,unique,true
+b3161bc1afd6,ฟรังก์ซีเอฟเอแอฟริกากลาง,ฟรังก์ซีเอฟเอแอฟริกากลาง,th,plural_name,XAF,1,unique,true
+9946862901e9,ฟรังก์ซีเอฟเอแอฟริกาตะวันตก,ฟรังก์ซีเอฟเอแอฟริกาตะวันตก,th,display_name,XAF,1,unique,true
+03c12118d791,ฟรังก์ดับเบิลยูไออาร์,ฟรังก์ดับเบิลยูไออาร์,th,display_name|plural_name,CHW,1,unique,true
+aac1b7b6d164,ฟรังก์ทองฝรั่งเศส,ฟรังก์ทองฝรั่งเศส,th,display_name|plural_name,XFO,1,unique,true
+1d3139d85e7d,ฟรังก์บุรุนดี,ฟรังก์บุรุนดี,th,display_name|plural_name,BIF,1,unique,true
+c8d7b7e4b88e,ฟรังก์ฝรั่งเศส,ฟรังก์ฝรั่งเศส,th,display_name|plural_name,FRF,1,unique,true
+20e8045e9c86,ฟรังก์มาดากัสการ์,ฟรังก์มาดากัสการ์,th,display_name|plural_name,MGF,1,unique,true
+70446e19ae2f,ฟรังก์มาลี,ฟรังก์มาลี,th,display_name|plural_name,MLF,1,unique,true
+5e210fdc67b0,ฟรังก์ยูไอซีฝรั่งเศส,ฟรังก์ยูไอซีฝรั่งเศส,th,display_name|plural_name,XFU,1,unique,true
+7b666f150186,ฟรังก์รวันดา,ฟรังก์รวันดา,th,display_name|plural_name,RWF,1,unique,true
+e1807e95f906,ฟรังก์ลักเซมเบิร์ก,ฟรังก์ลักเซมเบิร์ก,th,display_name|plural_name,LUF,1,unique,true
+0d062091a042,ฟรังก์สวิส,ฟรังก์สวิส,th,display_name|plural_name,CHF,1,unique,true
+8e73f38f4378,ฟรังก์เซฟาธนาคารกลางรัฐแอฟริกาตะวันตก,ฟรังก์เซฟาธนาคารกลางรัฐแอฟริกาตะวันตก,th,display_name|plural_name,XOF,1,unique,true
+252156b13e5f,ฟรังก์เบลเยียม,ฟรังก์เบลเยียม,th,display_name|plural_name,BEF,1,unique,true
+f1da36507274,ฟรังก์เบลเยียม (การเงิน),ฟรังก์เบลเยียม (การเงิน),th,display_name|plural_name,BEL,1,unique,true
+bcdb3fedcef0,ฟรังก์เบลเยียม (เปลี่ยนแปลงได้),ฟรังก์เบลเยียม (เปลี่ยนแปลงได้),th,display_name|plural_name,BEC,1,unique,true
+2ce4cb2f28b9,ฟรังก์โมนาโก,ฟรังก์โมนาโก,th,display_name|plural_name,MCF,1,unique,true
+e9c0e6e02911,ฟรังก์โมร็อกโก,ฟรังก์โมร็อกโก,th,display_name|plural_name,MAF,1,unique,true
+682bd888ece3,ฟลอรินอารูบา,ฟลอรินอารูบา,th,display_name|plural_name,AWG,1,unique,true
+86f5f7e877ae,ฟอรินต์ฮังการี,ฟอรินต์ฮังการี,th,display_name|plural_name,HUF,1,unique,true
+43038f8c7e30,ฟูเมนโตชิลี,ฟูเมนโตชิลี,th,display_name|plural_name,CLF,1,unique,true
+5086fcfe78c4,มฟดอลโบลิเวีย,มฟดอลโบลิเวีย,th,display_name|plural_name,BOV,1,unique,true
+9419691ae6b1,มานัตอาเซอร์ไบจาน,มานัตอาเซอร์ไบจาน,th,display_name|plural_name,AZN,1,unique,true
+832d189a25ab,มานัตอาเซอร์ไบจาน (1993–2006),มานัตอาเซอร์ไบจาน (1993–2006),th,display_name|plural_name,AZM,1,unique,true
+1f6a1e8407a0,มานัตเติร์กเมนิสถาน,มานัตเติร์กเมนิสถาน,th,display_name|plural_name,TMT,1,unique,true
+9f410346a362,มานัตเติร์กเมนิสถาน (1993–2009),มานัตเติร์กเมนิสถาน (1993–2009),th,display_name|plural_name,TMM,1,unique,true
+95683979e867,มาร์กกาฟินแลนด์,มาร์กกาฟินแลนด์,th,display_name|plural_name,FIM,1,unique,true
+1c51c79a7166,มาร์กบอสเนีย-เฮอร์เซโกวีนา,มาร์กบอสเนีย-เฮอร์เซโกวีนา,th,display_name|plural_name,BAM,1,unique,true
+f21a2d05a5d6,มาร์กเยอรมัน,มาร์กเยอรมัน,th,display_name|plural_name,DEM,1,unique,true
+96033b82fe2d,มาร์กเยอรมันตะวันออก,มาร์กเยอรมันตะวันออก,th,display_name|plural_name,DDM,1,unique,true
+6da5ae8b9c33,ยูนิแดด ดี อินเวอร์ชั่น เม็กซิโก,ยูนิแดด ดี อินเวอร์ชั่น เม็กซิโก,th,display_name|plural_name,MXV,1,unique,true
+1514b9908e84,ยูโร,ยูโร,th,display_name|plural_name,EUR,1,unique,true
+9c4a80c04a6b,ยูโรดับเบิลยูไออาร์,ยูโรดับเบิลยูไออาร์,th,display_name|plural_name,CHE,1,unique,true
+1d49c473a54c,รหัสทดสอบสกุลเงิน,รหัสทดสอบสกุลเงิน,th,display_name|plural_name,XTS,1,unique,true
+b286d1ec8977,ริงกิตมาเลเซีย,ริงกิตมาเลเซีย,th,display_name|plural_name,MYR,1,unique,true
+90987c341795,ริยัลซาอุดีอาระเบีย,ริยัลซาอุดีอาระเบีย,th,display_name|plural_name,SAR,1,unique,true
+1493ebe39a74,รูปีปากีสถาน,รูปีปากีสถาน,th,display_name|plural_name,PKR,1,unique,true
+c5af91eeb7d4,รูปีมอริเชียส,รูปีมอริเชียส,th,display_name|plural_name,MUR,1,unique,true
+c8f04d263422,รูปีศรีลังกา,รูปีศรีลังกา,th,display_name|plural_name,LKR,1,unique,true
+2182cb4a848b,รูปีอินเดีย,รูปีอินเดีย,th,display_name|plural_name,INR,1,unique,true
+5570233b3796,รูปีเซเชลส์,รูปีเซเชลส์,th,display_name|plural_name,SCR,1,unique,true
+1e8b61b98c7b,รูปีเนปาล,รูปีเนปาล,th,display_name|plural_name,NPR,1,unique,true
+5415bf0a2521,รูฟิยามัลดีฟส์,รูฟิยามัลดีฟส์,th,display_name|plural_name,MVR,1,unique,true
+0371c86848e3,รูเบิลทาจิกิสถาน,รูเบิลทาจิกิสถาน,th,display_name|plural_name,TJR,1,unique,true
+074dfff5bf39,รูเบิลรัสเซีย,รูเบิลรัสเซีย,th,display_name|plural_name,RUB,1,unique,true
+306edc097b97,รูเบิลรัสเซีย (1991–1998),รูเบิลรัสเซีย (1991–1998),th,display_name|plural_name,RUR,1,unique,true
+0ebd473f8a64,รูเบิลลัตเวีย,รูเบิลลัตเวีย,th,display_name|plural_name,LVR,1,unique,true
+f21a70a350bb,รูเบิลเบลารุส,รูเบิลเบลารุส,th,display_name|plural_name,BYN,1,unique,true
+16905ab09dcf,รูเบิลเบลารุส (2000–2016),รูเบิลเบลารุส (2000–2016),th,display_name|plural_name,BYR,1,unique,true
+2ebeeaf60c53,รูเบิลโซเวียต,รูเบิลโซเวียต,th,display_name|plural_name,SUR,1,unique,true
+f05709682a93,รูเปียห์อินโดนีเซีย,รูเปียห์อินโดนีเซีย,th,display_name|plural_name,IDR,1,unique,true
+4af03da7fcd5,ลัตส์ลัตเวีย,ลัตส์ลัตเวีย,th,display_name|plural_name,LVL,1,unique,true
+afe92221c4ad,ลารีจอร์เจีย,ลารีจอร์เจีย,th,display_name|plural_name,GEL,1,unique,true
+8323eba43e15,ลิลันเจนีสวาซิ,ลิลันเจนีสวาซิ,th,display_name|plural_name,SZL,1,unique,true
+782ed377ec05,ลิวมอลโดวา,ลิวมอลโดวา,th,display_name|plural_name,MDL,1,unique,true
+8fed2f4ce6cf,ลิวโรมาเนีย,ลิวโรมาเนีย,th,display_name|plural_name,RON,1,unique,true
+205175624353,ลิวโรมาเนียเก่า,ลิวโรมาเนียเก่า,th,display_name|plural_name,ROL,1,unique,true
+9ba1100af658,ลีตัสลิทัวเนีย,ลีตัสลิทัวเนีย,th,display_name|plural_name,LTL,1,unique,true
+332869af8496,ลีราตุรกี,ลีราตุรกี,th,display_name|plural_name,TRY,1,unique,true
+d52d45aec135,ลีราตุรกีเก่า,ลีราตุรกีเก่า,th,display_name|plural_name,TRL,1,unique,true
+a71c7b4b5eac,ลีรามอลตา,ลีรามอลตา,th,display_name|plural_name,MTL,1,unique,true
+5bc27249d8c1,ลีราอิตาลี,ลีราอิตาลี,th,display_name|plural_name,ITL,1,unique,true
+67ecb41b1701,ลีโอนเซียร์ราลีโอน,ลีโอนเซียร์ราลีโอน,th,display_name|plural_name,SLE,1,unique,true
+85bc9a284bd0,ลีโอนเซียร์ราลีโอน (1964—2022),ลีโอนเซียร์ราลีโอน (1964—2022),th,display_name|plural_name,SLL,1,unique,true
+949547287634,วอนเกาหลีเหนือ,วอนเกาหลีเหนือ,th,display_name|plural_name,KPW,1,unique,true
+b1dba2b642ee,วอนเกาหลีใต้,วอนเกาหลีใต้,th,display_name|plural_name,KRW,1,unique,true
+a50e081216bc,วอนเกาหลีใต้ (1945–1953),วอนเกาหลีใต้ (1945–1953),th,display_name|plural_name,KRO,1,unique,true
+4858e8b23d8d,วาตูวานูอาตู,วาตูวานูอาตู,th,display_name|plural_name,VUV,1,unique,true
+b188cc9228b8,วาเลอร์คอนสแตนต์เอกวาดอร์,วาเลอร์คอนสแตนต์เอกวาดอร์,th,display_name|plural_name,ECV,1,unique,true
+317987cdc083,วาเลอร์เรียลโคลอมเบีย,วาเลอร์เรียลโคลอมเบีย,th,display_name|plural_name,COU,1,unique,true
+b4d49522c02d,สิทธิถอนเงินพิเศษ,สิทธิถอนเงินพิเศษ,th,display_name|plural_name,XDR,1,unique,true
+5c94547260a2,หน่วยคอมโพสิตยุโรป,หน่วยคอมโพสิตยุโรป,th,display_name|plural_name,XBA,1,unique,true
+973876d1b860,หน่วยบัญชี เอดีบี,หน่วยบัญชี เอดีบี,th,display_name|plural_name,XUA,1,unique,true
+a4723823c966,หน่วยบัญชียุโรป [XBC],หน่วยบัญชียุโรป [xbc],th,display_name|plural_name,XBC,1,unique,true
+8f84d1c6590d,หน่วยบัญชียุโรป [XBD],หน่วยบัญชียุโรป [xbd],th,display_name|plural_name,XBD,1,unique,true
+41e78a5d7439,หน่วยสกุลเงินยุโรป,หน่วยสกุลเงินยุโรป,th,display_name|plural_name,XEU,1,unique,true
+d1c428556592,หน่วยโมเนทารียุโรป,หน่วยโมเนทารียุโรป,th,display_name|plural_name,XBB,1,unique,true
+850bb26734af,หยวน,หยวน,th,display_name|plural_name,CNH,1,unique,true
+54ae7e9d374f,หยวนจีน,หยวนจีน,th,display_name|plural_name,CNY,1,unique,true
+4f475c55bd9d,ออสตรัลอาร์เจนตินา,ออสตรัลอาร์เจนตินา,th,display_name|plural_name,ARA,1,unique,true
+0a772a59a50f,อัฟกานิอัฟกานิสถาน,อัฟกานิอัฟกานิสถาน,th,display_name|plural_name,AFN,1,unique,true
+5e84a0cd3537,อัฟกานีอัฟกานิสถาน (1927–2002),อัฟกานีอัฟกานิสถาน (1927–2002),th,display_name|plural_name,AFA,1,unique,true
+9712eb4e749d,อาเรียรีมาลากาซี,อาเรียรีมาลากาซี,th,display_name|plural_name,MGA,1,unique,true
+0fca0c97b1c7,อินตีเปรู,อินตีเปรู,th,display_name|plural_name,PEI,1,unique,true
+25f7f216e805,อูกียามอริเตเนีย,อูกียามอริเตเนีย,th,display_name|plural_name,MRU,1,unique,true
+a09028d71d50,อูกียามอริเตเนีย (1973–2017),อูกียามอริเตเนีย (1973–2017),th,display_name|plural_name,MRO,1,unique,true
+cc653cd65061,ฮรีฟเนียยูเครน,ฮรีฟเนียยูเครน,th,display_name|plural_name,UAH,1,unique,true
+32541f7a8374,ฮวานเกาหลีใต้ (1953–1962),ฮวานเกาหลีใต้ (1953–1962),th,display_name|plural_name,KRH,1,unique,true
+aa829eda33c1,ฮาร์ดดีนาร์ยูโกสลาเวีย,ฮาร์ดดีนาร์ยูโกสลาเวีย,th,display_name|plural_name,YUD,1,unique,true
+c08bd4fa0f16,ฮาร์ดเลฟบัลแกเรีย,ฮาร์ดเลฟบัลแกเรีย,th,display_name|plural_name,BGL,1,unique,true
+4e34ffa86ef2,ฮาร์ดโครูนาเช็กโกสโลวัก,ฮาร์ดโครูนาเช็กโกสโลวัก,th,display_name|plural_name,CSK,1,unique,true
+430a7d7d40ec,฿,฿,en|my|th,narrow_symbol|symbol,THB,1,unique,true
+617bdf99007a,เควตซัลกัวเตมาลา,เควตซัลกัวเตมาลา,th,display_name|plural_name,GTQ,1,unique,true
+27c7e48b235a,เงิน,เงิน,th,display_name|plural_name,XAG,1,unique,true
+265c1444bf28,เงินเปโซเม็กซิโก (1861–1992),เงินเปโซเม็กซิโก (1861–1992),th,display_name|plural_name,MXP,1,unique,true
+618467674ced,เซดีกานา,เซดีกานา,th,display_name|plural_name,GHS,1,unique,true
+a4deab01509c,เซดีกานา (1979–2007),เซดีกานา (1979–2007),th,display_name|plural_name,GHC,1,unique,true
+159a32460dbe,เดอร์แฮมสหรัฐอาหรับเอมิเรตส์,เดอร์แฮมสหรัฐอาหรับเอมิเรตส์,th,display_name|plural_name,AED,1,unique,true
+a23247e28f31,เทงเจคาซัคสถาน,เทงเจคาซัคสถาน,th,display_name|plural_name,KZT,1,unique,true
+3e04f6fcaf71,เบอรร์เอธิโอเปีย,เบอรร์เอธิโอเปีย,th,display_name|plural_name,ETB,1,unique,true
+cec93743d61a,เปเซตาสเปน,เปเซตาสเปน,th,display_name|plural_name,ESP,1,unique,true
+4603dc836589,เปเซตาสเปน (บัญชีที่เปลี่ยนแปลงได้),เปเซตาสเปน (บัญชีที่เปลี่ยนแปลงได้),th,display_name|plural_name,ESB,1,unique,true
+074f92a4160f,เปเซตาสเปน (บัญชีเอ),เปเซตาสเปน (บัญชีเอ),th,display_name|plural_name,ESA,1,unique,true
+fc7fb4087203,เปเซตาอันดอร์รา,เปเซตาอันดอร์รา,th,display_name|plural_name,ADP,1,unique,true
+b286bbf4f6ef,เปโซกินี-บิสเซา,เปโซกินี-บิสเซา,th,display_name|plural_name,GWP,1,unique,true
+67a2104c0776,เปโซคิวบา,เปโซคิวบา,th,display_name|plural_name,CUP,1,unique,true
+a569333b1802,เปโซคิวบา (แปลงสภาพ),เปโซคิวบา (แปลงสภาพ),th,display_name|plural_name,CUC,1,unique,true
+686b923949f2,เปโซชิลี,เปโซชิลี,th,display_name|plural_name,CLP,1,unique,true
+9ba548343a22,เปโซฟิลิปปินส์,เปโซฟิลิปปินส์,th,display_name|plural_name,PHP,1,unique,true
+8bcdbfd63ed0,เปโซอาร์เจนตินา,เปโซอาร์เจนตินา,th,display_name|plural_name,ARS,1,unique,true
+ceba99fe82aa,เปโซอาร์เจนตินา (1881–1970),เปโซอาร์เจนตินา (1881–1970),th,display_name|plural_name,ARM,1,unique,true
+e55c6be84521,เปโซอาร์เจนตินา (1983–1985),เปโซอาร์เจนตินา (1983–1985),th,display_name|plural_name,ARP,1,unique,true
+8e4a1666ec1d,เปโซอุรุกวัย,เปโซอุรุกวัย,th,display_name|plural_name,UYU,1,unique,true
+43421220451e,เปโซอุรุกวัย (1975–1993),เปโซอุรุกวัย (1975–1993),th,display_name|plural_name,UYP,1,unique,true
+0a8c872f1dc2,เปโซเม็กซิโก,เปโซเม็กซิโก,th,display_name|plural_name,MXN,1,unique,true
+b82cec770c83,เปโซเลย์อาร์เจนตินา (1970–1983),เปโซเลย์อาร์เจนตินา (1970–1983),th,display_name|plural_name,ARL,1,unique,true
+5f8071f5b403,เปโซเอนยูนิแดดเซสอินเด็กซาแดสอุรุกวัย,เปโซเอนยูนิแดดเซสอินเด็กซาแดสอุรุกวัย,th,display_name|plural_name,UYI,1,unique,true
+ad2d3fa14034,เปโซโคลอมเบีย,เปโซโคลอมเบีย,th,display_name|plural_name,COP,1,unique,true
+13949bb633ae,เปโซโดมินิกัน,เปโซโดมินิกัน,th,display_name|plural_name,DOP,1,unique,true
+af438bc22118,เปโซโบลิเวีย,เปโซโบลิเวีย,th,display_name|plural_name,BOP,1,unique,true
+2fe074c49aaf,เมติคัลโมซัมบิก,เมติคัลโมซัมบิก,th,display_name|plural_name,MZN,1,unique,true
+0a2104811686,เมติคัลโมซัมบิกเก่า,เมติคัลโมซัมบิกเก่า,th,display_name|plural_name,MZM,1,unique,true
+12924cc47a69,เยนญี่ปุ่น,เยนญี่ปุ่น,th,display_name|plural_name,JPY,1,unique,true
+b0e9a60c836b,เรียลกัมพูชา,เรียลกัมพูชา,th,display_name|plural_name,KHR,1,unique,true
+13a780e92201,เรียลกาตาร์,เรียลกาตาร์,th,display_name|plural_name,QAR,1,unique,true
+206e5bd1c742,เรียลบราซิล,เรียลบราซิล,th,display_name|plural_name,BRL,1,unique,true
+0c0a64f03414,เรียลอิหร่าน,เรียลอิหร่าน,th,display_name|plural_name,IRR,1,unique,true
+c5ffff9c36c7,เรียลเยเมน,เรียลเยเมน,th,display_name|plural_name,YER,1,unique,true
+f0947c42d5ef,เรียลโอมาน,เรียลโอมาน,th,display_name|plural_name,OMR,1,unique,true
+5114d0c2b479,เลกแอลเบเนีย,เลกแอลเบเนีย,th,display_name|plural_name,ALL,1,unique,true
+106d59950dbd,เลฟบัลเกเรีย (1879–1952),เลฟบัลเกเรีย (1879–1952),th,display_name|plural_name,BGO,1,unique,true
+a2bf9e501ce2,เลฟบัลแกเรีย,เลฟบัลแกเรีย,th,display_name|plural_name,BGN,1,unique,true
+318173afea8d,เลมปิราฮอนดูรัส,เลมปิราฮอนดูรัส,th,display_name|plural_name,HNL,1,unique,true
+5316c0e72753,เอสคูโดกินีโปรตุเกส,เอสคูโดกินีโปรตุเกส,th,display_name|plural_name,GWE,1,unique,true
+82d51b12bba5,เอสคูโดชิลี,เอสคูโดชิลี,th,display_name|plural_name,CLE,1,unique,true
+5a46c641ea54,เอสคูโดติมอร์,เอสคูโดติมอร์,th,display_name|plural_name,TPE,1,unique,true
+a490ed7bec68,เอสคูโดเคปเวิร์ด,เอสคูโดเคปเวิร์ด,th,display_name|plural_name,CVE,1,unique,true
+904ab401f167,เอสคูโดโปรตุเกส,เอสคูโดโปรตุเกส,th,display_name|plural_name,PTE,1,unique,true
+98b2639ea2f0,เอสคูโดโมซัมบิก,เอสคูโดโมซัมบิก,th,display_name|plural_name,MZE,1,unique,true
+9b12363e4bdd,เอ็กเวเลอิเควทอเรียลกินี,เอ็กเวเลอิเควทอเรียลกินี,th,display_name|plural_name,GQE,1,unique,true
+1fff0f787824,เอ็งกุลตรัมภูฏาน,เอ็งกุลตรัมภูฏาน,th,display_name|plural_name,BTN,1,unique,true
+482bae237f37,แซร์คองโก,แซร์คองโก,th,display_name|plural_name,ZRZ,1,unique,true
+c5ed84b8da23,แดรมอาร์เมเนีย,แดรมอาร์เมเนีย,th,display_name|plural_name,AMD,1,unique,true
+1ac9c6589c80,แนกฟาเอริเทรีย,แนกฟาเอริเทรีย,th,display_name|plural_name,ERN,1,unique,true
+511a5fefd1b1,แพลตินัม,แพลตินัม,th,display_name|plural_name,XPT,1,unique,true
+2efcf703a810,แรนด์แอฟริกาใต้,แรนด์แอฟริกาใต้,th,display_name|plural_name,ZAR,1,unique,true
+c7442a04442c,แรนด์แอฟริกาใต้ (การเงิน),แรนด์แอฟริกาใต้ (การเงิน),th,display_name|plural_name,ZAL,1,unique,true
+6c3263cec486,โกลองคอสตาริกา,โกลองคอสตาริกา,th,display_name|plural_name,CRC,1,unique,true
+2375b09720ac,โครนนอร์เวย์,โครนนอร์เวย์,th,display_name|plural_name,NOK,1,unique,true
+13f8df89b9e2,โครนาสวีเดน,โครนาสวีเดน,th,display_name|plural_name,SEK,1,unique,true
+b33324313c2a,โครนาไอซ์แลนด์,โครนาไอซ์แลนด์,th,display_name|plural_name,ISK,1,unique,true
+936dc2d90f73,โครนเดนมาร์ก,โครนเดนมาร์ก,th,display_name|plural_name,DKK,1,unique,true
+21ba46d32f4f,โครูนาสาธารณรัฐเช็ก,โครูนาสาธารณรัฐเช็ก,th,display_name|plural_name,CZK,1,unique,true
+4ffe0fe16ccf,โครูนาสโลวัก,โครูนาสโลวัก,th,display_name|plural_name,SKK,1,unique,true
+21012b347cfe,โคลอนเอลซัลวาดอร์,โคลอนเอลซัลวาดอร์,th,display_name|plural_name,SVC,1,unique,true
+98d219e5f7ee,โซเชียลลิสต์เลฟบัลแกเรีย,โซเชียลลิสต์เลฟบัลแกเรีย,th,display_name|plural_name,BGM,1,unique,true
+ff479a9a7567,โซโมนิทาจิกิสถาน,โซโมนิทาจิกิสถาน,th,display_name|plural_name,TJS,1,unique,true
+a00c459800e7,โนวิย์ดีนาร์ยูโกสลาเวีย,โนวิย์ดีนาร์ยูโกสลาเวีย,th,display_name|plural_name,YUM,1,unique,true
+0abd787ac7ca,โบลิวาร์เวเนซุเอลา,โบลิวาร์เวเนซุเอลา,th,display_name|plural_name,VEF,1,unique,true
+2854b9fa26e0,โบลิวาร์เวเนซุเอลา (1871–2008),โบลิวาร์เวเนซุเอลา (1871–2008),th,display_name|plural_name,VEB,1,unique,true
+f4853a8329be,โบลิเวียโนโบลิเวีย,โบลิเวียโนโบลิเวีย,th,display_name|plural_name,BOB,1,unique,true
+01d95a872d32,โบลิเวียโนโบลิเวีย (1863–1963),โบลิเวียโนโบลิเวีย (1863–1963),th,display_name|plural_name,BOL,1,unique,true
+72a1c37ecf7e,โบลีวาร์เวเนซุเอลา,โบลีวาร์เวเนซุเอลา,th,display_name,VES,1,unique,true
+f8dff9a37900,โบลีวาร์แห่งเวเนซุเอลา,โบลีวาร์แห่งเวเนซุเอลา,th,plural_name,VES,1,unique,true
+a1e7eb183e5f,โลตีเลโซโท,โลตีเลโซโท,th,display_name|plural_name,LSL,1,unique,true
+eaae9b7eef07,ไซลีกินี,ไซลีกินี,th,display_name|plural_name,GNS,1,unique,true
+cb5522d5f71c,ไนราไนจีเรีย,ไนราไนจีเรีย,th,display_name|plural_name,NGN,1,unique,true
+d5d0171fe1e2,ไฟแนลเชียลฟรังก์ลักเซมเบิร์ก,ไฟแนลเชียลฟรังก์ลักเซมเบิร์ก,th,display_name|plural_name,LUL,1,unique,true
+bcb40e0b73bc,ไม่ทราบชื่อสกุลเงิน,ไม่ทราบชื่อสกุลเงิน,th,display_name,XXX,1,unique,true
+10067c09c68e,ကင်ညာ သျှီလင်,ကင်ညာ သျှီလင်,my,display_name|plural_name,KES,1,unique,true
+e4bf2ddbeb3b,ကင်မရွန်း ဖရန့်,ကင်မရွန်း ဖရန့်,my,display_name|plural_name,XAF,1,unique,true
+c4ebf3476958,ကနေဒါ ဒေါ်လာ,ကနေဒါ ဒေါ်လာ,my,display_name|plural_name,CAD,1,unique,true
+ad9eefaa267b,ကမ္ဘောဒီးယား ရီးယဲ,ကမ္ဘောဒီးယား ရီးယဲ,my,display_name|plural_name,KHR,1,unique,true
+eb1983a04a0c,ကာဂျစ္စတန် ဆော်မ်,ကာဂျစ္စတန် ဆော်မ်,my,display_name|plural_name,KGS,1,unique,true
+c5c3deffba7e,ကာဇက်စတန် ထိန်ဂျီ,ကာဇက်စတန် ထိန်ဂျီ,my,display_name|plural_name,KZT,1,unique,true
+6de47eba3ab3,ကာတာရီ ရီရယ်,ကာတာရီ ရီရယ်,my,display_name|plural_name,QAR,1,unique,true
+e0b2781538e9,ကာရစ်ဘီယံ ဂင်းဒါး,ကာရစ်ဘီယံ ဂင်းဒါး,my,display_name|plural_name,XCG,1,unique,true
+f8dda6b36d5d,ကိတ်ပ်ဗာဒီ အက်စ်ခူဒို,ကိတ်ပ်ဗာဒီ အက်စ်ခူဒို,my,display_name|plural_name,CVE,1,unique,true
+210c5be7f66a,ကိုမိုရိုစ် ဖရန့်,ကိုမိုရိုစ် ဖရန့်,my,display_name|plural_name,KMF,1,unique,true
+2a71266b56b2,ကိုလံဘီယာ ပီဆို,ကိုလံဘီယာ ပီဆို,my,display_name|plural_name,COP,1,unique,true
+0b038895f3be,ကို့စတာရီကာ ကိုလွန်,ကို့စတာရီကာ ကိုလွန်,my,display_name|plural_name,CRC,1,unique,true
+97c8692beee3,ကူဝိတ် ဒီနာ,ကူဝိတ် ဒီနာ,my,display_name|plural_name,KWD,1,unique,true
+7ad53062a83e,ကေမန် ကျွန်းစု ဒေါ်လာ,ကေမန် ကျွန်းစု ဒေါ်လာ,my,display_name|plural_name,KYD,1,unique,true
+09f0e7d25e2b,ကျူးဘား ပီဆို,ကျူးဘား ပီဆို,my,display_name|plural_name,CUP,1,unique,true
+b8e13dded455,ကွန်ဂို ဖရန့်,ကွန်ဂို ဖရန့်,my,display_name|plural_name,CDF,1,unique,true
+c8cd9772a3fa,ခရိုအေးရှား ခူးနာ,ခရိုအေးရှား ခူးနာ,my,display_name|plural_name,HRK,1,unique,true
+7ee1b1cb0ef8,ချက် ခိုရိုနာ,ချက် ခိုရိုနာ,my,display_name|plural_name,CZK,1,unique,true
+0108867d2bb7,ချီလီ ပီဆို,ချီလီ ပီဆို,my,display_name|plural_name,CLP,1,unique,true
+648dc8ff7968,ဂမ်ဘီယာ ဒါလာစီ,ဂမ်ဘီယာ ဒါလာစီ,my,display_name|plural_name,GMD,1,unique,true
+f34a01ccf6ce,ဂါနာ ဆဲဒီ,ဂါနာ ဆဲဒီ,my,display_name|plural_name,GHS,1,unique,true
+975369b506df,ဂိုင်ယာနာ ဒေါ်လာ,ဂိုင်ယာနာ ဒေါ်လာ,my,display_name|plural_name,GYD,1,unique,true
+15c621968d6a,ဂီနီရာ ဖရန့်,ဂီနီရာ ဖရန့်,my,display_name|plural_name,GNF,1,unique,true
+fd07cea43279,ဂျပန် ယန်း,ဂျပန် ယန်း,my,display_name|plural_name,JPY,1,unique,true
+b7b8be721682,ဂျမေကာ ဒေါ်လာ,ဂျမေကာ ဒေါ်လာ,my,display_name|plural_name,JMD,1,unique,true
+28834523f289,ဂျာမဏီ မတ်,ဂျာမဏီ မတ်,my,display_name|plural_name,DEM,1,unique,true
+b64a86d7a183,ဂျီဘရော်လ်တာ ပေါင်,ဂျီဘရော်လ်တာ ပေါင်,my,display_name|plural_name,GIP,1,unique,true
+81ccc3792fb1,ဂျီဘူတီ ဖရန့်,ဂျီဘူတီ ဖရန့်,my,display_name|plural_name,DJF,1,unique,true
+bfe2a3fcaa36,ဂျော်ဂျီယာ လားရီ,ဂျော်ဂျီယာ လားရီ,my,display_name|plural_name,GEL,1,unique,true
+55496faf9fca,ဂျော်ဒန် ဒီနာ,ဂျော်ဒန် ဒီနာ,my,display_name|plural_name,JOD,1,unique,true
+c39ce97b2790,ဂွါတီမာလာ ခက်ဇော်လ်,ဂွါတီမာလာ ခက်ဇော်လ်,my,display_name|plural_name,GTQ,1,unique,true
+54495e5feecc,ငွေ,ငွေ,my,display_name|plural_name,XAG,1,unique,true
+8eceede25b04,စင်္ကာပူ ဒေါ်လာ,စင်္ကာပူ ဒေါ်လာ,my,display_name|plural_name,SGD,1,unique,true
+1e3baf3e7c7f,စပိန် ပယ်စေးတာ,စပိန် ပယ်စေးတာ,my,display_name|plural_name,ESP,1,unique,true
+ab0d1ecfe2d5,စမ်းသပ် ငွေကြေး ကုဒ်,စမ်းသပ် ငွေကြေး ကုဒ်,my,display_name|plural_name,XTS,1,unique,true
+66d3611b08fd,စိန့်ဟယ်လယ်နာ ပေါင်,စိန့်ဟယ်လယ်နာ ပေါင်,my,display_name|plural_name,SHP,1,unique,true
+f0ef81ab04f3,ဆမိုအား ထားလာ,ဆမိုအား ထားလာ,my,display_name|plural_name,WST,1,unique,true
+e0c39e54a3f3,ဆားဘီးယား ဒယ်နား,ဆားဘီးယား ဒယ်နား,my,display_name|plural_name,RSD,1,unique,true
+6caec166c6d4,ဆိုက်ပရက်စ် ပေါင်,ဆိုက်ပရက်စ် ပေါင်,my,display_name|plural_name,CYP,1,unique,true
+2fcd222d299b,ဆိုဗီယက် ရူဗယ်,ဆိုဗီယက် ရူဗယ်,my,display_name|plural_name,SUR,1,unique,true
+83f23064b8d8,ဆိုမာလီ သျှီလင်,ဆိုမာလီ သျှီလင်,my,display_name|plural_name,SOS,1,unique,true
+268381a1cf82,ဆီယာရာလီယွန်း လီအိုနီ,ဆီယာရာလီယွန်း လီအိုနီ,my,display_name|plural_name,SLE,1,unique,true
+178b92ec3a0a,ဆီယာရာလီယွန်း လီအိုနီ (၁၉၆၄—၂၀၂၂),ဆီယာရာလီယွန်း လီအိုနီ (၁၉၆၄—၂၀၂၂),my,display_name|plural_name,SLL,1,unique,true
+e5e94e247df4,ဆီးရီးယား ပေါင်,ဆီးရီးယား ပေါင်,my,display_name|plural_name,SYP,1,unique,true
+ebcf97db8d4b,ဆူဒန် ပေါင်,ဆူဒန် ပေါင်,my,display_name|plural_name,SDG,1,unique,true
+ce1f659f4ebc,ဆူဒန် ပေါင်အဟောင်း,ဆူဒန် ပေါင်အဟောင်း,my,display_name|plural_name,SDP,1,unique,true
+406e14be05db,ဆူရီနမ်း ဒေါ်လာ,ဆူရီနမ်း ဒေါ်လာ,my,display_name|plural_name,SRD,1,unique,true
+9ee9fd2a20f2,ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ,ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ,my,display_name|plural_name,STD,1,unique,true
+b8024fbfae47,ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ (၂၀၁၈),ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ (၂၀၁၈),my,display_name,STN,1,unique,true
+27726c58a9ed,ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာစ် (၂၀၁၈),ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာစ် (၂၀၁၈),my,plural_name,STN,1,unique,true
+848044099b2d,ဆော်ဒီအာရေးဗီးယား ရီယော်လ်,ဆော်ဒီအာရေးဗီးယား ရီယော်လ်,my,display_name|plural_name,SAR,1,unique,true
+b5c1c47c53ef,ဆော်လမွန်ကျွန်းစု ဒေါ်လာ,ဆော်လမွန်ကျွန်းစု ဒေါ်လာ,my,display_name|plural_name,SBD,1,unique,true
+344d33338046,ဆေးရှဲ ရူပီး,ဆေးရှဲ ရူပီး,my,display_name|plural_name,SCR,1,unique,true
+d267da510a64,ဆွစ် ဖရန့်,ဆွစ် ဖရန့်,my,display_name|plural_name,CHF,1,unique,true
+224a771486cc,ဆွာဇီလန် လီလန်းဂီနီ,ဆွာဇီလန် လီလန်းဂီနီ,my,display_name|plural_name,SZL,1,unique,true
+c15146ab91ca,ဆွီဒင် ခရိုဏာ,ဆွီဒင် ခရိုဏာ,my,display_name|plural_name,SEK,1,unique,true
+5afccfcd6ab8,ဇင်ဘာဘွေ ခွါးချာ,ဇင်ဘာဘွေ ခွါးချာ,my,display_name|plural_name,ZMW,1,unique,true
+05a3fe01621b,ဇင်ဘာဘွေ ဒေါ်လာ,ဇင်ဘာဘွေ ဒေါ်လာ,my,display_name|plural_name,ZWD,1,unique,true
+8a851f0f1765,ဇင်ဘာဘွေ ရွှေ,ဇင်ဘာဘွေ ရွှေ,my,display_name|plural_name,ZWG,1,unique,true
+17b88e0db2ae,တန်ဇန်းနီးယား သျှီလင်,တန်ဇန်းနီးယား သျှီလင်,my,display_name|plural_name,TZS,1,unique,true
+acdfa6fed359,တရုတ် ယွမ်,တရုတ် ယွမ်,my,display_name|plural_name,CNY,1,unique,true
+cbf73c7825b9,တရုတ် ယွမ် (ဟောင်ကောင်),တရုတ် ယွမ် (ဟောင်ကောင်),my,display_name|plural_name,CNH,1,unique,true
+b48f01182762,တာဂျစ်ကစ္စတန် ဆိုမိုနီ,တာဂျစ်ကစ္စတန် ဆိုမိုနီ,my,display_name|plural_name,TJS,1,unique,true
+b7c18cee7cfe,တာ့ခ်မင်နစ္စတန် မာနတ်,တာ့ခ်မင်နစ္စတန် မာနတ်,my,display_name|plural_name,TMT,1,unique,true
+66a1a11ef1d3,တူနီးရှား ဒိုင်နာ,တူနီးရှား ဒိုင်နာ,my,display_name|plural_name,TND,1,unique,true
+e6189f8a84d4,တူရကီ လိုင်ရာ,တူရကီ လိုင်ရာ,my,display_name|plural_name,TRY,1,unique,true
+aa22aab2149e,တောင်ကိုရီးယား ဝမ်,တောင်ကိုရီးယား ဝမ်,my,display_name|plural_name,KRW,1,unique,true
+445c2fcc5d4a,တောင်ဆူဒန် ပေါင်,တောင်ဆူဒန် ပေါင်,my,display_name|plural_name,SSP,1,unique,true
+a0b7f2d03afd,တောင်အာဖရိက ရန်း,တောင်အာဖရိက ရန်း,my,display_name|plural_name,ZAR,1,unique,true
+8e1617babe0b,တွန်ဂါ ဗန်ဂါ,တွန်ဂါ ဗန်ဂါ,my,display_name|plural_name,TOP,1,unique,true
+af8fb8628f56,ထရီနီဒတ်နှင့် တိုဘက်ဂို ဒေါ်လာ,ထရီနီဒတ်နှင့် တိုဘက်ဂို ဒေါ်လာ,my,display_name|plural_name,TTD,1,unique,true
+fcce3e1521a5,ထိုင်ဝမ် ဒေါ်လာအသစ်,ထိုင်ဝမ် ဒေါ်လာအသစ်,my,display_name|plural_name,TWD,1,unique,true
+e4428df0448d,ထိုင်း ဘတ်,ထိုင်း ဘတ်,my,display_name|plural_name,THB,1,unique,true
+1111c73df6a7,ဒိန်းမတ် ခရိုဏာ,ဒိန်းမတ် ခရိုဏာ,my,display_name|plural_name,DKK,1,unique,true
+5fa4be0f7739,ဒိုမီနီကန် ပီဆို,ဒိုမီနီကန် ပီဆို,my,display_name|plural_name,DOP,1,unique,true
+415f2cb1d594,နမီးဘီးယား ဒေါ်လာ,နမီးဘီးယား ဒေါ်လာ,my,display_name|plural_name,NAD,1,unique,true
+ab168f60edaf,နယူးဇီလန် ဒေါ်လာ,နယူးဇီလန် ဒေါ်လာ,my,display_name|plural_name,NZD,1,unique,true
+7809808a4d1a,နယ်သာလန် အန်တီလန် ဂင်းဒါး,နယ်သာလန် အန်တီလန် ဂင်းဒါး,my,display_name|plural_name,ANG,1,unique,true
+57fe138a8b34,နိုင်ဂျီးရီးယား နိုင်းရာ,နိုင်ဂျီးရီးယား နိုင်းရာ,my,display_name|plural_name,NGN,1,unique,true
+cbfe9d0884f7,နိုင်ငံခြားငွေလဲလှယ်နိုင်သော ကျူးဘားပီဆို,နိုင်ငံခြားငွေလဲလှယ်နိုင်သော ကျူးဘားပီဆို,my,display_name|plural_name,CUC,1,unique,true
+b5d0d83e1168,နီကာရာဂွါ ခိုးဒိုဘာ,နီကာရာဂွါ ခိုးဒိုဘာ,my,display_name|plural_name,NIO,1,unique,true
+9d5fdf2b9591,နီပေါ ရူပီး,နီပေါ ရူပီး,my,display_name|plural_name,NPR,1,unique,true
+1ed0631fb3bc,နော်ဝေ ခရိုဏာ,နော်ဝေ ခရိုဏာ,my,display_name|plural_name,NOK,1,unique,true
+c0d7b018e8ed,ပနားမား ဘလျဘိုးအာ,ပနားမား ဘလျဘိုးအာ,my,display_name|plural_name,PAB,1,unique,true
+29dcaa4b0a6c,ပလက်တီနမ်,ပလက်တီနမ်,my,display_name|plural_name,XPT,1,unique,true
+b3280ffad170,ပါကစ္စတန် ရူပီး,ပါကစ္စတန် ရူပီး,my,display_name|plural_name,PKR,1,unique,true
+da4ac07c6fac,ပါပူအာ နယူးဂီနီ ခီးနာ,ပါပူအာ နယူးဂီနီ ခီးနာ,my,display_name|plural_name,PGK,1,unique,true
+5d6c6310a351,ပါရာဂွေး ဂွါးအ်နီး,ပါရာဂွေး ဂွါးအ်နီး,my,display_name|plural_name,PYG,1,unique,true
+2f1d771e358e,ပိုလန် ဇလော့တီ,ပိုလန် ဇလော့တီ,my,display_name|plural_name,PLN,1,unique,true
+5782628eafb7,ပီရူး ဆိုးလ်,ပီရူး ဆိုးလ်,my,display_name|plural_name,PEN,1,unique,true
+e9245a46bb30,ပြင်သစ် ဖရန့်,ပြင်သစ် ဖရန့်,my,display_name|plural_name,FRF,1,unique,true
+58aff751228f,ဖိလစ်ပိုင် ပီဆို,ဖိလစ်ပိုင် ပီဆို,my,display_name|plural_name,PHP,1,unique,true
+865322462d86,ဖီဂျီ ဒေါ်လာ,ဖီဂျီ ဒေါ်လာ,my,display_name|plural_name,FJD,1,unique,true
+1824187514b9,ဖော့ကလန်ကျွန်းစု ပေါင်,ဖော့ကလန်ကျွန်းစု ပေါင်,my,display_name|plural_name,FKP,1,unique,true
+6dd4328b37d1,ဗင်နီဇွဲလန်း ဘိုလီဗာ,ဗင်နီဇွဲလန်း ဘိုလီဗာ,my,display_name|plural_name,VES,1,unique,true
+5a46b2d49bf0,ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈),ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈),my,display_name|plural_name,VEF,1,unique,true
+ea3ebee91fed,ဗနွားတူ ဗားထူ,ဗနွားတူ ဗားထူ,my,display_name|plural_name,VUV,1,unique,true
+70efa274bf1b,ဗမာ ကျပ်,ဗမာ ကျပ်,my,display_name|plural_name,BUK,1,unique,true
+9646a143f59b,ဗီယက်နမ် ဒေါင်,ဗီယက်နမ် ဒေါင်,my,display_name|plural_name,VND,1,unique,true
+8201732b881e,ဗြိတိသျှ ပေါင်,ဗြိတိသျှ ပေါင်,my,display_name|plural_name,GBP,1,unique,true
+2168b382c5dd,ဘင်္ဂလားဒေ့ရှ် တာကာ,ဘင်္ဂလားဒေ့ရှ် တာကာ,my,display_name|plural_name,BDT,1,unique,true
+c9d3aad4f25b,ဘယ်လ်ဂျီယမ် ဖရန့်,ဘယ်လ်ဂျီယမ် ဖရန့်,my,display_name|plural_name,BEF,1,unique,true
+f18b3b28a179,ဘရာဇီး ရီးယဲ,ဘရာဇီး ရီးယဲ,my,display_name|plural_name,BRL,1,unique,true
+60a6f92d8a9c,ဘရူနိုင်း ဒေါ်လာ,ဘရူနိုင်း ဒေါ်လာ,my,display_name|plural_name,BND,1,unique,true
+0a03708f4527,ဘလိဇ် ဒေါ်လာ,ဘလိဇ် ဒေါ်လာ,my,display_name|plural_name,BZD,1,unique,true
+fab89a059fca,ဘဟားမား ဒေါ်လာ,ဘဟားမား ဒေါ်လာ,my,display_name|plural_name,BSD,1,unique,true
+c0d8d72eb3b4,ဘာဘေးဒိုးစ် ဒေါ်လာ,ဘာဘေးဒိုးစ် ဒေါ်လာ,my,display_name|plural_name,BBD,1,unique,true
+edc9ae980931,ဘာမြူဒါ ဒေါ်လာ,ဘာမြူဒါ ဒေါ်လာ,my,display_name|plural_name,BMD,1,unique,true
+b4bea1c5f18c,ဘာရိန်း ဒီနား,ဘာရိန်း ဒီနား,my,display_name|plural_name,BHD,1,unique,true
+ed04bc1bbd6c,ဘိုလီးဗီးယား ဘိုလီးဗီယားနို,ဘိုလီးဗီးယား ဘိုလီးဗီယားနို,my,display_name|plural_name,BOB,1,unique,true
+0509c2d6f0f4,ဘိုလီးဘီးယား ပီဆို,ဘိုလီးဘီးယား ပီဆို,my,display_name|plural_name,BOP,1,unique,true
+a6ee472eb552,ဘီလာရုစ် ရူဘယ်,ဘီလာရုစ် ရူဘယ်,my,display_name|plural_name,BYN,1,unique,true
+0cb9641b7cb4,ဘီလာရုစ် ရူဘယ်အသစ် (၁၉၉၄–၁၉၉၉),ဘီလာရုစ် ရူဘယ်အသစ် (၁၉၉၄–၁၉၉၉),my,display_name|plural_name,BYB,1,unique,true
+241f7ff78fa6,ဘီလာရုဇ် ရူဘယ် (၂၀၀၀–၂၀၁၆),ဘီလာရုဇ် ရူဘယ် (၂၀၀၀–၂၀၁၆),my,display_name|plural_name,BYR,1,unique,true
+dfb7dce91b3f,ဘူတန် အံဂါလ်ထရန်,ဘူတန် အံဂါလ်ထရန်,my,display_name|plural_name,BTN,1,unique,true
+b5e7a3ff5687,ဘူရွန်ဒီ ဖရန့်,ဘူရွန်ဒီ ဖရန့်,my,display_name|plural_name,BIF,1,unique,true
+b6aaaac59318,ဘူလ်ဂေးရီးယား လက်ဖ်,ဘူလ်ဂေးရီးယား လက်ဖ်,my,display_name|plural_name,BGN,1,unique,true
+c2ea774f6c36,ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနား ငွေလဲနိုင်သော မတ်က်,ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနား ငွေလဲနိုင်သော မတ်က်,my,display_name,BAM,1,unique,true
+1f13f43186bb,ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနားမတ်က်,ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနားမတ်က်,my,plural_name,BAM,1,unique,true
+29a083687eab,ဘော့ဆွာနာ ပုလ,ဘော့ဆွာနာ ပုလ,my,display_name|plural_name,BWP,1,unique,true
+1760469c82e3,မကာအို ပါတားကား,မကာအို ပါတားကား,my,display_name|plural_name,MOP,1,unique,true
+6363eddd6fdf,မက္ကဆီကို ပီဆို,မက္ကဆီကို ပီဆို,my,display_name|plural_name,MXN,1,unique,true
+d6eb123404e5,မက်ဆီဒိုးနီးယား ဒီနာ,မက်ဆီဒိုးနီးယား ဒီနာ,my,display_name|plural_name,MKD,1,unique,true
+8b2b231e1e31,မလေးရှား ရင်းဂစ်,မလေးရှား ရင်းဂစ်,my,display_name|plural_name,MYR,1,unique,true
+e2db5c74d710,မသိသို့မဟုတ်မရှိသောငွေကြေး,မသိသို့မဟုတ်မရှိသောငွေကြေး,my,display_name,XXX,1,unique,true
+46c8a3c9efd8,မာလာဂါစီ အရီရရီ,မာလာဂါစီ အရီရရီ,my,display_name|plural_name,MGA,1,unique,true
+1511b27559b3,မာလာဝီ ခွါးချာ,မာလာဝီ ခွါးချာ,my,display_name|plural_name,MWK,1,unique,true
+348e0540b2de,မိုဇမ်ဘစ် မက်တီခယ်လ်,မိုဇမ်ဘစ် မက်တီခယ်လ်,my,display_name|plural_name,MZN,1,unique,true
+224d8960c4ef,မိုရိုကို ဒရမ်,မိုရိုကို ဒရမ်,my,display_name|plural_name,MAD,1,unique,true
+37b21b19716b,မောရစ်ရှ ရူပီး,မောရစ်ရှ ရူပီး,my,display_name|plural_name,MUR,1,unique,true
+0fa120649ccd,မောလ်ဒိုဗာ လယ်အို,မောလ်ဒိုဗာ လယ်အို,my,display_name|plural_name,MDL,1,unique,true
+7d9fe0185473,မော်ရီတေးနီးယန်း အူဂီးယာ,မော်ရီတေးနီးယန်း အူဂီးယာ,my,display_name|plural_name,MRU,1,unique,true
+1c467ce48ea8,မော်ရီတေးနီးယား အူဂီးယာ (၁၉၇၃–၂၀၁၇),မော်ရီတေးနီးယား အူဂီးယာ (၁၉၇၃–၂၀၁၇),my,display_name|plural_name,MRO,1,unique,true
+fa11a6c52f9c,မော်လ်ဒိုက် ရူးဖီရာ,မော်လ်ဒိုက် ရူးဖီရာ,my,display_name|plural_name,MVR,1,unique,true
+c5e46e626661,မြန်မာ ကျပ်,မြန်မာ ကျပ်,my,display_name|plural_name,MMK,1,unique,true
+bdb4e3bb6641,မြောက်ကိုရီးယား ဝမ်,မြောက်ကိုရီးယား ဝမ်,my,display_name|plural_name,KPW,1,unique,true
+00f133842b0f,မွန်ဂိုးလီးယား ထူးဂရခ်,မွန်ဂိုးလီးယား ထူးဂရခ်,my,display_name|plural_name,MNT,1,unique,true
+aadb1c8e885d,ယီမင်နီ ရီရယ်,ယီမင်နီ ရီရယ်,my,display_name|plural_name,YER,1,unique,true
+5a9106000b99,ယူကရိန်း ဟီရီဗင်းညား,ယူကရိန်း ဟီရီဗင်းညား,my,display_name|plural_name,UAH,1,unique,true
+a9a60e59da43,ယူဂန္ဒာ သျှီလင်,ယူဂန္ဒာ သျှီလင်,my,display_name|plural_name,UGX,1,unique,true
+0864ad631763,ယူရို,ယူရို,my,display_name|plural_name,EUR,1,unique,true
+041feaaf0011,ရဝန်ဒါ ဖရန့်,ရဝန်ဒါ ဖရန့်,my,display_name|plural_name,RWF,1,unique,true
+1ee986ccee33,ရိုမေးနီးယား လယ်အို,ရိုမေးနီးယား လယ်အို,my,display_name|plural_name,RON,1,unique,true
+8eb10feee905,ရုရှ ရူဘယ်,ရုရှ ရူဘယ်,my,display_name|plural_name,RUB,1,unique,true
+3d2dde5a4d5c,ရုရှ ရူဘယ် (၁၉၉၁–၁၉၉၈),ရုရှ ရူဘယ် (၁၉၉၁–၁၉၉၈),my,display_name|plural_name,RUR,1,unique,true
+c7898da94e0a,ရွှေ,ရွှေ,my,display_name|plural_name,XAU,1,unique,true
+0eb7852d1bc3,ရှေးဟောင်းတူရကီ လိုင်ရာ,ရှေးဟောင်းတူရကီ လိုင်ရာ,my,display_name|plural_name,TRL,1,unique,true
+17d5f0495f4c,လက်ဘနွန် ပေါင်,လက်ဘနွန် ပေါင်,my,display_name|plural_name,LBP,1,unique,true
+5b8f501177c4,လစ်ဗျား ဒိုင်နာ,လစ်ဗျား ဒိုင်နာ,my,display_name|plural_name,LYD,1,unique,true
+5ab7f029e051,လစ်သူယေးနီးယားလီတားစ်,လစ်သူယေးနီးယားလီတားစ်,my,display_name|plural_name,LTL,1,unique,true
+88f0607de93d,လတ်ဗီးယားလတ်,လတ်ဗီးယားလတ်,my,display_name|plural_name,LVL,1,unique,true
+52cecc493f62,လာအို ကစ်,လာအို ကစ်,my,display_name|plural_name,LAK,1,unique,true
+8ed4d6d4fd06,လိုက်ဘေးရီးယား ဒေါ်လာ,လိုက်ဘေးရီးယား ဒေါ်လာ,my,display_name|plural_name,LRD,1,unique,true
+079be572a09a,လီဆိုသို လိုတီ,လီဆိုသို လိုတီ,my,display_name,LSL,1,unique,true
+7f38144695c4,လီဆိုသို လိုတီစ်,လီဆိုသို လိုတီစ်,my,plural_name,LSL,1,unique,true
+e2d9db0e5ca7,သီရိလင်္ကာ ရူပီး,သီရိလင်္ကာ ရူပီး,my,display_name|plural_name,LKR,1,unique,true
+98626e2df068,ဟန်ဂေရီယံ ဖော်ရင့်တ်,ဟန်ဂေရီယံ ဖော်ရင့်တ်,my,display_name|plural_name,HUF,1,unique,true
+34e654c8fd64,ဟေတီဂူးအော်ဒ်,ဟေတီဂူးအော်ဒ်,my,display_name|plural_name,HTG,1,unique,true
+9580619a6c79,ဟောင်ကောင် ဒေါ်လာ,ဟောင်ကောင် ဒေါ်လာ,my,display_name|plural_name,HKD,1,unique,true
+3616cdea3cba,ဟွန်ဒူးရပ်စ် လမ်းပီရာ,ဟွန်ဒူးရပ်စ် လမ်းပီရာ,my,display_name|plural_name,HNL,1,unique,true
+8f726dd53543,အင်ဒိုနီးရှား ရူပီးယား,အင်ဒိုနီးရှား ရူပီးယား,my,display_name|plural_name,IDR,1,unique,true
+6c73d529792d,အစ္စရေး ပေါင်,အစ္စရေး ပေါင်,my,display_name|plural_name,ILP,1,unique,true
+2100f5b4512a,အစ္စရေး ရှဲကလ်အသစ်,အစ္စရေး ရှဲကလ်အသစ်,my,display_name|plural_name,ILS,1,unique,true
+4a9ec6fdc90e,အဇာဘိုင်ဂျန် မာနတ်,အဇာဘိုင်ဂျန် မာနတ်,my,display_name|plural_name,AZN,1,unique,true
+67d58c6731a2,အထူးထုတ်ယူခွင့်,အထူးထုတ်ယူခွင့်,my,display_name|plural_name,XDR,1,unique,true
+733b715effdc,အနောက် အာဖရိက [CFA ]ဖရန့်,အနောက် အာဖရိက [cfa ]ဖရန့်,my,display_name,XOF,1,unique,true
+110860032963,အနောက် အာဖရိက [CFA] ဖရန့်,အနောက် အာဖရိက [cfa] ဖရန့်,my,plural_name,XOF,1,unique,true
+3e2859b10f4d,အန်ဂိုလာ ကွမ်ဇာ,အန်ဂိုလာ ကွမ်ဇာ,my,display_name|plural_name,AOA,1,unique,true
+3a35dc8825fe,အမေရိကန် ဒေါ်လာ,အမေရိကန် ဒေါ်လာ,my,display_name|plural_name,USD,1,unique,true
+be79a69acec4,အမေရိကန် ဒေါ်လာ (တနေ့တည်း),အမေရိကန် ဒေါ်လာ (တနေ့တည်း),my,display_name|plural_name,USS,1,unique,true
+4ea5f3d29901,အမေရိကန် ဒေါ်လာ (နောက်နေ့),အမေရိကန် ဒေါ်လာ (နောက်နေ့),my,display_name|plural_name,USN,1,unique,true
+b030a51eceed,အယ်ဘေးနီးယား လီခ်,အယ်ဘေးနီးယား လီခ်,my,display_name|plural_name,ALL,1,unique,true
+0b5524343a14,အယ်လ်ဂျီးရီးယား ဒီနာ,အယ်လ်ဂျီးရီးယား ဒီနာ,my,display_name|plural_name,DZD,1,unique,true
+ad0befb2c817,အရူးဗာ ဖလိုရင်း,အရူးဗာ ဖလိုရင်း,my,display_name|plural_name,AWG,1,unique,true
+63ad0b61ee92,အရှေ့ကာရစ်ဘီယံ ဒေါ်လာ,အရှေ့ကာရစ်ဘီယံ ဒေါ်လာ,my,display_name|plural_name,XCD,1,unique,true
+fcb71009c323,အာဂျင်တီးနား ပီဆို,အာဂျင်တီးနား ပီဆို,my,display_name|plural_name,ARS,1,unique,true
+468e3a137b44,အာဂျင်တီးနား ပီဆို (၁၉၈၃–၁၉၈၅),အာဂျင်တီးနား ပီဆို (၁၉၈၃–၁၉၈၅),my,display_name|plural_name,ARP,1,unique,true
+9be5de4221f7,အာဖဂန် အာဖဂါနီ,အာဖဂန် အာဖဂါနီ,my,display_name|plural_name,AFN,1,unique,true
+cc4b6257e983,အာမေးနီးယား ဒရမ်,အာမေးနီးယား ဒရမ်,my,display_name|plural_name,AMD,1,unique,true
+899b4d3e4d26,အာရပ်စော်ဘွားများ ပြည်ထောင်စု ဒါဟမ်း,အာရပ်စော်ဘွားများ ပြည်ထောင်စု ဒါဟမ်း,my,display_name|plural_name,AED,1,unique,true
+618a6a90cbb2,အိန္ဒိယ ရူပီး,အိန္ဒိယ ရူပီး,my,display_name|plural_name,INR,1,unique,true
+bcaa24a60739,အိုက်စလန် ခရိုဏာ,အိုက်စလန် ခရိုဏာ,my,display_name|plural_name,ISK,1,unique,true
+989e4993a118,အိုမန်နီ ရီရယ်,အိုမန်နီ ရီရယ်,my,display_name|plural_name,OMR,1,unique,true
+a83796196786,အီဂျစ် ပေါင်,အီဂျစ် ပေါင်,my,display_name|plural_name,EGP,1,unique,true
+a571da30d7b7,အီရတ် ဒီနာ,အီရတ် ဒီနာ,my,display_name|plural_name,IQD,1,unique,true
+a758b3287ef6,အီရန် ရီအော်လ်,အီရန် ရီအော်လ်,my,display_name|plural_name,IRR,1,unique,true
+94e23e079052,အီရီထရီးယား နာ့ခ်ဖာ,အီရီထရီးယား နာ့ခ်ဖာ,my,display_name|plural_name,ERN,1,unique,true
+cef8561573c3,အီသီယိုးပီးယား ဘီးယာ,အီသီယိုးပီးယား ဘီးယာ,my,display_name|plural_name,ETB,1,unique,true
+be0f63f927c2,ဥဇဘက်ကစ္စတန် ဆော်မ်,ဥဇဘက်ကစ္စတန် ဆော်မ်,my,display_name|plural_name,UZS,1,unique,true
+5a4f17536d13,ဥရုဂွေး ပီဆို,ဥရုဂွေး ပီဆို,my,display_name|plural_name,UYU,1,unique,true
+b0a1a8a87521,ဥရောပငွေကြေးစံနစ်,ဥရောပငွေကြေးစံနစ်,my,display_name|plural_name,XBB,1,unique,true
+3b7d81153c07,ဩစတြေးလျ ဒေါ်လာ,ဩစတြေးလျ ဒေါ်လာ,my,display_name|plural_name,AUD,1,unique,true
+d4c2b83a7a95,៛,៛,en|my|th,narrow_symbol,KHR,1,unique,true
+23e56e11b83f,₡,₡,en|my|th,narrow_symbol,CRC,1,unique,true
+0f3b61945896,₦,₦,en|my|th,narrow_symbol,NGN,1,unique,true
+6dc274df43c9,₧,₧,en|my|th,narrow_symbol,ESP,1,unique,true
+a474739d78a0,₩,₩,en|my|th,narrow_symbol|symbol,KPW|KRW,2,ambiguous,false
+42daa0ffe1e9,₪,₪,en|my|th,narrow_symbol|symbol,ILS,1,unique,true
+632f3fa6c124,₫,₫,en|my|th,narrow_symbol|symbol,VND,1,unique,true
+83fc867a6ea7,€,€,en|my|th,narrow_symbol|symbol,EUR,1,unique,true
+ef4075f90906,₭,₭,en|my|th,narrow_symbol,LAK,1,unique,true
+2c149744248c,₮,₮,en|my|th,narrow_symbol,MNT,1,unique,true
+fa1e03f8762e,₱,₱,en|my|th,narrow_symbol|symbol,PHP,1,unique,true
+f15f195fc69a,₲,₲,en|my|th,narrow_symbol,PYG,1,unique,true
+81720951ed23,₴,₴,en|my|th,narrow_symbol,UAH,1,unique,true
+c73f28f55262,₸,₸,en|my|th,narrow_symbol,KZT,1,unique,true
+ba8d95bcbb62,₹,₹,en|my|th,narrow_symbol|symbol,INR,1,unique,true
+84a067e79296,₺,₺,en|my|th,narrow_symbol,TRY,1,unique,true
+07d66af5f417,₼,₼,en|my|th,narrow_symbol,AZN,1,unique,true
+16aad748834f,₽,₽,en|my|th,narrow_symbol|symbol_variant,RUB,1,unique,true
+844368fdb913,₾,₾,en|my|th,narrow_symbol,GEL,1,unique,true
+718a409e27b4,⃀,⃀,en|my|th,narrow_symbol,KGS,1,unique,true
+04d3d77dc259,⃁,⃁,en|my|th,symbol_variant,SAR,1,unique,true
+e778e2de35df,⃂,⃂,en|my|th,symbol_variant,MVR,1,unique,true
+b2a016680950,⃃,⃃,en|my|th,symbol_variant,AED,1,unique,true
+5f491c47f3ea,⃄,⃄,en|my|th,symbol_variant,OMR,1,unique,true

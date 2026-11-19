@@ -53,3 +53,5 @@ pip install -r requirements.txt
 ```
 
 Add source catalog data under `data/raw/`. Keep derived data under `data/interim/` and `data/processed/`, and record relevance judgments under `data/labels/`.
+
+Currency reference data and the query-resolution training workflow are documented in [`docs/currency_data_and_training.md`](docs/currency_data_and_training.md). The CLDR-derived currency dataset is stored under `data/training/currency_resolution/`.
