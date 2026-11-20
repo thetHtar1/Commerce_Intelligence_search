@@ -9,6 +9,8 @@
 ## Intended use
 This is a starter dataset for contextual query expression classification and extraction in e-commerce search. It complements Amazon ESCI and Wayfair WANDS; it does not replace their query-product relevance judgments.
 
+See [`../../../docs/expression_understanding_nlu_audit.md`](../../../docs/expression_understanding_nlu_audit.md) for the current schema/coverage audit against query-level NLU requirements. No query rows were added or changed during that audit.
+
 ## Data provenance
 All query examples are constructed seed examples, not real customer search logs. The vocabulary is a curated starting list, not exhaustive. All annotations require human review before being treated as gold-standard labels.
 
