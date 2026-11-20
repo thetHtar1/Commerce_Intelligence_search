@@ -5,6 +5,7 @@ from __future__ import annotations
 import csv
 import functools
 import re
+import unicodedata
 from pathlib import Path
 from typing import Any
 
@@ -14,6 +15,7 @@ except ImportError:  # Support direct execution as a script from the repository 
     from validate_dataset import DEFAULT_DATA_DIR
 
 DEFAULT_CURRENCY_DATA_DIR = DEFAULT_DATA_DIR.parent / "currency_resolution"
+DEFAULT_OPERATOR_LEXICON = DEFAULT_DATA_DIR / "operator_phrase_lexicon.csv"
 
 
 def _currency_pattern_parts() -> tuple[str, str]:
@@ -37,6 +39,62 @@ def _currency_pattern_parts() -> tuple[str, str]:
 
 
 CURRENCY_SYMBOL_PATTERN, CURRENCY_CODE_PATTERN = _currency_pattern_parts()
+
+
+def _load_operator_catalog() -> tuple[list[dict[str, str]], dict[str, str]]:
+    if not DEFAULT_OPERATOR_LEXICON.is_file():
+        raise FileNotFoundError(f"Operator phrase dataset not found: {DEFAULT_OPERATOR_LEXICON}")
+    with DEFAULT_OPERATOR_LEXICON.open("r", encoding="utf-8-sig", newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    operator_map: dict[str, str] = {}
+    for row in rows:
+        if row.get("entry_type") != "numeric_operator":
+            continue
+        phrase = " ".join(row["phrase"].casefold().split())
+        operator = row["canonical_operator"].strip()
+        existing = operator_map.get(phrase)
+        if existing and existing != operator:
+            raise ValueError(f"Conflicting canonical operators for phrase {phrase!r}: {existing}, {operator}")
+        operator_map[phrase] = operator
+    return rows, operator_map
+
+
+OPERATOR_CATALOG, OPERATOR_BY_PHRASE = _load_operator_catalog()
+
+
+def _phrase_pattern(phrases: list[str]) -> str:
+    parts = [r"\s+".join(re.escape(word) for word in phrase.split()) for phrase in phrases]
+    return r"(?<!\w)(?:" + "|".join(parts) + r")(?!\w)" if parts else r"(?!)"
+
+
+PREFIX_OPERATOR_PHRASES = sorted(
+    {
+        " ".join(row["phrase"].casefold().split())
+        for row in OPERATOR_CATALOG
+        if row.get("entry_type") == "numeric_operator" and row.get("position") == "prefix"
+    },
+    key=lambda phrase: (-len(phrase), phrase),
+)
+SUFFIX_OPERATOR_PHRASES = sorted(
+    {
+        " ".join(row["phrase"].casefold().split())
+        for row in OPERATOR_CATALOG
+        if row.get("entry_type") == "numeric_operator" and row.get("position") == "suffix"
+    },
+    key=lambda phrase: (-len(phrase), phrase),
+)
+SOFT_MARKER_PHRASES = sorted(
+    {
+        " ".join(row["phrase"].casefold().split())
+        for row in OPERATOR_CATALOG
+        if row.get("entry_type") == "soft_marker"
+    },
+    key=lambda phrase: (-len(phrase), phrase),
+)
+PREFIX_OPERATOR_PATTERN = _phrase_pattern(PREFIX_OPERATOR_PHRASES)
+SUFFIX_OPERATOR_PATTERN = _phrase_pattern(SUFFIX_OPERATOR_PHRASES)
+OPERATOR = _phrase_pattern(sorted(OPERATOR_BY_PHRASE, key=lambda phrase: (-len(phrase), phrase)))
+SOFT_MARKER_PATTERN = _phrase_pattern(SOFT_MARKER_PHRASES)
 
 
 PRODUCT_CATEGORIES = [
@@ -85,25 +143,22 @@ PRODUCT_CATEGORIES.sort(key=len, reverse=True)
 NUMBER = rf"(?:(?:{CURRENCY_SYMBOL_PATTERN})\s*)?\d[\d,]*(?:\.\d+)?"
 UNIT = rf"(?:\s*(?:(?:baht|{CURRENCY_CODE_PATTERN})(?!\w)|stars?|GB|TB|kg|grams?|lb|liters?|liter|hours?|days?|inches?|reviews?|x))?"
 METRIC_SUFFIX = r"(?:\s+(?:RAM|storage|capacity|battery\s+life|optical\s+zoom|video\s+recording))?"
-OPERATOR = (
-    r"less\s+than\s+or\s+equal\s+to|greater\s+than\s+or\s+equal\s+to|"
-    r"not\s+more\s+than|no\s+more\s+than|no\s+less\s+than|not\s+less\s+than|no\s+higher\s+than|"
-    r"no\s+lower\s+than|not\s+exceeding|not\s+above|at\s+most|at\s+least|"
-    r"less\s+than|greater\s+than|cheaper\s+than|lighter\s+than|bigger\s+than|"
-    r"more\s+than|up\s+to|below|under|over|above|maximum|max|minimum|min|"
-    r"between|within|exactly|near|equal\s+to"
-)
 NUMERIC_CONSTRAINT = re.compile(
-    rf"(?:(?P<soft>ideally|preferably)\s+)?"
+    rf"(?:(?P<soft>{SOFT_MARKER_PATTERN})\s+)?"
     rf"(?:(?P<prefix>cost|price|priced|weighs?)\s+)?"
-    rf"(?P<operator>{OPERATOR})\s+(?:a\s+)?(?P<first>{NUMBER})"
+    rf"(?P<operator>{PREFIX_OPERATOR_PATTERN})\s+(?:a\s+)?(?P<first>{NUMBER})"
     rf"(?:\s+(?:and|to)\s+(?P<second>{NUMBER}))?"
     rf"(?P<unit>{UNIT})(?P<suffix>{METRIC_SUFFIX})"
     rf"(?:\s+budget)?",
     flags=re.IGNORECASE,
 )
+SUFFIX_NUMERIC_CONSTRAINT = re.compile(
+    rf"(?P<first>{NUMBER})(?:\s+(?:and|to)\s+(?P<second>{NUMBER}))?"
+    rf"(?P<unit>{UNIT})\s+(?P<suffix_operator>{SUFFIX_OPERATOR_PATTERN})",
+    flags=re.IGNORECASE,
+)
 SOFT_BARE_NUMBER = re.compile(
-    rf"(?P<soft>ideally|preferably)\s+(?P<first>{NUMBER})"
+    rf"(?P<soft>{SOFT_MARKER_PATTERN})\s+(?P<first>{NUMBER})"
     rf"(?P<unit>{UNIT})\s+or\s+(?:higher|lower|more|less)",
     flags=re.IGNORECASE,
 )
@@ -138,7 +193,6 @@ SPECIAL_PATTERNS: tuple[tuple[re.Pattern[str], str, int], ...] = (
     (re.compile(r"\b(?:not\s+too\s+expensive|reasonably\s+priced|at\s+a\s+reasonable\s+price)\b", re.I), "ambiguous_expression", 95),
     (re.compile(r"\bnot\s+heavy\b", re.I), "soft_preference", 95),
     (re.compile(r"\bsmaller\b", re.I), "comparison", 80),
-    (re.compile(r"\bprefer\b", re.I), "soft_preference", 60),
 )
 
 ATTRIBUTE_ADJECTIVES = {"lightweight", "compact", "portable", "light", "large", "small"}
@@ -253,6 +307,14 @@ def _add(candidates: list[dict[str, Any]], query: str, match: re.Match[str], lab
     )
 
 
+def _has_soft_preference_context(query: str, match_start: int) -> bool:
+    prefix = query[max(0, match_start - 100):match_start]
+    clause_prefix = re.split(r"[,;]|\bbut\b", prefix, flags=re.IGNORECASE)[-1]
+    if re.search(r"\b(?:must|need to|have to|required)\b", clause_prefix, flags=re.IGNORECASE):
+        return False
+    return bool(re.search(SOFT_MARKER_PATTERN, clause_prefix, flags=re.IGNORECASE))
+
+
 def _word_pattern(phrase: str) -> re.Pattern[str] | None:
     if "..." in phrase:
         return None
@@ -269,9 +331,11 @@ def predict_spans(query: str, lexicon: list[dict[str, str]] | None = None) -> li
     lexicon = lexicon or load_lexicon()
     candidates: list[dict[str, Any]] = []
 
-    for match in NUMERIC_CONSTRAINT.finditer(query):
-        label = "soft_preference" if match.group("soft") else "hard_constraint"
-        _add(candidates, query, match, label, 110)
+    for numeric_pattern in (NUMERIC_CONSTRAINT, SUFFIX_NUMERIC_CONSTRAINT):
+        for match in numeric_pattern.finditer(query):
+            soft_match = match.groupdict().get("soft")
+            label = "soft_preference" if soft_match or _has_soft_preference_context(query, match.start()) else "hard_constraint"
+            _add(candidates, query, match, label, 110)
     for match in SOFT_BARE_NUMBER.finditer(query):
         _add(candidates, query, match, "soft_preference", 110)
     for match in SOFT_PHRASE.finditer(query):
@@ -362,13 +426,25 @@ def _field_for(text: str, label: str, currency_present: bool = False) -> str:
         return "material"
     if "color" in value or "black" in value:
         return "color"
-    if "size" in value or "compact" in value or "smaller" in value:
+    if "size" in value or "compact" in value or "smaller" in value or "inch" in value:
         return "size"
     if "similar" in value or "alternative" in value or "brand" in value:
         return "product_identity"
     if currency_present and re.search(r"\d", text):
         return "price"
     return "product_property" if label == "product_attribute" else "query_preference"
+
+
+def _detect_language(query: str) -> str:
+    letters = [char for char in query if char.isalpha()]
+    if not letters or all("LATIN" in unicodedata.name(char, "") for char in letters):
+        return "en"
+    scripts = {unicodedata.name(char, "").split(" ")[0] for char in letters}
+    if scripts == {"MYANMAR"}:
+        return "my"
+    if scripts == {"THAI"}:
+        return "th"
+    return "und"
 
 
 def _numeric_slots(text: str, currency_code: str | None = None) -> tuple[str, Any, str | None] | None:
@@ -383,24 +459,13 @@ def _numeric_slots(text: str, currency_code: str | None = None) -> tuple[str, An
     if not op_match:
         return None
     operator_text = re.sub(r"\s+", " ", op_match.group(0).casefold())
-    if "between" in operator_text:
-        operator = "between"
+    operator = OPERATOR_BY_PHRASE.get(operator_text)
+    if operator == "between":
         value: Any = {"min": values[0], "max": values[1]} if len(values) > 1 else values[0]
-    elif operator_text in {"less than", "cheaper than", "lighter than", "bigger than", "more than"}:
-        operator = "lt" if operator_text in {"less than", "cheaper than", "lighter than"} else "gt"
+    elif operator in {"lt", "lte", "gt", "gte", "eq", "near"}:
         value = values[0]
-    elif operator_text in {"under", "below", "no more than", "at most", "maximum", "max", "not exceeding", "no higher than", "not above", "up to", "within"}:
-        operator = "lte"
-        value = values[0]
-    elif operator_text in {"over", "above", "at least", "no less than", "not less than", "no lower than", "minimum", "min", "greater than", "greater than or equal to"}:
-        operator = "gte" if operator_text in {"at least", "no less than", "not less than", "no lower than", "minimum", "min", "greater than or equal to"} else "gt"
-        value = values[0]
-    elif operator_text in {"exactly", "equal to"}:
-        operator, value = "eq", values[0]
-    elif operator_text == "near":
-        operator, value = "near", values[0]
     else:
-        operator, value = "eq", values[0]
+        return None
 
     currency_in_text = resolve_currency(text)
     if currency_in_text["currency_code"]:
@@ -447,7 +512,7 @@ def predict_intent(query: str, lexicon: list[dict[str, str]] | None = None) -> d
     intent: dict[str, Any] = {
         "original_query": query,
         "normalized_query": normalized,
-        "language": "en" if query.isascii() else "und",
+        "language": _detect_language(query),
         "query_type": "natural_language",
         "product_category": category,
         "attributes": [],

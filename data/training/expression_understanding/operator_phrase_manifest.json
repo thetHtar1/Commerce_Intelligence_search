@@ -1,0 +1,19 @@
+{
+  "dataset": "operator_phrase_examples_v1",
+  "language": "en",
+  "lexicon_entries": 113,
+  "numeric_operator_phrases": 105,
+  "soft_preference_markers": 8,
+  "expected_output_examples": 115,
+  "operators": [
+    "between",
+    "eq",
+    "gt",
+    "gte",
+    "lt",
+    "lte",
+    "near"
+  ],
+  "data_origin": "curated rule-coverage examples; not real customer queries",
+  "lexicon_sha256": "454153d5209ff111479b1b768f75a6d9d57fc4764b9363452975e057227721dd"
+}

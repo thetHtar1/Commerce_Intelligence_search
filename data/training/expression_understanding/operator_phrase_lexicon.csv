@@ -1,0 +1,114 @@
+phrase_id,entry_type,phrase,position,canonical_operator,default_priority,example_template,semantic_note
+OP001,numeric_operator,under,prefix,lte,hard,shampoo under 200 baht,Project convention treats a stated under-budget cap as inclusive.
+OP002,numeric_operator,below,prefix,lte,hard,shampoo below 200 baht,Project convention treats a stated below-budget cap as inclusive.
+OP003,numeric_operator,up to,prefix,lte,hard,shampoo up to 200 baht,Inclusive upper bound.
+OP004,numeric_operator,within,prefix,lte,hard,shampoo within 200 baht,Inclusive maximum when followed by a single budget amount.
+OP005,numeric_operator,at most,prefix,lte,hard,shampoo at most 200 baht,Inclusive upper bound.
+OP006,numeric_operator,at the most,prefix,lte,hard,shampoo at the most 200 baht,Inclusive upper bound.
+OP007,numeric_operator,no more than,prefix,lte,hard,shampoo no more than 200 baht,Inclusive upper bound.
+OP008,numeric_operator,not more than,prefix,lte,hard,shampoo not more than 200 baht,Inclusive upper bound.
+OP009,numeric_operator,not over,prefix,lte,hard,shampoo not over 200 baht,Inclusive upper bound; not over is not a lower-bound operator.
+OP010,numeric_operator,not above,prefix,lte,hard,shampoo not above 200 baht,Inclusive upper bound.
+OP011,numeric_operator,not exceeding,prefix,lte,hard,shampoo not exceeding 200 baht,Inclusive upper bound.
+OP012,numeric_operator,not to exceed,prefix,lte,hard,shampoo not to exceed 200 baht,Inclusive upper bound.
+OP013,numeric_operator,no higher than,prefix,lte,hard,shampoo no higher than 200 baht,Inclusive upper bound.
+OP014,numeric_operator,no greater than,prefix,lte,hard,shampoo no greater than 200 baht,Inclusive upper bound.
+OP015,numeric_operator,less than or equal to,prefix,lte,hard,shampoo less than or equal to 200 baht,Inclusive upper bound.
+OP016,numeric_operator,greater than or equal to,prefix,gte,hard,shampoo greater than or equal to 200 baht,Inclusive lower bound.
+OP017,numeric_operator,more than or equal to,prefix,gte,hard,shampoo more than or equal to 200 baht,Inclusive lower bound.
+OP018,numeric_operator,at least,prefix,gte,hard,shampoo at least 200 baht,Inclusive lower bound.
+OP019,numeric_operator,no less than,prefix,gte,hard,shampoo no less than 200 baht,Inclusive lower bound.
+OP020,numeric_operator,not less than,prefix,gte,hard,shampoo not less than 200 baht,Inclusive lower bound.
+OP021,numeric_operator,not below,prefix,gte,hard,shampoo not below 200 baht,Inclusive lower bound.
+OP022,numeric_operator,no lower than,prefix,gte,hard,shampoo no lower than 200 baht,Inclusive lower bound.
+OP023,numeric_operator,minimum of,prefix,gte,hard,shampoo minimum of 200 baht,Inclusive lower bound.
+OP024,numeric_operator,min of,prefix,gte,hard,shampoo min of 200 baht,Inclusive lower bound.
+OP025,numeric_operator,minimum,prefix,gte,hard,shampoo minimum 200 baht,Inclusive lower bound.
+OP026,numeric_operator,min,prefix,gte,hard,shampoo min 200 baht,Inclusive lower bound.
+OP027,numeric_operator,more than,prefix,gt,hard,shampoo more than 200 baht,Strict lower bound.
+OP028,numeric_operator,greater than,prefix,gt,hard,shampoo greater than 200 baht,Strict lower bound.
+OP029,numeric_operator,higher than,prefix,gt,hard,shampoo higher than 200 baht,Strict lower bound.
+OP030,numeric_operator,over,prefix,gt,hard,shampoo over 200 baht,Strict lower bound.
+OP031,numeric_operator,above,prefix,gt,hard,shampoo above 200 baht,Strict lower bound.
+OP032,numeric_operator,exceeds,prefix,gt,hard,shampoo exceeds 200 baht,Strict lower bound.
+OP033,numeric_operator,exceeding,prefix,gt,hard,shampoo exceeding 200 baht,Strict lower bound.
+OP034,numeric_operator,less than,prefix,lt,hard,shampoo less than 200 baht,Strict upper bound.
+OP035,numeric_operator,strictly less than,prefix,lt,hard,shampoo strictly less than 200 baht,Strict upper bound.
+OP036,numeric_operator,lower than,prefix,lt,hard,shampoo lower than 200 baht,Strict upper bound.
+OP037,numeric_operator,cheaper than,prefix,lt,hard,shampoo cheaper than 200 baht,Strict upper bound.
+OP038,numeric_operator,costs less than,prefix,lt,hard,shampoo costs less than 200 baht,Strict upper bound.
+OP039,numeric_operator,priced below,prefix,lte,hard,shampoo priced below 200 baht,Project convention treats a stated below-budget cap as inclusive.
+OP040,numeric_operator,maximum of,prefix,lte,hard,shampoo maximum of 200 baht,Inclusive upper bound.
+OP041,numeric_operator,max of,prefix,lte,hard,shampoo max of 200 baht,Inclusive upper bound.
+OP042,numeric_operator,maximum,prefix,lte,hard,shampoo maximum 200 baht,Inclusive upper bound.
+OP043,numeric_operator,max,prefix,lte,hard,shampoo max 200 baht,Inclusive upper bound.
+OP044,numeric_operator,does not exceed,prefix,lte,hard,shampoo does not exceed 200 baht,Inclusive upper bound.
+OP045,numeric_operator,doesn't exceed,prefix,lte,hard,shampoo doesn't exceed 200 baht,Inclusive upper bound.
+OP046,numeric_operator,cannot exceed,prefix,lte,hard,shampoo cannot exceed 200 baht,Inclusive upper bound.
+OP047,numeric_operator,can't exceed,prefix,lte,hard,shampoo can't exceed 200 baht,Inclusive upper bound.
+OP048,numeric_operator,cannot go over,prefix,lte,hard,shampoo cannot go over 200 baht,Inclusive upper bound.
+OP049,numeric_operator,can't go over,prefix,lte,hard,shampoo can't go over 200 baht,Inclusive upper bound.
+OP050,numeric_operator,cannot spend more than,prefix,lte,hard,I cannot spend more than 200 baht on shampoo,Inclusive budget cap.
+OP051,numeric_operator,can't spend more than,prefix,lte,hard,I can't spend more than 200 baht on shampoo,Inclusive budget cap.
+OP052,numeric_operator,cannot pay more than,prefix,lte,hard,I cannot pay more than 200 baht for shampoo,Inclusive budget cap.
+OP053,numeric_operator,can't pay more than,prefix,lte,hard,I can't pay more than 200 baht for shampoo,Inclusive budget cap.
+OP054,numeric_operator,cannot spend over,prefix,lte,hard,I cannot spend over 200 baht on shampoo,Inclusive budget cap.
+OP055,numeric_operator,can't spend over,prefix,lte,hard,I can't spend over 200 baht on shampoo,Inclusive budget cap.
+OP056,numeric_operator,do not spend more than,prefix,lte,hard,I do not spend more than 200 baht on shampoo,Inclusive budget cap.
+OP057,numeric_operator,don't spend more than,prefix,lte,hard,I don't spend more than 200 baht on shampoo,Inclusive budget cap.
+OP058,numeric_operator,keep under,prefix,lte,hard,Keep under 200 baht for shampoo,Inclusive cap under the project convention.
+OP059,numeric_operator,keep it under,prefix,lte,hard,Keep it under 200 baht for shampoo,Inclusive cap under the project convention.
+OP060,numeric_operator,keep within,prefix,lte,hard,Keep within 200 baht for shampoo,Inclusive budget cap.
+OP061,numeric_operator,cap at,prefix,lte,hard,Cap at 200 baht for shampoo,Inclusive upper bound.
+OP062,numeric_operator,capped at,prefix,lte,hard,Shampoo budget is capped at 200 baht,Inclusive upper bound.
+OP063,numeric_operator,upper limit of,prefix,lte,hard,Shampoo upper limit of 200 baht,Inclusive upper bound.
+OP064,numeric_operator,price limit of,prefix,lte,hard,Shampoo price limit of 200 baht,Inclusive upper bound.
+OP065,numeric_operator,budget no more than,prefix,lte,hard,Shampoo budget no more than 200 baht,Inclusive budget cap.
+OP066,numeric_operator,budget of no more than,prefix,lte,hard,Shampoo budget of no more than 200 baht,Inclusive budget cap.
+OP067,numeric_operator,between,prefix,between,hard,shampoo between 100 and 200 baht,Inclusive range endpoints under the V1 convention.
+OP068,numeric_operator,from,prefix,between,hard,shampoo from 100 to 200 baht,Inclusive range endpoints under the V1 convention.
+OP069,numeric_operator,in the range of,prefix,between,hard,shampoo in the range of 100 to 200 baht,Inclusive range endpoints under the V1 convention.
+OP070,numeric_operator,around,prefix,near,hard,shampoo around 200 baht,Approximate target; not an exact bound.
+OP071,numeric_operator,about,prefix,near,hard,shampoo about 200 baht,Approximate target; not an exact bound.
+OP072,numeric_operator,approximately,prefix,near,hard,shampoo approximately 200 baht,Approximate target; not an exact bound.
+OP073,numeric_operator,roughly,prefix,near,hard,shampoo roughly 200 baht,Approximate target; not an exact bound.
+OP074,numeric_operator,close to,prefix,near,hard,shampoo close to 200 baht,Approximate target; not an exact bound.
+OP075,numeric_operator,near,prefix,near,hard,shampoo near 200 baht,Approximate target; not an exact bound.
+OP076,numeric_operator,exactly,prefix,eq,hard,shampoo exactly 200 baht,Exact target.
+OP077,numeric_operator,precisely,prefix,eq,hard,shampoo precisely 200 baht,Exact target.
+OP078,numeric_operator,equal to,prefix,eq,hard,shampoo equal to 200 baht,Exact target.
+OP079,numeric_operator,equals,prefix,eq,hard,shampoo equals 200 baht,Exact target.
+OP099,numeric_operator,less than or equal,prefix,lte,hard,shampoo less than or equal 200 baht,Inclusive upper bound.
+OP100,numeric_operator,greater than or equal,prefix,gte,hard,shampoo greater than or equal 200 baht,Inclusive lower bound.
+OP101,numeric_operator,not exceed,prefix,lte,hard,shampoo must not exceed 200 baht,Inclusive upper bound.
+OP102,numeric_operator,does not go over,prefix,lte,hard,shampoo does not go over 200 baht,Inclusive upper bound.
+OP103,numeric_operator,doesn't go over,prefix,lte,hard,shampoo doesn't go over 200 baht,Inclusive upper bound.
+OP104,numeric_operator,can only spend up to,prefix,lte,hard,I can only spend up to 200 baht on shampoo,Inclusive budget cap.
+OP105,numeric_operator,can spend up to,prefix,lte,hard,I can spend up to 200 baht on shampoo,Inclusive budget cap.
+OP106,numeric_operator,I can't afford more than,prefix,lte,hard,I can't afford more than 200 baht for shampoo,Inclusive budget cap.
+OP107,numeric_operator,I cannot afford more than,prefix,lte,hard,I cannot afford more than 200 baht for shampoo,Inclusive budget cap.
+OP108,numeric_operator,lighter than,prefix,lt,hard,running shoes lighter than 2 kg,"Strict upper comparison, mainly for weight."
+OP109,numeric_operator,bigger than,prefix,gt,hard,monitor bigger than 27 inches,"Strict lower comparison, mainly for size."
+OP080,numeric_operator,or less,suffix,lte,hard,shampoo 200 baht or less,Inclusive upper bound.
+OP081,numeric_operator,or lower,suffix,lte,hard,shampoo 200 baht or lower,Inclusive upper bound.
+OP082,numeric_operator,or below,suffix,lte,hard,shampoo 200 baht or below,Inclusive upper bound.
+OP083,numeric_operator,or under,suffix,lte,hard,shampoo 200 baht or under,Inclusive upper bound.
+OP084,numeric_operator,maximum,suffix,lte,hard,shampoo 200 baht maximum,Inclusive upper bound.
+OP085,numeric_operator,max,suffix,lte,hard,shampoo 200 baht max,Inclusive upper bound.
+OP086,numeric_operator,or more,suffix,gte,hard,shampoo 200 baht or more,Inclusive lower bound.
+OP087,numeric_operator,or higher,suffix,gte,hard,shampoo 200 baht or higher,Inclusive lower bound.
+OP088,numeric_operator,or above,suffix,gte,hard,shampoo 200 baht or above,Inclusive lower bound.
+OP089,numeric_operator,minimum,suffix,gte,hard,shampoo 200 baht minimum,Inclusive lower bound.
+OP090,numeric_operator,min,suffix,gte,hard,shampoo 200 baht min,Inclusive lower bound.
+OP110,numeric_operator,or at most,suffix,lte,hard,shampoo 200 baht or at most,Inclusive upper bound.
+OP111,numeric_operator,or at least,suffix,gte,hard,shampoo 200 baht or at least,Inclusive lower bound.
+OP112,numeric_operator,or no more than,suffix,lte,hard,shampoo 200 baht or no more than,Inclusive upper bound.
+OP113,numeric_operator,or no less than,suffix,gte,hard,shampoo 200 baht or no less than,Inclusive lower bound.
+OP091,soft_marker,ideally,prefix,,soft,,Marks a nearby numeric bound as a soft preference.
+OP092,soft_marker,preferably,prefix,,soft,,Marks a nearby numeric bound as a soft preference.
+OP093,soft_marker,I prefer,prefix,,soft,,Marks a nearby numeric bound as a soft preference in the same clause.
+OP094,soft_marker,I'd prefer,prefix,,soft,,Marks a nearby numeric bound as a soft preference in the same clause.
+OP095,soft_marker,I would prefer,prefix,,soft,,Marks a nearby numeric bound as a soft preference in the same clause.
+OP096,soft_marker,I would like,prefix,,soft,,Marks a nearby numeric bound as a soft preference in the same clause.
+OP097,soft_marker,I'd like,prefix,,soft,,Marks a nearby numeric bound as a soft preference in the same clause.
+OP098,soft_marker,I want to keep,prefix,,soft,,Marks a nearby numeric bound as a soft preference in the same clause.
